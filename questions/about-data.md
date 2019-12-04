@@ -6,5 +6,13 @@
 
 所以在刚刚接入SDK的前几天会出现新增新用户与活跃用户数相差无几的情况，建议您在接入SDK后的一段时间后再参考新增用户数据。
 
+## 我需要接入所有的数据统计功能吗？
+
+您可以根据自己的需求，选择接入我们的统计功能。
+
+{% hint style="info" %}
+详情可参考：【[数据功能说明](https://doc.skysriver.com/game-data/main-features)】，【[数据功能技术接入说明](https://doc.skysriver.com/game-data/dev-guide)】
+{% endhint %}
+
 
 
