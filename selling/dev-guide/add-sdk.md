@@ -24,7 +24,7 @@
 2. 微信小游戏转为qq小游戏时，请将其视为接入一个新游戏
 {% endhint %}
 
-{% hint style="danger" %}
+{% hint style="warning" %}
 如果接入时，报错：小程序session解析错误
 
 请检查接入的SDK与小游戏本身是否对应（SDK及SDK所在项目的appid/appsecret，与小游戏实际是否一致）
@@ -33,8 +33,6 @@
 ## **Step2.接入SDK**
 
 {% hint style="danger" %}
-**注意：**
-
 小游戏引入SDK时必须遵守如下事项：
 
 * SDK必须放在主包中加载，切勿分包加载**（在game.js 中第一行引入sdk文件）**
