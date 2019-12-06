@@ -30,3 +30,9 @@ description: 游戏数据入门指引
 
 {% page-ref page="dev-guide/" %}
 
+### 4、常见问题指引
+
+{% page-ref page="../questions/about-data.md" %}
+
+
+

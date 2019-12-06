@@ -36,3 +36,11 @@ description: 买量助手入门指引
 
 {% page-ref page="dev-guide/" %}
 
+### 4、常见问题指引
+
+建议阅读人员：技术人员与运营人员
+
+{% page-ref page="../questions/about-ad-master.md" %}
+
+
+

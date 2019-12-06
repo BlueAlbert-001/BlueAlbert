@@ -52,3 +52,11 @@ description: 卖量助手入门指引
 
 {% page-ref page="dev-guide/" %}
 
+### 6、常见问题指引
+
+建议阅读者：技术人员与运营人员
+
+{% page-ref page="../questions/about-traffic-master.md" %}
+
+
+
