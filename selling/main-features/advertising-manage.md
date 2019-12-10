@@ -21,17 +21,17 @@
 
 ![](../../.gitbook/assets/image%20%2863%29.png)
 
-![](../../.gitbook/assets/image%20%28171%29.png)
+![](../../.gitbook/assets/image%20%28172%29.png)
 
 ### 方法二
 
 通过流量主游戏列表的游戏名称进入。
 
-![](../../.gitbook/assets/image%20%28170%29.png)
+![](../../.gitbook/assets/image%20%28171%29.png)
 
 ![](../../.gitbook/assets/image%20%2892%29.png)
 
-![](../../.gitbook/assets/image%20%28171%29.png)
+![](../../.gitbook/assets/image%20%28172%29.png)
 
 ## 高级设置
 
