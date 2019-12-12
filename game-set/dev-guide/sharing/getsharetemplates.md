@@ -14,6 +14,10 @@
 使用该接口前，请先进行[SDK初始化](../../../selling/dev-guide/initialization.md)
 {% endhint %}
 
+{% hint style="info" %}
+由于一次性可能获取多个分享素材的URL，为了提高游戏性能，不建议在游戏开始时预先load所有URL对应的图片资源。（只在分享的时候，load对应URL的图片即可）
+{% endhint %}
+
 ## **调用方法**
 
 ```javascript
