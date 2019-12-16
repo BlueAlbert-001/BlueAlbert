@@ -106,5 +106,8 @@
 * [更新日志](change-log/README.md)
   * [天幕更新日志](change-log/skysriver-change-log.md)
   * [SDK更新日志](change-log/sdk-change-log.md)
+* [服务条款](terms/README.md)
+  * [服务条款](terms/terms.md)
+  * [隐私政策](terms/policy.md)
 * [联系我们](lian-xi-wo-men.md)
 
