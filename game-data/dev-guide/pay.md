@@ -127,7 +127,7 @@ ext的参数
       <td style="text-align:left">scene</td>
       <td style="text-align:left">String</td>
       <td style="text-align:left">&#x662F;</td>
-      <td style="text-align:left">&#x5FAE;&#x4FE1;&#x573A;&#x666F;&#x503C;&#x4E4B;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;1001&#x3001;1037&#x3001;1089&#x7B49;</td>
+      <td style="text-align:left">&#x5FAE;&#x4FE1;&#x573A;&#x666F;&#x503C;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;1001&#x3001;1037&#x3001;1089&#x7B49;</td>
     </tr>
     <tr>
       <td style="text-align:left">order_code</td>
@@ -156,7 +156,7 @@ ext的参数
   "userLog": {
     "v": "1.0.0",
     "ext": {
-      "app_id": "wx54a500095eba26d9",
+      "app_id": "wx1234567891234567",
       "type": "pay",
       "pay_amount": 2000,
       "is_first_pay": true,
@@ -179,7 +179,7 @@ ext的参数
 
 | 参数 | 类型 | 描述 | 示例值 |
 | :--- | :--- | :--- | :--- |
-| code | Number | 状态码 | 0 上报成功 |
+| code | Number | 状态码 | 0: 上报成功;10001:参数错误 |
 | data | Object | 返回数据 | {} |
 
 #### 响应示例
