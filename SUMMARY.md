@@ -65,6 +65,7 @@
     * [微信广告分析](game-data/dev-guide/official-ad-analysis/README.md)
       * [.createRewardedVideoAd](game-data/dev-guide/official-ad-analysis/.createrewardedvideoad.md)
       * [.createBannerAd](game-data/dev-guide/official-ad-analysis/.createbannerad.md)
+    * [内购数据分析](game-data/dev-guide/nei-gou-shu-ju-fen-xi.md)
     * [【通用】开发demo](game-data/dev-guide/dev-demo.md)
 * [主模块4：游戏配置](game-set/README.md)
   * [主要功能及操作说明](game-set/main-features/README.md)
