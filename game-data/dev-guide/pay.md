@@ -160,7 +160,7 @@ ext的参数
       "type": "pay",
       "pay_amount": 2000,
       "is_first_pay": true,
-      "uid": "oI2nx3EUnScOMVVBJBYq-sk0KzhQ",
+      "uid": "oI2nx3EUnScOMVVBJBYq-1234567",
       "pid": "e496a4d0-1662-11ea-b3aa-cdab23d31c7a",
       "user_ip": "113.105.0.58",
   	  "device_type": 3,
