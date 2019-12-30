@@ -38,6 +38,7 @@
     * [数据菜单](channel/main-features/data.md)
     * [渠道管理](channel/main-features/channel-management.md)
     * [渠道商与开放数据管理](channel/main-features/distributor.md)
+  * [渠道类型说明](channel/channe_type.md)
   * [数据指标说明](channel/data-indicator.md)
   * [技术接入指南](channel/dev-guide/README.md)
     * [【通用】SDK接入](channel/dev-guide/add-sdk.md)
