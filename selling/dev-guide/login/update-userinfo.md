@@ -8,6 +8,10 @@ description: 使用updateUserInfo接口从微信获取用户信息（昵称、�
 
 调用此接口后，下次调用 [`login`](get-user-info.md) 时，即可从天幕sdk获取上一次 `updateUserInfo` 中返回的用户信息。 关于用户信息的更新策略，开发者可参考 [用户信息授权](./#yong-hu-xin-xi-shou-quan) 中的 **何时触发大授权** 。
 
+{% hint style="warning" %}
+接入天幕的登录功能后，无需再接入微信原生的[登录流程](https://developers.weixin.qq.com/minigame/dev/guide/open-ability/login.html)
+{% endhint %}
+
 ## **调用方法**
 
 ```java

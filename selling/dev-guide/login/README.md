@@ -4,6 +4,10 @@
 
 登录有两种，分别为静默登录与用户授权信息登录，在下文会进行详细说明。
 
+{% hint style="warning" %}
+接入天幕的登录功能后，无需再接入微信原生的[登录流程](https://developers.weixin.qq.com/minigame/dev/guide/open-ability/login.html)
+{% endhint %}
+
 ## 静默登录
 
 用户打开小程序/小游戏时，默认进行静默登录，该功能由sdk集成，无需开发。此时，开发者可以获取其微信唯一标识openid，用户处于已登录但未进行 [**用户信息授权**](./#yong-hu-xin-xi-shou-quan) 的状态。

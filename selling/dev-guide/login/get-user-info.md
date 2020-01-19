@@ -6,9 +6,13 @@ description: 获取用户信息
 
 ## 概述
 
-`login`接口用于获取已经存放在天幕平台的用户信息，包含头像、昵称等。
+`login`接口用于获取已经存放在天幕平台的用户信息，包含OpenID、头像、昵称等。
 
 请注意：若该接口返回值中无头像、昵称等微信信息，请调用[`updateUserinfo`](update-userinfo.md) 更新用户信息。
+
+{% hint style="warning" %}
+接入天幕的登录功能后，无需再接入微信原生的[登录流程](https://developers.weixin.qq.com/minigame/dev/guide/open-ability/login.html)
+{% endhint %}
 
 ## **调用方法**
 
