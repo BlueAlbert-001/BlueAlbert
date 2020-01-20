@@ -4,7 +4,7 @@
 
 如果您的游戏需要接入内购，可利用天幕的接口直接获取接入所需要的参数（access\_token、session\_key）
 
-接口文档请添加下方微信，**联系技术支持人员索要**
+接口文档请添加下方微信，**联系技术支持人员索要**（索要时请提供对应产品的appid）
 
 微信米大师接入指引：[点击查看](https://developers.weixin.qq.com/minigame/dev/guide/open-ability/virtual-payment.html#%E5%BC%80%E5%8F%91%E6%B5%81%E7%A8%8B)
 
