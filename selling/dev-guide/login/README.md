@@ -5,7 +5,7 @@
 登录有两种，分别为静默登录与用户授权信息登录，在下文会进行详细说明。
 
 {% hint style="warning" %}
-接入天幕的登录功能后，无需再接入微信原生的[登录流程](https://developers.weixin.qq.com/minigame/dev/guide/open-ability/login.html)
+接入天幕的登录功能后，无需再接入微信原生的[登录流程](https://developers.weixin.qq.com/minigame/dev/guide/open-ability/login.html)，即代码上用天幕的登录功能替代原生的登录流程
 {% endhint %}
 
 ## 静默登录
