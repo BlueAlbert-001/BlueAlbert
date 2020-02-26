@@ -10,7 +10,7 @@
 
 * 下载demo到本地
 * 下载最新sdk后替换demo项目sdk文件夹中的tm\_sdk.min.js文件
-* sdk替换完成后，使用微信开发者工具打开查看demo
+* sdk替换完成后，laya引擎版本demo可直接使用微信开发者工具打开（导入项目时选择release文件夹），cocos引擎版本需用引擎编辑器打开。
 
 
 
