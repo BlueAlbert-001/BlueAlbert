@@ -41,6 +41,12 @@ flowUI.onError(function({message}){
 flowUI.destroy();
 ```
 
+如果出现调用销毁方法后，组件未立即销毁的情况，请使用如下写法：
+
+```javascript
+setTimeout(() => flowUI.destroy());
+```
+
 ## **可选参数: width**
 
 1. 浮动窗类型下，可等比例设置渲染宽度，最小值为100，比例固定为190:270。

@@ -28,6 +28,12 @@ flowUI.onDestory(function({message}) {
 });
 ```
 
+如果出现调用销毁方法后，组件未立即销毁的情况，请使用如下写法：
+
+```javascript
+setTimeout(() => flowUI.destroy());
+```
+
 ### **onError**
 
 ```javascript
