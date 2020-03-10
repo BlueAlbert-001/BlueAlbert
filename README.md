@@ -25,8 +25,12 @@ description: 三分钟快速了解天幕
 {% endhint %}
 
 {% hint style="success" %}
-免费使用：天幕目前免费对外开放使用，欢迎加入天幕大家庭！
+免费使用：天幕目前免费对外开放使用，所有功能均免费使用，欢迎加入天幕大家庭！
 {% endhint %}
+
+天幕产品简介（pdf版）：
+
+{% file src=".gitbook/assets/tian-mu-v2.0-xiao-you-xi-yi-zhan-shi-yun-ying-fang-an.pdf" %}
 
 ## 2、主体
 
