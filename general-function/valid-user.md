@@ -40,5 +40,9 @@
 2. **统一有效新增时长**：该时长根据天幕“游戏数据-时长分布”菜单中的时长区分划分为不同选项，您可以根据您的产品特点定义您的所有产品有效新增用户的时长。
 3. **添加特例游戏**：如果您的产品中有部分游戏与统一有效新增时长不一致，您可以添加这些特例的游戏，并为这些游戏选择特例的时长。
 
-相关阅读推荐：[游戏数据功能说明](../game-data/)
+## 三、有效新增用户的查看
+
+您可以访问游戏数据后台的[核心数据](../game-data/indicator-description/core-data.md)、[新增用户](../game-data/indicator-description/increased-user.md)、[渠道分析](../game-data/indicator-description/channel-analysis.md)以及买量助手的[渠道监控](../channel/data-indicator.md)菜单查询到有效新增与有效新增占比两个指标。
+
+相关阅读推荐：[游戏数据功能说明](../game-data/)、[买量助手](../channel/)
 
