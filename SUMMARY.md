@@ -103,7 +103,7 @@
   * [成员权限](general-function/permission.md)
   * [游戏管理](general-function/game-manage.md)
   * [米大师支付](general-function/midas.md)
-  * [有效新增用户配置](general-function/valid-user.md)
+  * [有效新增用户](general-function/valid-user.md)
 * [常见问题](questions/README.md)
   * [热门问题](questions/others.md)
   * [游戏提审发版](questions/you-xi-ti-shen-fa-ban.md)
