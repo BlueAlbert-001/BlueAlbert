@@ -6,7 +6,7 @@ description: 按角色分配成员权限
 
 ## 成员权限说明
 
-![](../.gitbook/assets/image%20%28184%29.png)
+![](../.gitbook/assets/image%20%28185%29.png)
 
 成员权限主要管理主体下所有用户的权限，只有超级管理员与管理员可进入。
 
