@@ -16,3 +16,9 @@ description: 4个主要模块外的其他功能说明
 
 {% page-ref page="game-manage.md" %}
 
+{% page-ref page="midas.md" %}
+
+{% page-ref page="valid-user.md" %}
+
+
+
