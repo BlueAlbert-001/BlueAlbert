@@ -59,3 +59,8 @@
 * out\_ccode：本次访问行为的来源渠道ID 渠道ID信息可参阅【[买量助手使用说明](../../channel/main-features/channel-management.md)】
 * device：用户的设备信息对象，具体可见官方说明【[api:获取系统信息](https://developers.weixin.qq.com/minigame/dev/api/base/system/system-info/wx.getSystemInfo.html)】
 
+### 5、其他说明
+
+* 目前用户日志功能性能还有优化中，显示的日志列表存在时间延迟，我们将持续优化尽可能减小延迟。
+* 查询某个openid的日志列表时，右侧显示的用户详细信息每天更新一次，非实时更新。
+
