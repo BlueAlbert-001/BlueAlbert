@@ -9,7 +9,7 @@
 1. 可通过该表格查看当前流量主游戏上在推广的产品有哪些，点击游戏名称，可进行详细查看；
 2. 选择高级查询，添加更多查询条件，例如查询在跑推广产品小于10款的游戏有哪些;
 
-![](../../.gitbook/assets/image%20%2843%29.png)
+![](../../.gitbook/assets/image%20%2845%29.png)
 
 ## 新增广告主游戏
 
@@ -17,27 +17,27 @@
 
 点击【快速新增广告】-&gt;选择需要添加创意的流量主游戏-&gt;在【广告主游戏列表】中选择需要进行推广的游戏-&gt;按提示上架创意。
 
-![](../../.gitbook/assets/image%20%2868%29.png)
+![](../../.gitbook/assets/image%20%2871%29.png)
 
-![](../../.gitbook/assets/image%20%2867%29.png)
+![](../../.gitbook/assets/image%20%2870%29.png)
 
-![](../../.gitbook/assets/image%20%28182%29.png)
+![](../../.gitbook/assets/image%20%28185%29.png)
 
 ### 方法二
 
 通过流量主游戏列表的游戏名称进入。
 
-![](../../.gitbook/assets/image%20%28181%29.png)
+![](../../.gitbook/assets/image%20%28184%29.png)
 
-![](../../.gitbook/assets/image%20%2897%29.png)
+![](../../.gitbook/assets/image%20%28100%29.png)
 
-![](../../.gitbook/assets/image%20%28182%29.png)
+![](../../.gitbook/assets/image%20%28185%29.png)
 
 ## 高级设置
 
-![](../../.gitbook/assets/image%20%28103%29.png)
+![](../../.gitbook/assets/image%20%28106%29.png)
 
-![](../../.gitbook/assets/image%20%2819%29.png)
+![](../../.gitbook/assets/image%20%2820%29.png)
 
 投放管理功能主要是针对天幕下发广告的策略进行限制，选择了点击4次不再下发后，单个游戏中的单个用户点击同一个推广产品的创意超过4次后，在当天该用户不会再收到该推广产品的创意。
 
