@@ -111,7 +111,7 @@
   * [买量助手](questions/about-ad-master.md)
   * [游戏数据](questions/about-data.md)
   * [游戏配置](questions/game-manage.md)
-  * [多Icon广告位 - 支持“多帧动图200\*200”](questions/duo-icon-guang-gao-wei-zhi-chi-duo-zhen-dong-tu-200200.md)
+  * [多Icon广告位 - 支持“多帧动图200\*200”](questions/gif200-200.md)
 * [更新日志](change-log/README.md)
   * [天幕更新日志](change-log/skysriver-change-log.md)
   * [SDK更新日志](change-log/sdk-change-log.md)
