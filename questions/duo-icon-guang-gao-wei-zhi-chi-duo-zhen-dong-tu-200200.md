@@ -1,0 +1,87 @@
+---
+description: 阅读者：游戏开发人员
+---
+
+# 多Icon广告位 - 支持“多帧动图200\*200”
+
+## 概述：
+
+天幕卖量助手中，[多Icon广告位](../selling/ad-types/more-icon.md)之前一直只支持展示静态图片（单张图片）；
+
+SDK在v2.6.8版本后（2020.03/31上线），支持在多Icon广告位上展示动态图片，如需要使用此功能，需要游戏开发者进行接入。
+
+具体接入方式，请根据自身情况参照下方的不同方案。
+
+## 接入：
+
+### 情况1：老游戏（2020/03/31之前接入天幕），通过API方式接入多Icon广告位
+
+如果您的游戏之前已经通过[.getFlowConfig](../selling/dev-guide/api/get-ad-position-config.md) 接口接入了多Icon广告位，需要做如下处理：
+
+#### 1、更新最新的SDK文件
+
+SDK版本v2.6.8及以上——2020/03/31号之后从天幕下载的即可
+
+#### 2、游戏代码针对新功能做处理：
+
+这是之前接口返回，有且只有静态图片（image只有一张图片）
+
+```javascript
+{
+    "creatives":[
+        {
+            "creativeId":162,
+            "positionId":"1013280",
+            "show_config":{
+                //单张图片
+                "image": "https://cdn.kuaiyugo.com/appprogram/tiger/admin/2018-11-06_6fe2c240-e1a7-11e8-bc47-27d9eee1c822.png",
+                "title": '游戏名' 
+            }
+        }
+    ]
+}
+```
+
+现需要在代码中**增加对动态图片的处理逻辑**
+
+当需要展示的是动态图片时，SDK接口的返回**：**
+
+```javascript
+{
+    "creatives":[
+        {                    
+            "creativeId":162,
+            "positionId":"1013280",
+            "show_config":{
+                //多张图片拼接成动态图片
+                "images":[
+                    "https://cdn.kuaiyugo.com/test/tianmu/2020-03-20_e16178806a5411eaa39ff9aa2d973067.png",
+                    "https://cdn.kuaiyugo.com/test/tianmu/2020-03-20_e545dea06a5411eaa992514bb3382df2.png"
+                ],
+                "fps":5,
+                "title":'游戏名' 
+              },
+        },
+    ]  
+}
+```
+
+* 如果创意列表creatives中，有fps，且返回多张图片（images为list），则多个图片素材需渲染为动态图片——按照fps切换每张图片
+* 示例：fps=5，意味着每秒播放5张图片，即0.2秒切换一张
+* 通过上述方式，在游戏中实现类似gif动图的效果
+
+{% hint style="info" %}
+1. 静态图片和动态图片在同一个多Icon广告位上都有可能下发，所以两种情况都要做处理。
+2. 记得需要对游戏中所有的多Icon广告位进行处理。
+{% endhint %}
+
+### 情况2：老游戏，通过组件化方式
+
+如果您的游戏之前已经通过[.flowNavigate](../selling/dev-guide/api/landing.md) 接口接入了猜你喜欢广告位，则只需更新SDK即可，无需额外处理（SDK版本v2.6.8及以上——2020/03/31号之后从天幕下载的即可）
+
+### 情况3：新游戏（2020/03/31之后接入天幕）
+
+只需要下载最新SDK，按照接入文档，完整接入天幕——卖量助手——广告位功能即可。  
+  
+
+
