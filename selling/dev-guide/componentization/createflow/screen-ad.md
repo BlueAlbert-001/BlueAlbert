@@ -23,7 +23,7 @@ let flowUI = wx.tmSDK.createFlow({
     positionId: 1260，
 });
 // 监听插屏广告关闭事件
-flowUI.onDestory(function({message}) {
+flowUI.onDestroy(function({message}) {
     console.log(message)
 });
 ```
