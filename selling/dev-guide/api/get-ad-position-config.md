@@ -107,6 +107,10 @@ positionId将对应的不同类型返回值，使用前请确认当前使用的p
 
 ### 多icon广告位
 
+{% hint style="info" %}
+更新说明：此类型广告位，在2020/04/02后，支持多帧动图（返回多张图片，按照指定速率轮播，实现gif效果），如需使用，请参照下文做对应兼容
+{% endhint %}
+
 * type为7时，positionId对应的是多icon广告类型
 * 多icon广告位拥有多个创意，需要全部渲染处理
 * 多icon广告位可在天幕设置角标功能
@@ -150,6 +154,31 @@ positionId将对应的不同类型返回值，使用前请确认当前使用的p
             },
         }
     ]
+}
+```
+
+* 如果创意列表creatives中，**有fps**，且**返回多张图片**（images为list，示例如下），则多个图片素材需渲染为动态图片——按照fps循环渲染每张图片
+* 示例：**fps=5，意味着每秒播放5张图片，即0.2秒切换一张（并不是每5s切换一张图片！！）**
+* 通过上述方式，在游戏中实现类似gif动图的效果
+* 关于点击后的跳转：即使是多张图片轮播，仍旧是归属于同一个创意（creativeID），也就是说，跳转的时候，只会跳转到同一个游戏。参考跳转接口：.[flowNavigate](landing.md)
+
+```javascript
+{
+    "creatives":[
+        {                    
+            "creativeId":162,
+            "positionId":"1013280",
+            "show_config":{
+                //多张图片拼接成动态图片
+                "images":[
+                    "https://cdn.kuaiyugo.com/test/tianmu/2020-03-20_e16178806a5411eaa39ff9aa2d973067.png",
+                    "https://cdn.kuaiyugo.com/test/tianmu/2020-03-20_e545dea06a5411eaa992514bb3382df2.png"
+                ],
+                "fps":5,
+                "title":'游戏名' 
+              },
+        },
+    ]  
 }
 ```
 
