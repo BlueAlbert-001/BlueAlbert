@@ -6,8 +6,6 @@
 
 开发说明请参阅：[分享素材配置-开发说明](../dev-guide/sharing/)
 
-数据统计查询请参阅：[分享裂变分析](../../game-data/indicator-description/sharing-analysis.md)
-
 ## **分享位**
 
 同一小程序/小游戏中，不同位置/功能下的分享，需要配置不同的内容。
