@@ -78,7 +78,7 @@
     * [版本控制](game-set/main-features/features-switch.md)
     * [分享素材配置](game-set/main-features/sharing-management.md)
     * [在线参数](game-set/main-features/json.md)
-    * [用户日志（限量内测）](game-set/main-features/userlog.md)
+    * [用户日志（限量内测中）](game-set/main-features/userlog.md)
   * [技术接入指南](game-set/dev-guide/README.md)
     * [接入前必读](game-set/dev-guide/must-read.md)
     * [【通用】SDK接入](game-set/dev-guide/add-sdk.md)
