@@ -12,7 +12,7 @@
 
 展示主体下所有广告计划的跑量整体情况，以及收入和收入趋势，把握整体情况。
 
-![](../../.gitbook/assets/image%20%2881%29.png)
+![](../../.gitbook/assets/image%20%2884%29.png)
 
 ## **广告位管理**
 
@@ -22,7 +22,7 @@
 
 管理流量主下所有的应用，可对应用进行「版本屏蔽」「删除」「查看广告位」操作。
 
-![](../../.gitbook/assets/image%20%2835%29.png)
+![](../../.gitbook/assets/image%20%2837%29.png)
 
 1. 版本屏蔽的作用 ****屏蔽提交微信审核的版本的广告位，增加过审几率。 
 2. 如何进行广告位屏蔽？ 点击操作中的「版本屏蔽」按钮，在弹窗中输入需要屏蔽的版本号即可。 
@@ -34,7 +34,7 @@
 
 不清楚如何新增广告位，可参阅[创建广告位](../../start/traffic-start-order/create-ad-position.md)
 
-![](../../.gitbook/assets/image%20%28146%29.png)
+![](../../.gitbook/assets/image%20%28155%29.png)
 
 ## **变现相关**
 
@@ -62,9 +62,9 @@
 
 在这个页面，你可以了解到已添加进入流量变现所有的游戏的数据情况，包括收入，广告位上的曝光点击等核心数据，把握整体情况。
 
-![](../../.gitbook/assets/image%20%28161%29.png)
+![](../../.gitbook/assets/image%20%28172%29.png)
 
-![](../../.gitbook/assets/image%20%2840%29.png)
+![](../../.gitbook/assets/image%20%2842%29.png)
 
 ### **应用数据**
 
@@ -78,5 +78,5 @@
 
 ![](../../.gitbook/assets/image%20%2823%29.png)
 
-![](../../.gitbook/assets/image%20%28114%29.png)
+![](../../.gitbook/assets/image%20%28122%29.png)
 
