@@ -34,7 +34,7 @@
 
 不清楚如何新增广告位，可参阅[创建广告位](../../start/traffic-start-order/create-ad-position.md)
 
-![](../../.gitbook/assets/image%20%28155%29.png)
+![](../../.gitbook/assets/image%20%28157%29.png)
 
 ## **变现相关**
 
@@ -62,7 +62,7 @@
 
 在这个页面，你可以了解到已添加进入流量变现所有的游戏的数据情况，包括收入，广告位上的曝光点击等核心数据，把握整体情况。
 
-![](../../.gitbook/assets/image%20%28172%29.png)
+![](../../.gitbook/assets/image%20%28174%29.png)
 
 ![](../../.gitbook/assets/image%20%2842%29.png)
 
@@ -78,5 +78,5 @@
 
 ![](../../.gitbook/assets/image%20%2823%29.png)
 
-![](../../.gitbook/assets/image%20%28122%29.png)
+![](../../.gitbook/assets/image%20%28123%29.png)
 
