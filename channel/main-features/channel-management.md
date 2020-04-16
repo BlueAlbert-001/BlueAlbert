@@ -9,7 +9,7 @@ description: 介绍天幕的渠道功能原理与管理操作
 管理当前主体下所有的渠道，帮助对渠道进行数据统计与合作渠道管理。主要分为两个功能：渠道的创建，渠道商的管理。
 
 {% hint style="info" %}
-建议首先阅读：[渠道相关名词解释](https://doc.skysriver.com/glossary#3-mai-liang-zhu-shou)、[渠道类型说明](../channe_type.md)
+建议首先阅读：[渠道相关名词解释](https://doc.skysriver.com/glossary#3-mai-liang-zhu-shou)、[买量助手使用流程](./#yi-shi-yong-liu-cheng)、[渠道类型说明](../channe_type.md)
 {% endhint %}
 
 ## 二、功能简介
