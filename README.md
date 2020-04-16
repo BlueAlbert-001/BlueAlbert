@@ -107,6 +107,8 @@ description: 三分钟快速了解天幕
 1. 四个模块的被设置的权限；
 2. 为主体添加小游戏；
 
+权限功能说明详见：[天幕权限功能说明](general-function/permission.md)
+
 ## 5、添加第一款游戏
 
 ![&#x70B9;&#x51FB;&#x6E38;&#x620F;&#x7BA1;&#x7406;&#xFF0C;&#x6DFB;&#x52A0;&#x6E38;&#x620F;](.gitbook/assets/qi-ye-wei-xin-jie-tu-15770861408763-1.png)
