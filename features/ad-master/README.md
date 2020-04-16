@@ -6,7 +6,7 @@
 
 下面将会从广告投放模块中的各个功能进行讲解。
 
-![](../../.gitbook/assets/image%20%28150%29.png)
+![](../../.gitbook/assets/image%20%28151%29.png)
 
 ## **首页**
 
@@ -48,7 +48,7 @@
 
 ![](https://cdn.nlark.com/yuque/0/2019/png/254569/1557233356515-24d78a52-587e-4ec1-a4b5-a740eda56603.png?x-oss-process=image/resize,w_2000)
 
-![](../../.gitbook/assets/image%20%28160%29.png)
+![](../../.gitbook/assets/image%20%28161%29.png)
 
 ### 渠道分析
 
@@ -62,7 +62,7 @@
 
 {% page-ref page="../indicator-description/" %}
 
-![](../../.gitbook/assets/image%20%2883%29.png)
+![](../../.gitbook/assets/image%20%2884%29.png)
 
 ### 创意数据
 
@@ -70,7 +70,7 @@
 
 在数据方面我们提供了每条创意的从曝光开始到最后的数据，以此快速的了解该条创意的表现情况如何。
 
-![](../../.gitbook/assets/image%20%28203%29.png)
+![](../../.gitbook/assets/image%20%28204%29.png)
 
 ### 渠道分析
 
@@ -80,5 +80,5 @@
 
 ![](../../.gitbook/assets/image%20%2826%29.png)
 
-![](../../.gitbook/assets/image%20%28168%29.png)
+![](../../.gitbook/assets/image%20%28169%29.png)
 
