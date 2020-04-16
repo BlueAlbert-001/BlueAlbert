@@ -26,7 +26,7 @@
 
 入口为：广告主后台-首页
 
-![](../../.gitbook/assets/image%20%2814%29.png)
+![](../../.gitbook/assets/image%20%2815%29.png)
 
 ### **充值说明**
 
