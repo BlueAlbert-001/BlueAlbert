@@ -24,7 +24,7 @@
 
 该功能配置后台位于：控制台-主体设置-有效新增设置
 
-![](../.gitbook/assets/image%20%2851%29.png)
+![](../.gitbook/assets/image%20%2852%29.png)
 
 {% hint style="info" %}
 该功能需配合天幕统计功能，需要接入游戏数据模块SDK中的登录功能，接入请参阅【[SDK接入-登录](../selling/dev-guide/login/)
@@ -34,7 +34,7 @@
 
 进入后台以后，点击“添加新配置”会看到如下弹窗。
 
-![](../.gitbook/assets/image%20%2811%29.png)
+![](../.gitbook/assets/image%20%2812%29.png)
 
 从上到下您需要依次配置：
 
