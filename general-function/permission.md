@@ -6,7 +6,7 @@ description: 按角色分配成员权限
 
 ## 成员权限说明
 
-![](../.gitbook/assets/image%20%28208%29.png)
+![](../.gitbook/assets/image%20%28213%29.png)
 
 成员权限主要管理主体下所有用户的权限，只有超级管理员与管理员可进入。
 
@@ -35,11 +35,11 @@ description: 按角色分配成员权限
 
 进入成员权限页面后，点击操作中的设置权限即可进行权限设置。
 
-![](../.gitbook/assets/image%20%28102%29.png)
+![](../.gitbook/assets/image%20%28105%29.png)
 
 ## 邀请新成员
 
 点击【添加新成员】按钮后，按界面提示信息填写即可，默认买量助手、卖量助手的权限都为可访问，游戏数据、游戏配置权限都为可所有游戏。
 
-![](../.gitbook/assets/image%20%2847%29.png)
+![](../.gitbook/assets/image%20%2848%29.png)
 

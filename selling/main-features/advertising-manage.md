@@ -9,7 +9,7 @@
 1. 可通过该表格查看当前流量主游戏上在推广的产品有哪些，点击游戏名称，可进行详细查看；
 2. 选择高级查询，添加更多查询条件，例如查询在跑推广产品小于10款的游戏有哪些;
 
-![](../../.gitbook/assets/image%20%2848%29.png)
+![](../../.gitbook/assets/image%20%2849%29.png)
 
 ## 新增广告主游戏
 
@@ -17,25 +17,25 @@
 
 点击【快速新增广告】-&gt;选择需要添加创意的流量主游戏-&gt;在【广告主游戏列表】中选择需要进行推广的游戏-&gt;按提示上架创意。
 
-![](../../.gitbook/assets/image%20%2875%29.png)
+![](../../.gitbook/assets/image%20%2877%29.png)
 
-![](../../.gitbook/assets/image%20%2874%29.png)
+![](../../.gitbook/assets/image%20%2876%29.png)
 
-![](../../.gitbook/assets/image%20%28202%29.png)
+![](../../.gitbook/assets/image%20%28207%29.png)
 
 ### 方法二
 
 通过流量主游戏列表的游戏名称进入。
 
-![](../../.gitbook/assets/image%20%28201%29.png)
+![](../../.gitbook/assets/image%20%28206%29.png)
 
-![](../../.gitbook/assets/image%20%28109%29.png)
+![](../../.gitbook/assets/image%20%28112%29.png)
 
-![](../../.gitbook/assets/image%20%28202%29.png)
+![](../../.gitbook/assets/image%20%28207%29.png)
 
 ## 高级设置
 
-![](../../.gitbook/assets/image%20%28116%29.png)
+![](../../.gitbook/assets/image%20%28120%29.png)
 
 ![](../../.gitbook/assets/image%20%2821%29.png)
 
