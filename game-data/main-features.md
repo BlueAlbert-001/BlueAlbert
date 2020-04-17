@@ -102,6 +102,8 @@ banner分析帮助产品负责人了解广告从加载、展示到点击全流�
 
 激励视频分析除了统计广告加载、展示播放、成功播放以及错误情况，同时还记录了时长与播放次数分布图，帮助运营人员更加直观的了解视频受访情况。
 
+指标说明：[广告分析](indicator-description/ad-analysisadad.md)
+
 {% hint style="info" %}
 要使用该功能，SDK需做[额外接入工作](dev-guide/#step-3-ke-xuan)
 {% endhint %}
@@ -115,6 +117,8 @@ banner分析帮助产品负责人了解广告从加载、展示到点击全流�
 #### 5.3、内购分析
 
 内购分析帮助产品负责人了解具有内购付费的游戏全面分析各类型付费用户人数以及金额，了解内购LTV以及付费用户留存。
+
+指标说明：[内购分析](indicator-description/in-game-payment.md)
 
 {% hint style="info" %}
 若要使用该功能，需[额外接入工作](https://doc.skysriver.com/game-data/dev-guide/pay)
