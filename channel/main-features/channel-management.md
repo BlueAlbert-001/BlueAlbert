@@ -52,7 +52,7 @@ description: 介绍天幕的渠道功能原理与管理操作
 
 ![&#x53D1;&#x9001;&#x6E20;&#x9053;&#x7269;&#x6599;&#x529F;&#x80FD;&#x5165;&#x53E3;](../../.gitbook/assets/image%20%2890%29.png)
 
-![&#x786E;&#x8BA4;&#x7269;&#x6599;&#x4FE1;&#x606F;](../../.gitbook/assets/image%20%28213%29.png)
+![&#x786E;&#x8BA4;&#x7269;&#x6599;&#x4FE1;&#x606F;](../../.gitbook/assets/image%20%28215%29.png)
 
 ## 四、渠道商管理
 
@@ -60,7 +60,7 @@ description: 介绍天幕的渠道功能原理与管理操作
 
 ### 渠道商的创建与管理
 
-![](../../.gitbook/assets/image%20%28248%29.png)
+![](../../.gitbook/assets/image%20%28251%29.png)
 
 创建一个渠道商仅需要填写全称、简称，媒体可在需要时添加。
 
