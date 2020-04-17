@@ -18,7 +18,7 @@ description: 按照游戏版本返回TRUE/FALSE
 
 ## 实现原理
 
-针对不同版本，返回TRUE/FALSE，前端根据返回值的不同，进行不同的处理（如返回TRUE是展示广告、返回FALSE是关闭广告）。
+针对不同版本，返回布尔值TRUE/FALSE，前端可根据返回值的不同，进行不同的逻辑处理（如返回TRUE是展示广告、返回FALSE是关闭广告）。
 
 {% hint style="warning" %}
 接入时，请与开发人员约定好TRUE和FALSE的具体含义，同时建议在配置项说明中，申明TRUE/FALSE的含义，避免出现管理上的混乱
@@ -63,10 +63,4 @@ description: 按照游戏版本返回TRUE/FALSE
 ![&#x53EF;&#x590D;&#x5236;&#x8BE5;&#x5185;&#x5BB9;&#xFF0C;&#x76F4;&#x63A5;&#x53D1;&#x9001;&#x5F00;&#x53D1;&#xFF0C;&#x63D0;&#x9AD8;&#x6C9F;&#x901A;&#x6548;&#x7387;](../../.gitbook/assets/qq-jie-tu-20191012165452-1-1.png)
 
 开发说明请参阅：[版本控制-开发说明](../dev-guide/function-switch.md)
-
-
-
-
-
-
 
