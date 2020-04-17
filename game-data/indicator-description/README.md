@@ -20,7 +20,7 @@ description: 建议阅读者：小游戏策划、运营
 
 {% page-ref page="in-game-payment.md" %}
 
-{% page-ref page="banner-analysis.md" %}
+{% page-ref page="ad-analysisadad.md" %}
 
 {% page-ref page="video.md" %}
 

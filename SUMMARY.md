@@ -57,7 +57,7 @@
     * [活跃留存](game-data/indicator-description/active-retention.md)
     * [收入概况](game-data/indicator-description/income.md)
     * [内购分析](game-data/indicator-description/in-game-payment.md)
-    * [banner分析](game-data/indicator-description/banner-analysis.md)
+    * [广告分析](game-data/indicator-description/ad-analysisadad.md)
     * [视频分析](game-data/indicator-description/video.md)
     * [渠道分析](game-data/indicator-description/channel-analysis.md)
     * [分享裂变](game-data/indicator-description/sharing-analysis.md)
