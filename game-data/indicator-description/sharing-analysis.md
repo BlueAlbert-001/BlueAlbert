@@ -10,6 +10,8 @@ description: 聚焦每一个分享转发素材，这里提升分享裂变效率
 分享素材配置功能接入，详见：[分享素材配置](https://doc.skysriver.com/game-set/main-features/sharing-management)。
 {% endhint %}
 
+![](../../.gitbook/assets/image%20%2835%29.png)
+
 ### 基础数据
 
 * 渠道活跃：在某个渠道角度，活跃用户表示的是该渠道历史上引入的新增用户，依然访问的人数

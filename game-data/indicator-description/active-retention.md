@@ -8,7 +8,7 @@ description: 分析活跃用户留存情况
 活跃用户数据菜单提供了自然日维度活跃用户的留存率，建议与[活跃用户](https://doc.skysriver.com/game-data/indicator-description/dau)数据菜单的用户粘性类指标配合一同分析。
 {% endhint %}
 
-![](../../.gitbook/assets/image%20%28222%29.png)
+![](../../.gitbook/assets/image%20%28228%29.png)
 
 * 日活跃用户数：某自然日访问小程序或者小游戏的用户数，同一用户多次访问不重复记录
 * 日新增用户数：某自然日首次登录小程序或者小游戏的用户数，同一用户多次访问不重复记录

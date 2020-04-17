@@ -7,10 +7,12 @@ description: 分析内购类产品用户付费情况
 {% hint style="info" %}
 内购分析的数据需要接入天幕的支付功能，以下数据均为天幕统计分析，因此可能会与微信数据存在较小的误差。
 
-接入功能请参阅：[内购分析技术接入说明](https://doc.skysriver.com/game-data/dev-guide/pay)
+接入功能请参阅：[内购分析技术接入说明](https://doc.skysriver.com/game-data/dev-guide/pay)、[接入米大师](../../general-function/midas.md)
 
 内购分析从游戏以及渠道两个维度提供了全面的内购付费分析，可以帮助运营人员充分了解渠道新用户以及游戏全体用户内购付费情况，LTV可以直接而客观的帮助运营人员了解内购付费的效果。
 {% endhint %}
+
+![](../../.gitbook/assets/image%20%2874%29.png)
 
 ### 基础数据
 
