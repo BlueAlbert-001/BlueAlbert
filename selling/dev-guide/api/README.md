@@ -46,20 +46,26 @@ SDK组件无法满足，则可通过API的方式接入。
 
 {% page-ref page="../ad-position-status.md" %}
 
-## **【重要】接口调用**
+## **【重要】接口调用策略**
 
 当游戏中需要展示创意的时候：
 
 1. 首先通过调用[`checkFlowIsOpen`](../ad-position-status.md)，传入广告位ID，获取广告位开关状态：开启/关闭。
 2. 如果广告位为开启状态，调用[`getFlowConfig`](get-ad-position-config.md)，传入广告位ID，获取配置。
 
-{% hint style="danger" %}
-注意：
+{% hint style="warning" %}
+缓存策略：
+
+请按下方策略进行相关数据的缓存，以**保证数据的准确性&&游戏的加载性能**
 
 每次调用[`getFlowConfig`](get-ad-position-config.md)，对应广告位都会视作**产生曝光**，所以为了数据准确性：
 
 1. 请先获取广告位的开关状态，广告位开启时再调用[`getFlowConfig`](get-ad-position-config.md)\`\`
-2. **只有**在每次需要展示创意的时候才调用该接口，不要**提前加载**或**缓存上一次的接口返回值（不展示请进行销毁）**
+2. **只有**在每次需要展示创意的时候才调用该接口，不要**提前加载**或**缓存上一次的接口返回值，不展示请销毁（但URL及已下载的图片资源建议缓存，见下方说明）**
+
+另外：
+
+[`getFlowConfig`](get-ad-position-config.md)接口的返回值中包含素材图片的URL；强烈建议**本地缓存URL及对应的素材图片文件**，这样在本次游戏周期中再次调用[`getFlowConfig`](get-ad-position-config.md)接口时，如有重复的素材图片（对应同一个URL），**直接从缓存中获取，而非重复下载**，可以大大提高素材加载速度，提高分发效率！
 {% endhint %}
 
 ## 浮动窗广告位接入
