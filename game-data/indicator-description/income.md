@@ -10,7 +10,7 @@ description: 分析微信收入，全面了解产品营收能力
 注：官方内购数据需人工在游戏收支后台中上传，详情请参考[游戏收支](https://doc.skysriver.com/general-function/revenue)。
 {% endhint %}
 
-![](../../.gitbook/assets/image%20%2878%29.png)
+![](../../.gitbook/assets/image%20%2879%29.png)
 
 * 活跃用户：进入小程序或者小游戏的用户数，同一用户同周期多次访问不重复记录（需要接入天幕SDK登录功能，所以与官方略有出入）
 * 新增用户：首次登录小程序或者小游戏的用户数，同一用户多次访问不重复记录
