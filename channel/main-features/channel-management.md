@@ -42,9 +42,11 @@ description: 介绍天幕的渠道功能原理与管理操作
 
 跳转路径填写规则如下：
 
-* 比如您除了使用天幕统计，还使用了微信官方的统计，只需将微信官方的路径填写进去，我们的系统将会在微信的路径后自动添加天幕的参数用于统计。 您填写了微信路径，例如：page/index/index?wxgamecid=CCAAAAookkQQ997\_wwwwww，则生成的完整路径为：page/index/index?wxgamecid=CCAAAAookkQQ997\_wwwwww&channelCode=xxxxx。
-* 若您使用了超过两家以上的统计平台，每家平台的参数都可以通过“&”进行连接。
-* 若您的默认路径不为page/index/index，只需替换为您的默认路径，我们的系统同样会自动添加上天幕的统计参数。
+* 您需要填写类似"?foo=bar"这样的参数内容，例如您可以填写"?channelid=001"
+* 默认的路径为page/index/index,创建后将自动根据您填写的内容添加天幕系统的渠道参数，参数中包含渠道ID。 例如：page/index/index?channelid=001&channelCode=XXXXX
+* 若您未填写参数，则使用默认内容生成完整的路径
+* 若您的路径非默认路径，可创建完成以后使用编辑修改路径
+* 比如您除了使用天幕统计，还使用了微信官方的统计，只需将微信官方的路径参数填写进去，我们的系统将会在微信的路径后自动添加天幕的参数用于统计。 您填写了微信路径，例如：?wxgamecid=CCAAAAookkQQ997\_wwwwww，则生成的完整路径为：page/index/index?wxgamecid=CCAAAAookkQQ997\_wwwwww&channelCode=xxxxx。
 
 ### 3. 渠道信息的发送
 
