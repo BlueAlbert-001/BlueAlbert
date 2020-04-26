@@ -15,7 +15,7 @@ description: 买量助手入门指引
 ## 入门指引
 
 {% hint style="info" %}
-为更好的理解文档，建议首先阅读：[名词解释——买量助手](../glossary.md#3-mai-liang-zhu-shou)
+为更好的理解文档，建议首先阅读：[名词解释——买量助手](../glossary.md#3-mai-liang-zhu-shou)，[渠道机制](main-features/channel-management.md)
 {% endhint %}
 
 ### 1、功能使用说明
