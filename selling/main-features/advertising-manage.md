@@ -17,25 +17,25 @@
 
 点击【快速新增广告】-&gt;选择需要添加创意的流量主游戏-&gt;在【广告主游戏列表】中选择需要进行推广的游戏-&gt;按提示上架创意。
 
+![](../../.gitbook/assets/image%20%2898%29.png)
+
 ![](../../.gitbook/assets/image%20%2897%29.png)
 
-![](../../.gitbook/assets/image%20%2896%29.png)
-
-![](../../.gitbook/assets/image%20%28247%29.png)
+![](../../.gitbook/assets/image%20%28248%29.png)
 
 ### 方法二
 
 通过流量主游戏列表的游戏名称进入。
 
-![](../../.gitbook/assets/image%20%28246%29.png)
-
-![](../../.gitbook/assets/image%20%28136%29.png)
-
 ![](../../.gitbook/assets/image%20%28247%29.png)
+
+![](../../.gitbook/assets/image%20%28137%29.png)
+
+![](../../.gitbook/assets/image%20%28248%29.png)
 
 ## 高级设置
 
-![](../../.gitbook/assets/image%20%28147%29.png)
+![](../../.gitbook/assets/image%20%28148%29.png)
 
 ![](../../.gitbook/assets/image%20%2824%29.png)
 
