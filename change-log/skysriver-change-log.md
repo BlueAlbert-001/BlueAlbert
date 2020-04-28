@@ -4,6 +4,14 @@ description: 天幕后台更新记录
 
 # 天幕更新日志
 
+## v2.7.2 - 2020-04-28 
+
+【买量助手】 
+
+为适应微信小游戏跳转新规，渠道码支持批量创建，及下载 
+
+路径：买量助手-渠道管理，[说明文档](../channel/main-features/channel-management.md#san-qu-dao-chuang-jian)
+
 ## v2.7.1 - 2020-04-26
 
 【卖量助手】 
