@@ -1,18 +1,12 @@
 ---
-description: 获取用户信息
+description: 获取存储在天幕的用户信息
 ---
 
 # .login
 
 ## 概述
 
-`login`接口用于获取已经存放在天幕平台的用户信息，包含OpenID、头像、昵称、地区等，用做后续业务逻辑判断的依据。
-
-请注意：若该接口返回值中无头像、昵称等微信信息，请调用[`updateUserinfo`](update-userinfo.md) 更新用户信息。
-
-{% hint style="warning" %}
-接入天幕的登录功能后，无需再接入微信原生的[登录流程](https://developers.weixin.qq.com/minigame/dev/guide/open-ability/login.html)，即代码上用天幕的登录功能替代原生的登录流程
-{% endhint %}
+`login`接口用于获取已经存放在天幕平台的用户信息，包含OpenID、头像、昵称、地区等，用做后续业务逻辑判断的依据。（其中头像昵称需要用户授权，详见[授权登录](./#shou-quan-deng-lu)）
 
 ## **调用方法**
 
@@ -60,22 +54,18 @@ wx.tmSDK.login().then(res=>{
 
 | 字段 | 字段类型 | 字段说明 |
 | :--- | :--- | :--- |
-| pid | string | 用户在天幕的统一索引，但可能变化 |
 | app\_id | string | 应用的appid |
 | open\_id | string | 用户在该应用下的openid |
 | union\_id | string | 用户的unionid,默认为空字符串，绑定主体后大授权方可获得。[绑定主体](https://developers.weixin.qq.com/miniprogram/dev/api/uinionID.html) |
 | nick\_name | string | 用户的微信昵称，为空时需要调用 [`updateUserinfo`](update-userinfo.md) 获取 |
-| nick\_name | string | 用户的微信昵称，为空时需要调用 [`updateUserinfo`](update-userinfo.md) 获取 |
 | avatar\_url | string | 用户的微信头像，为空时需要调用 [`updateUserinfo`](update-userinfo.md) 获取 |
-| gold | number | 用户在平台的金币数 |
-| diamond | number | 用户在平台的钻石数 |
 | is\_new | bool | 是否新注册的用户 |
 | gender | number | 男：1 / 女：0 |
 | language | string | 用户微信中设置的语言 |
 | country | string | 用户微信中设置的国家 |
 | province | string | 用户微信中设置的省份 |
 | city | string | 用户微信中设置的城市 |
-| login\_province | string | 根据用户ip判断用户所在的省份（注意：返回的省份名称与行政划分的名称一致，如西藏，返回的是西藏自治区。若要实现地区屏蔽功能，建议根据返回值前两位进行地区匹配） |
+| login\_province | string | 根据用户ip判断用户所在的省份（注意：返回的省份名称与[行政划分](https://baike.baidu.com/item/%E8%A1%8C%E6%94%BF%E5%8C%BA%E5%88%92/4655526?fr=aladdin#3_3)的名称一致，如西藏，返回的是西藏自治区。若要实现地区屏蔽功能，建议根据返回值前两位进行地区匹配） |
 | login\_city | string | 根据用户ip判断用户所在的城市 |
 | login\_district | string | 根据用户ip判断用户所在的区县 |
 | share\_new | number | 用户在当前游戏的分享引入新用户的数量 |

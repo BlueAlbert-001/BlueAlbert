@@ -1,16 +1,16 @@
 ---
-description: 使用updateUserInfo接口从微信获取用户信息（昵称、头像等），并上传到天幕平台。
+description: 从微信获取用户信息（昵称、头像等）
 ---
 
 # .updateUserInfo
 
 ## 概述
 
-调用此接口后，下次调用 [`login`](get-user-info.md) 时，即可从天幕sdk获取上一次 `updateUserInfo` 中返回的用户信息。 关于用户信息的更新策略，开发者可参考 [用户信息授权](./#yong-hu-xin-xi-shou-quan) 中的 **何时触发大授权** 。
+用于从微信获取用户的昵称头像信息。
 
-{% hint style="warning" %}
-接入天幕的登录功能后，无需再接入微信原生的[登录流程](https://developers.weixin.qq.com/minigame/dev/guide/open-ability/login.html)，即代码上用天幕的登录功能替代原生的登录流程
-{% endhint %}
+获取到的用户信息，SDK会自动上传到天幕服务器，可通过[`.login`](get-user-info.md)获取。
+
+关于用户信息的更新策略，开发者可[点击此处](./#he-shi-chu-fa-shou-quan)。
 
 ## **调用方法**
 
