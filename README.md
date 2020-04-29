@@ -128,7 +128,7 @@ description: 三分钟快速了解天幕
 ![&#x5FAE;&#x4FE1;&#x626B;&#x4E00;&#x626B;&#xFF0C;&#x6DFB;&#x52A0;&#x5BF9;&#x63A5;&#x4EBA;&#x5458;&#x5FAE;&#x4FE1;](.gitbook/assets/wei-xin-tu-pian-20191009150820.jpg)
 
 {% hint style="info" %}
-建议进一步建立微信对接群，
+建议进一步建立微信对接群，添加天幕技术、产品人员
 
 获取从接入、使用、运营的全方位支持，第一时间获得天幕最新动态
 {% endhint %}
