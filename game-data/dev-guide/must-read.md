@@ -27,7 +27,7 @@ description: 请按照如下步骤完成“游戏数据”的接入，建议阅�
 
 ## Step3（可选）
 
-游戏数据中的[性能分析](../main-features.md#9-xing-neng-fen-xi)、[微信官方广告分析](../main-features.md#5-3-wei-xin-banner-yu-ji-li-shi-pin)以及[内购数据分析](../main-features.md#5-2-nei-gou-fen-xi-ce-shi-zhong)需单独接入，请根据自身需求选择
+游戏数据中的[性能分析](../main-features.md#9-xing-neng-fen-xi)、[微信官方广告分析](../main-features.md#5-3-wei-xin-banner-yu-ji-li-shi-pin)以及[内购数据分析](../main-features.md#5-2-nei-gou-fen-xi-ce-shi-zhong)需单独接入，请根据自身需求选择。
 
 若需要接入自定义事件功能，请参阅：
 
