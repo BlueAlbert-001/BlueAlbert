@@ -43,7 +43,7 @@ description: 获取openid、用户信息
 
 ![](../../../.gitbook/assets/image%20%28144%29.png)
 
-用户授权主要通过[updateUserInfo](update-userinfo.md)接口实现。
+用户授权主要通过[`updateUserInfo`](update-userinfo.md)接口实现。
 
 ### 2、兼容性问题（重要）
 
