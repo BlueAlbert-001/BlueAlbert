@@ -12,7 +12,7 @@ description: 天幕SDK与其他运营系统的兼容问题
 
 需注意在登录流程中获取openID时处理如下兼容问题：
 
-因为微信的[登录机制](https://developers.weixin.qq.com/minigame/dev/guide/open-ability/login.html)设定，无法在一次登录流程中多次获取openID，故：
+因为微信的[登录机制](https://developers.weixin.qq.com/minigame/dev/guide/open-ability/login.html)设定，无法在一次登录流程中多个服务器同时获取openID，故：
 
 1. 如果待接入天幕SDK的游戏本身**有获取openID的逻辑**，需要去除此部分逻辑，改用天幕的接口直接获取openID
 2. 如果游戏原本**无获取openID的逻辑**，则直接引入SDK即可。

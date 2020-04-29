@@ -23,40 +23,35 @@
 
 ### 2、兼容性问题（重要）
 
-因为微信的[登录机制](https://developers.weixin.qq.com/minigame/dev/guide/open-ability/login.html)设定，无法在一次登录流程中多次获取openID，故：
+因为微信的[登录机制](https://developers.weixin.qq.com/minigame/dev/guide/open-ability/login.html)设定，无法在一次登录流程中多个服务器同时获取openID，故：
 
-1. 如果待接入天幕SDK的游戏本身**有获取openID的逻辑**，需要去除此部分逻辑，改用天幕的接口直接获取openID
+1. 如果待接入天幕SDK的游戏本身**有获取openID的逻辑**，需要**去除**此部分逻辑，改用天幕的接口直接获取openID
 2. 如果游戏原本**无获取openID的逻辑**，则直接引入SDK即可。
-3. 如果曾接入过其他系统的SDK，需要去除其中获取openID的逻辑（阿拉丁的SDK无此逻辑，无需做处理）
+3. 如果曾接入过其他系统的SDK，需要**去除**其中获取openID的逻辑（阿拉丁的SDK无此逻辑，无需做处理）
 
 ## 授权登录
 
-小游戏需用户昵称、头像等微信信息时，需要进行用户信息授权。该过程要求用户在打开小游戏时，进行一次按钮点击操作，如下图所示：
+### 1、说明
+
+小游戏需用户昵称、头像等微信信息时，需要进行用户信息授权。
+
+该过程要求用户在打开小游戏时，进行一次按钮点击操作，如下图所示：
 
 ![](../../../.gitbook/assets/image%20%28144%29.png)
 
-下方说明所涉及的相关api如下：
-
-* [login](get-user-info.md)
-* [updateUserInfo](update-userinfo.md)
-
-### 1、为什么要授权
-
-用户完成授权后，天幕平台会记录微信返回的头像、昵称等信息。
-
-用户之后打开游戏时，开发者可以通过[`login`](get-user-info.md)接口从天幕平台获取头像、昵称，因此不再需要用户点击授权按钮。
+用户授权主要通过[updateUserInfo](update-userinfo.md)接口实现。
 
 ### 2、兼容性问题（重要）
 
-因为微信的[登录机制](https://developers.weixin.qq.com/minigame/dev/guide/open-ability/login.html)设定，无法在一次登录流程中多次获取openID，故：
+因为微信的[登录机制](https://developers.weixin.qq.com/minigame/dev/guide/open-ability/login.html)设定，无法在一次登录流程中多个服务器同时获取openID，故：
 
-1. 如果待接入天幕SDK的游戏本身**有获取openID的逻辑**，需要去除此部分逻辑，改用天幕的接口直接获取openID
+1. 如果待接入天幕SDK的游戏本身**有获取openID的逻辑**，需要**去除**此部分逻辑，改用天幕的接口直接获取openID
 2. 如果游戏原本**无获取openID的逻辑**，则直接引入SDK即可。
-3. 如果曾接入过其他系统的SDK，需要去除其中获取openID的逻辑（阿拉丁的SDK无此逻辑，无需做处理）
+3. 如果曾接入过其他系统的SDK，需要**去除**其中获取openID的逻辑（阿拉丁的SDK无此逻辑，无需做处理）
 
 ### **3、何时触发授权**
 
-用户信息授权需要用户进行点击行为，可能会对用户流失率产生影响，因此策略上应该减少大授权的次数。大授权次数过少，可能会导致用户更换微信昵称、头像后，在小游戏中无法更新。
+授权需要用户进行点击行为，会对转化率产生影响，因此策略上应该减少大授权的次数。大授权次数过少，可能会导致用户更换微信昵称、头像后，在小游戏中无法更新。
 
 这里有几种策略可供参考。
 
