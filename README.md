@@ -138,7 +138,7 @@ description: 三分钟快速了解天幕
 ### 8.1、兼容性
 
 1. 天幕SDK支持现有主流的小游戏开发引擎：Cocos、Laya、Egret
-2. 因微信本身机制限定，在获取openid时，需考虑兼容性，[查看详细](questions/sdk-jian-rong-wen-ti-zhong-yao.md)
+2. 因微信本身机制限定，在获取openid时，需考虑兼容性，[查看详细](questions/compatibility.md)
 3. 与阿拉丁SDK兼容
 
 ### 8.2、留意事项

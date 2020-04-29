@@ -4,6 +4,12 @@ description: 天幕SDK与其他运营系统的兼容问题
 
 # SDK兼容问题（重要）
 
+### 引擎支持问题
+
+天幕SDK支持现有主流的小游戏开发引擎：Cocos、Laya、Egret
+
+### 登录过程中的兼容问题
+
 需注意在登录流程中获取openID时处理如下兼容问题：
 
 因为微信的[登录机制](https://developers.weixin.qq.com/minigame/dev/guide/open-ability/login.html)设定，无法在一次登录流程中多次获取openID，故：
