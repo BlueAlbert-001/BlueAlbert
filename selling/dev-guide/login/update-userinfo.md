@@ -8,9 +8,13 @@ description: 从微信获取用户信息（昵称、头像等）
 
 用于从微信获取用户的昵称头像信息。
 
-获取到的用户信息，SDK会自动上传到天幕服务器，可通过[`.login`](get-user-info.md)获取。
+获取到的用户信息，SDK会自动上传到天幕服务器，通过[`.login`](get-user-info.md)获取。
 
 关于用户信息的更新策略，开发者可[点击此处](./#he-shi-chu-fa-shou-quan)。
+
+{% hint style="info" %}
+接入此接口时，注意[兼容性问题](./#2-jian-rong-xing-wen-ti-zhong-yao-1)
+{% endhint %}
 
 ## **调用方法**
 

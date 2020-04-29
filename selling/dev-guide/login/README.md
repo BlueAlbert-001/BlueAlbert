@@ -33,6 +33,8 @@ description: 获取openid、用户信息
 2. 如果游戏原本**无获取openID的逻辑**，则直接引入SDK即可。
 3. 如果曾接入过其他系统的SDK，需要**去除**其中获取openID的逻辑（阿拉丁的SDK无此逻辑，无需做处理）
 
+相关链接：[SDK兼容性问题](../../../questions/compatibility.md)
+
 ## 授权登录
 
 ### 1、说明
@@ -52,6 +54,8 @@ description: 获取openid、用户信息
 1. 如果待接入天幕SDK的游戏本身**有获取openID的逻辑**，需要**去除**此部分逻辑，改用天幕的接口直接获取openID
 2. 如果游戏原本**无获取openID的逻辑**，则直接引入SDK即可。
 3. 如果曾接入过其他系统的SDK，需要**去除**其中获取openID的逻辑（阿拉丁的SDK无此逻辑，无需做处理）
+
+相关链接：[SDK兼容性问题](../../../questions/compatibility.md)
 
 ### **3、何时触发授权**
 
