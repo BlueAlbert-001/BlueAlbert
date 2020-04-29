@@ -21,7 +21,7 @@
     * [接入前必读](selling/dev-guide/must-read.md)
     * [【通用】SDK接入](selling/dev-guide/add-sdk.md)
     * [【通用】SDK初始化](selling/dev-guide/initialization.md)
-    * [【通用】登录/获取用户信息](selling/dev-guide/login/README.md)
+    * [【通用】登录/用户信息](selling/dev-guide/login/README.md)
       * [.login](selling/dev-guide/login/get-user-info.md)
       * [.updateUserInfo](selling/dev-guide/login/update-userinfo.md)
     * [组件化方式接入广告位](selling/dev-guide/componentization/README.md)
