@@ -60,22 +60,27 @@ wx.tmSDK.login().then(res=>{
 | :--- | :--- | :--- |
 | app\_id | string | 应用的appid |
 | open\_id | string | 用户在该应用下的openid |
-| union\_id | string | 用户的unionid,默认为空字符串，绑定主体后大授权方可获得。[绑定主体](https://developers.weixin.qq.com/miniprogram/dev/api/uinionID.html) |
+| union\_id | string | 用户的unionid，默认为空字符串。union\_id获取方法 |
 | nick\_name | string | 用户的微信昵称，为空时需要调用 [`updateUserinfo`](update-userinfo.md) 获取 |
 | avatar\_url | string | 用户的微信头像，为空时需要调用 [`updateUserinfo`](update-userinfo.md) 获取 |
-| is\_new | bool | 是否新注册的用户 |
 | gender | number | 男：1 / 女：0 |
 | language | string | 用户微信中设置的语言 |
-| country | string | 用户微信中设置的国家 |
-| province | string | 用户微信中设置的省份 |
 | city | string | 用户微信中设置的城市 |
-| login\_province | string | 根据用户ip判断用户所在的省份（注意：返回的省份名称与[行政划分](https://baike.baidu.com/item/%E8%A1%8C%E6%94%BF%E5%8C%BA%E5%88%92/4655526?fr=aladdin#3_3)的名称一致，如西藏，返回的是西藏自治区。若要实现地区屏蔽功能，建议根据返回值前两位进行地区匹配） |
-| login\_city | string | 根据用户ip判断用户所在的城市 |
-| login\_district | string | 根据用户ip判断用户所在的区县 |
+| province | string | 用户微信中设置的省份 |
+| country | string | 用户微信中设置的国家 |
+| gold、diamond | string | 游戏内金币、钻石，已废弃 |
 | share\_new | number | 用户在当前游戏的分享引入新用户的数量 |
 | share\_times | number | 用户在当前游戏的分享次数 |
 | online\_days | number | 用户在当前游戏在线的天数 |
 | online\_duration | number | 累计在线时长（单位：秒） |
+| last\_login\_time | number | 最近一次访问的时间戳 |
+| login\_times | number | 用户在当前游戏的累计登录访问次数 |
+| from\_scene | string | 来源场景值 |
+| from\_code | string | 来源[渠道ID](../../../channel/main-features/channel-management.md) |
+| is\_new | bool | 是否新注册的用户 |
+| login\_province | string | 根据用户ip判断用户所在的省份（注意：返回的省份名称与[行政划分](https://baike.baidu.com/item/%E8%A1%8C%E6%94%BF%E5%8C%BA%E5%88%92/4655526?fr=aladdin#3_3)的名称一致，如西藏，返回的是西藏自治区。若要实现地区屏蔽功能，建议根据返回值前两位进行地区匹配） |
+| login\_city | string | 根据用户ip判断用户所在的城市 |
+| login\_district | string | 根据用户ip判断用户所在的区县 |
 
 
 

@@ -43,7 +43,7 @@ description: 获取openid、用户信息
 
 该过程要求用户在打开小游戏时，进行一次按钮点击操作，如下图所示：
 
-![](../../../.gitbook/assets/image%20%28144%29.png)
+![](../../../.gitbook/assets/image%20%28145%29.png)
 
 用户授权主要通过[`updateUserInfo`](update-userinfo.md)接口实现。
 

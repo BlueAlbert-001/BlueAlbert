@@ -43,17 +43,17 @@ description: 快速筛选数据
 
 点击左上角视图列表红框中的按钮，可以导出当前视图的配置文件。
 
-![](../.gitbook/assets/image%20%28241%29.png)
+![](../.gitbook/assets/image%20%28242%29.png)
 
 ### 2、视图的导入
 
 首先在视图列表中选择“新建+”；
 
-![](../.gitbook/assets/image%20%2834%29.png)
+![](../.gitbook/assets/image%20%2835%29.png)
 
 接着点击弹窗中的“点击导入”，选择其他伙伴分享给你的配置文件，即可导入创建一个新视图。新视图包含了伙伴的指标配置，但不包含他的高级查询筛选条件。
 
-![](../.gitbook/assets/image%20%2888%29.png)
+![](../.gitbook/assets/image%20%2889%29.png)
 
 
 
