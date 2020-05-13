@@ -25,7 +25,7 @@
 {% endhint %}
 
 {% hint style="warning" %}
-如果接入时，报错：小程序session解析错误
+如果接入时报错：小程序session解析错误
 
 请检查接入的SDK与小游戏本身是否对应（SDK及SDK所在项目的appid/appsecret，与小游戏实际是否一致）
 {% endhint %}
