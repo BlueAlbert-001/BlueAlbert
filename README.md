@@ -158,7 +158,7 @@ description: 三分钟快速了解天幕
       </td>
       <td style="text-align:left">&#xD7;</td>
       <td style="text-align:left">&#xD7;</td>
-      <td style="text-align:left">&#x9700;&#x63A5;&#x5165;&#x5E7F;&#x544A;&#x4F4D;</td>
+      <td style="text-align:left">&#x63A5;&#x5165;&#x5E7F;&#x544A;&#x4F4D;</td>
     </tr>
     <tr>
       <td style="text-align:left"><a href="channel/">&#x4E70;&#x91CF;&#x52A9;&#x624B;</a>
@@ -201,7 +201,7 @@ description: 三分钟快速了解天幕
       <td style="text-align:left">&#xD7;</td>
     </tr>
   </tbody>
-</table>以下为上表中**不同接入工作的工作量**预估，供参考：
+</table>以下为上表中**不同SDK接入工作的工作量**预估，供参考：
 
 <table>
   <thead>
