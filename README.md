@@ -19,9 +19,11 @@ description: 三分钟快速了解天幕
 [游戏配置](game-set/)：在线管理游戏内容
 
 {% hint style="info" %}
-四个模块**相互独立**，可按需接入；
+四个主模块**相互独立**，可按需接入；
 
 当接入全部模块时，可实现数据互通，实现真正**一站式运营**。
+
+天幕另外还有[通用功能](general-function/)，常用为：管理整体/单款游戏收支情况的“[游戏收支](general-function/revenue/)”，以及“[成员管理](general-function/permission.md)”，“[游戏管理](general-function/game-manage.md)”等
 {% endhint %}
 
 {% hint style="success" %}
@@ -113,37 +115,17 @@ description: 三分钟快速了解天幕
 
 ![&#x70B9;&#x51FB;&#x6E38;&#x620F;&#x7BA1;&#x7406;&#xFF0C;&#x6DFB;&#x52A0;&#x6E38;&#x620F;](.gitbook/assets/qi-ye-wei-xin-jie-tu-15770861408763-1.png)
 
-## 6、数据安全
+## 6、SDK接入
 
-天幕始终将用户的数据安全视为最重要的事情，全力保障接入天幕系统的用户数据安全。
-
-相关链接：[天幕服务条款](terms/)
-
-## 7、贴心服务
-
-我们强烈建议您添加如下微信号，
-
-在您了解、接入、使用天幕过程中，我们会提供全程的服务和支持
-
-![&#x5FAE;&#x4FE1;&#x626B;&#x4E00;&#x626B;&#xFF0C;&#x6DFB;&#x52A0;&#x5BF9;&#x63A5;&#x4EBA;&#x5458;&#x5FAE;&#x4FE1;](.gitbook/assets/wei-xin-tu-pian-20191009150820.jpg)
-
-{% hint style="info" %}
-建议进一步建立微信对接群，添加天幕技术、产品人员
-
-获取从接入、使用、运营的全方位支持，第一时间获得天幕最新动态
-{% endhint %}
-
-## 8、技术接入
-
-### 8.1、兼容性
+### 6.1、兼容性
 
 1. 天幕SDK支持现有主流的小游戏开发引擎：Cocos、Laya、Egret
 2. 因微信本身机制限定，在登录获取openid时，存在兼容性风险，需做处理，[查看详细](questions/compatibility.md)
 3. 与阿拉丁SDK兼容
 
-### 8.2、留意事项
+### 6.2、留意事项
 
-技术同学请留意：
+请留意：
 
 1. **天幕四个主要功能模块共用一个SDK；**
 2. **每个游戏一个单独的SDK，不可复用**。
@@ -158,4 +140,136 @@ description: 三分钟快速了解天幕
 接入多个模块的功能时，前缀为【通用】的功能/接口无需重复接入。
 
 您在接入功能以及使用过程有何问题，可以到[常见问题](questions/)中查找。
+
+### 6.3、接入工作量预估
+
+以下为四个“主模块”及“游戏收支”功能**所需的SDK接入工作**：
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"></th>
+      <th style="text-align:left">&#x672A;&#x5F15;&#x5165;SDK</th>
+      <th style="text-align:left">&#x76F4;&#x63A5;&#x5F15;&#x5165;SDK</th>
+      <th style="text-align:left">&#x989D;&#x5916;&#x63A5;&#x5165;</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><a href="selling/">&#x5356;&#x91CF;&#x52A9;&#x624B;</a>
+      </td>
+      <td style="text-align:left">&#xD7;</td>
+      <td style="text-align:left">&#xD7;</td>
+      <td style="text-align:left">&#x9700;&#x63A5;&#x5165;&#x5E7F;&#x544A;&#x4F4D;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="channel/">&#x4E70;&#x91CF;&#x52A9;&#x624B;</a>
+      </td>
+      <td style="text-align:left">&#xD7;</td>
+      <td style="text-align:left">&#x5168;&#x90E8;&#x529F;&#x80FD;</td>
+      <td style="text-align:left">&#xD7;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="game-data/">&#x6E38;&#x620F;&#x6570;&#x636E;</a>
+      </td>
+      <td style="text-align:left">&#xD7;</td>
+      <td style="text-align:left">
+        <p>95%&#x529F;&#x80FD;&#xFF0C;&#x91CD;&#x70B9;&#x529F;&#x80FD;</p>
+        <p>&#x5747;&#x53EF;&#x4F7F;&#x7528;</p>
+      </td>
+      <td style="text-align:left">
+        <p>&#x6027;&#x80FD;&#x5206;&#x6790;&#x3001;&#x5185;&#x8D2D;</p>
+        <p>&#x5206;&#x6790;&#x6309;&#x9700;&#x63A5;&#x5165;</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="game-set/">&#x6E38;&#x620F;&#x914D;&#x7F6E;</a>
+      </td>
+      <td style="text-align:left">&#xD7;</td>
+      <td style="text-align:left">&#xD7;</td>
+      <td style="text-align:left">
+        <p>&#x6240;&#x6709;&#x529F;&#x80FD;&#x5747;&#x9700;</p>
+        <p>&#x5355;&#x72EC;&#x63A5;&#x5165;</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="general-function/revenue/">&#x6E38;&#x620F;&#x6536;&#x652F;</a>
+      </td>
+      <td style="text-align:left">
+        <p>&#x53EF;&#x67E5;&#x770B;&#x5FAE;&#x4FE1;</p>
+        <p>&#x5B98;&#x65B9;&#x5E7F;&#x544A;&#x6536;&#x5165;</p>
+      </td>
+      <td style="text-align:left">&#x5168;&#x90E8;&#x529F;&#x80FD;</td>
+      <td style="text-align:left">&#xD7;</td>
+    </tr>
+  </tbody>
+</table>以下为上表中**不同接入工作的工作量**预估，供参考：
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">&#x63A5;&#x5165;&#x5DE5;&#x4F5C;</th>
+      <th style="text-align:left">&#x9884;&#x4F30;&#x5DE5;&#x4F5C;&#x91CF;&#xFF08;<b>&#x5355;&#x4EBA;</b>&#xFF09;</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><a href="selling/dev-guide/add-sdk.md">&#x76F4;&#x63A5;&#x5F15;&#x5165;SDK</a>
+      </td>
+      <td style="text-align:left">
+        <p>10min&#xFF08;&#x5982;&#x6709;&#x517C;&#x5BB9;&#x6027;&#x95EE;&#x9898;&#xFF0C;&#x89C6;&#x6E38;&#x620F;&#x539F;&#x672C;&#x767B;&#x5F55;&#x6D41;&#x7A0B;</p>
+        <p>&#x590D;&#x6742;&#x6027;&#xFF0C;&#x4F1A;&#x989D;&#x5916;&#x589E;&#x52A0;&#x5DE5;&#x4F5C;&#x91CF;&#xFF09;</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p><a href="selling/dev-guide/">&#x5356;&#x91CF;&#x52A9;&#x624B; - </a>
+        </p>
+        <p><a href="selling/dev-guide/">&#x63A5;&#x5165;&#x5E7F;&#x544A;&#x4F4D;</a>
+        </p>
+      </td>
+      <td style="text-align:left">&#x521D;&#x6B21;&#x63A5;&#x5165;2-3&#x5929;&#xFF0C;&#x719F;&#x6089;&#x540E;&#x63A5;&#x5165;1-2&#x5929;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p><a href="game-data/dev-guide/">&#x6E38;&#x620F;&#x6570;&#x636E; - </a>
+        </p>
+        <p><a href="game-data/dev-guide/">&#x6027;&#x80FD;&#x5206;&#x6790;&#x3001;&#x5185;&#x8D2D;&#x5206;&#x6790;</a>
+        </p>
+      </td>
+      <td style="text-align:left">&#x6BCF;&#x9879;1h</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p><a href="game-set/dev-guide/">&#x6E38;&#x620F;&#x914D;&#x7F6E; - </a>
+        </p>
+        <p><a href="game-set/dev-guide/">&#x5168;&#x90E8;&#x529F;&#x80FD;</a>
+        </p>
+      </td>
+      <td style="text-align:left">&#x5206;&#x4EAB;&#x7D20;&#x6750;&#x914D;&#x7F6E;0.5&#x5929;&#xFF0C;&#x5176;&#x4F59;&#x6BCF;&#x9879;1h</td>
+    </tr>
+  </tbody>
+</table>{% hint style="info" %}
+四个模块共用一个SDK，无需重复引入
+{% endhint %}
+
+## 7、数据安全
+
+天幕始终将用户的数据安全视为最重要的事情，全力保障接入天幕系统的用户数据安全。
+
+相关链接：[天幕服务条款](terms/)
+
+## 8、贴心服务
+
+我们强烈建议您添加如下微信号，
+
+在您了解、接入、使用天幕过程中，我们会提供全程的服务和支持
+
+![&#x5FAE;&#x4FE1;&#x626B;&#x4E00;&#x626B;&#xFF0C;&#x6DFB;&#x52A0;&#x5BF9;&#x63A5;&#x4EBA;&#x5458;&#x5FAE;&#x4FE1;](.gitbook/assets/wei-xin-tu-pian-20191009150820.jpg)
+
+{% hint style="info" %}
+建议进一步建立微信对接群，添加天幕技术、产品人员
+
+获取从接入、使用、运营的全方位支持，第一时间获得天幕最新动态
+{% endhint %}
 
