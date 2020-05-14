@@ -6,11 +6,13 @@
 使用该接口前，请先进行[SDK初始化](../initialization.md)
 {% endhint %}
 
-`flowNavigate`接口用于实现点击推广创意后跳转到落地页的功能
+`flowNavigate`接口用于实现点击创意后跳转到对应游戏的落地页的功能
 
 此功能的使用前提：调用了获取广告推广配置[`getFlowConfig`](get-ad-position-config.md)
 
+{% hint style="info" %}
 此接口调用只适用于版本库 2.2.0 以上，所有开发者在调用时注意要把开发工具的版本库调到2.2.0以上的版本，否则会报错。
+{% endhint %}
 
 ## **调用方法**
 
@@ -19,7 +21,7 @@ wx.tmSDK.flowNavigate({
     positionId: positionId, // 广告位id, 请先使用该id获取推广创意列表
     creativeId: creativeId,  // 传入获取到的creativeId
 }).then((newList)=>{
-    console.log('跳转成功')
+    console.log('跳转成功or取消跳转（可根据特有返回值区分两种情况）')
     console.log('自动刷新列表：', newList)//返回最新列表 
 }).catch((error)=>{
     console.log('跳转失败', error);
