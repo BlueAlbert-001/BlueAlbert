@@ -198,7 +198,3 @@ SDK组件无法满足，则可通过API的方式接入。
 
 > 例如，用户在a游戏某广告位上点击了推广b产品的创意，那么在用户点击后，可以跳转至b产品，这个跳转需要通过[`flowNavigate`](landing.md)接口来实现。
 
-{% hint style="info" %}
-添加跳转列表：请提前将需要跳转的appid添加到game.json配置列表中，若对此不了解请参阅[微信小程序跳转的规则文档](https://developers.weixin.qq.com/miniprogram/dev/api/open-api/miniprogram-navigate/wx.navigateToMiniProgram.html)，否则会导致跳转不成功。
-{% endhint %}
-
