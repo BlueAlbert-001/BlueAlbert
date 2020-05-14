@@ -226,7 +226,7 @@ description: 三分钟快速了解天幕
         <p><a href="selling/dev-guide/">&#x63A5;&#x5165;&#x5E7F;&#x544A;&#x4F4D;</a>
         </p>
       </td>
-      <td style="text-align:left">&#x521D;&#x6B21;&#x63A5;&#x5165;2-3&#x5929;&#xFF0C;&#x719F;&#x6089;&#x540E;&#x63A5;&#x5165;1-2&#x5929;</td>
+      <td style="text-align:left">&#x521D;&#x6B21;&#x63A5;&#x5165;2-3&#x5929;&#xFF0C;&#x719F;&#x6089;&#x540E;&#x63A5;&#x5165;1&#x5929;</td>
     </tr>
     <tr>
       <td style="text-align:left">
