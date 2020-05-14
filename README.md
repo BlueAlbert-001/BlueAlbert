@@ -22,8 +22,6 @@ description: 三分钟快速了解天幕
 四个主模块**相互独立**，可按需接入；
 
 当接入全部模块时，可实现数据互通，实现真正**一站式运营**。
-
-天幕另外还有[通用功能](general-function/)，常用为：管理整体/单款游戏收支情况的“[游戏收支](general-function/revenue/)”，以及“[成员管理](general-function/permission.md)”，“[游戏管理](general-function/game-manage.md)”等
 {% endhint %}
 
 {% hint style="success" %}
