@@ -150,7 +150,7 @@ description: 三分钟快速了解天幕
     <tr>
       <th style="text-align:left"></th>
       <th style="text-align:left">&#x672A;&#x5F15;&#x5165;SDK</th>
-      <th style="text-align:left">&#x76F4;&#x63A5;&#x5F15;&#x5165;SDK</th>
+      <th style="text-align:left">&#x2460;&#x76F4;&#x63A5;&#x5F15;&#x5165;SDK</th>
       <th style="text-align:left">&#x66F4;&#x591A;</th>
     </tr>
   </thead>
@@ -160,7 +160,7 @@ description: 三分钟快速了解天幕
       </td>
       <td style="text-align:left">&#xD7;</td>
       <td style="text-align:left">&#xD7;</td>
-      <td style="text-align:left">&#x2714;&#x63A5;&#x5165;&#x5E7F;&#x544A;&#x4F4D;</td>
+      <td style="text-align:left">&#x2714; &#x2461;&#x63A5;&#x5165;&#x5E7F;&#x544A;&#x4F4D;</td>
     </tr>
     <tr>
       <td style="text-align:left"><a href="channel/">&#x4E70;&#x91CF;&#x52A9;&#x624B;</a>
@@ -178,7 +178,7 @@ description: 三分钟快速了解天幕
         <p>&#x5747;&#x53EF;&#x4F7F;&#x7528;</p>
       </td>
       <td style="text-align:left">
-        <p>&#x6027;&#x80FD;&#x5206;&#x6790;&#x3001;&#x5185;&#x8D2D;</p>
+        <p>&#x2462;&#x6027;&#x80FD;&#x5206;&#x6790;&#x3001;&#x5185;&#x8D2D;</p>
         <p>&#x5206;&#x6790;&#x6309;&#x9700;&#x63A5;&#x5165;</p>
       </td>
     </tr>
@@ -188,7 +188,7 @@ description: 三分钟快速了解天幕
       <td style="text-align:left">&#xD7;</td>
       <td style="text-align:left">&#xD7;</td>
       <td style="text-align:left">
-        <p>&#x2714;&#x6240;&#x6709;&#x529F;&#x80FD;&#x5747;&#x9700;</p>
+        <p>&#x2714;&#x2463;&#x6240;&#x6709;&#x529F;&#x80FD;&#x5747;&#x9700;</p>
         <p>&#x5355;&#x72EC;&#x63A5;&#x5165;</p>
       </td>
     </tr>
@@ -214,13 +214,13 @@ description: 三分钟快速了解天幕
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left"><a href="selling/dev-guide/add-sdk.md">&#x76F4;&#x63A5;&#x5F15;&#x5165;SDK</a>
+      <td style="text-align:left">&#x2460;<a href="selling/dev-guide/add-sdk.md">&#x76F4;&#x63A5;&#x5F15;&#x5165;SDK</a>
       </td>
       <td style="text-align:left">10min&#xFF08;&#x5982;&#x6709;&#x517C;&#x5BB9;&#x6027;&#x95EE;&#x9898;&#xFF0C;&#x4F1A;&#x989D;&#x5916;&#x589E;&#x52A0;&#x5DE5;&#x4F5C;&#x91CF;&#xFF09;</td>
     </tr>
     <tr>
       <td style="text-align:left">
-        <p><a href="selling/dev-guide/">&#x5356;&#x91CF;&#x52A9;&#x624B; - </a>
+        <p>&#x2461;<a href="selling/dev-guide/">&#x5356;&#x91CF;&#x52A9;&#x624B; - </a>
         </p>
         <p><a href="selling/dev-guide/">&#x63A5;&#x5165;&#x5E7F;&#x544A;&#x4F4D;</a>
         </p>
@@ -229,7 +229,7 @@ description: 三分钟快速了解天幕
     </tr>
     <tr>
       <td style="text-align:left">
-        <p><a href="game-data/dev-guide/">&#x6E38;&#x620F;&#x6570;&#x636E; - </a>
+        <p>&#x2462;<a href="game-data/dev-guide/">&#x6E38;&#x620F;&#x6570;&#x636E; - </a>
         </p>
         <p><a href="game-data/dev-guide/">&#x6027;&#x80FD;&#x5206;&#x6790;&#x3001;&#x5185;&#x8D2D;&#x5206;&#x6790;</a>
         </p>
@@ -238,7 +238,7 @@ description: 三分钟快速了解天幕
     </tr>
     <tr>
       <td style="text-align:left">
-        <p><a href="game-set/dev-guide/">&#x6E38;&#x620F;&#x914D;&#x7F6E; - </a>
+        <p>&#x2463;<a href="game-set/dev-guide/">&#x6E38;&#x620F;&#x914D;&#x7F6E; - </a>
         </p>
         <p><a href="game-set/dev-guide/">&#x5168;&#x90E8;&#x529F;&#x80FD;</a>
         </p>
