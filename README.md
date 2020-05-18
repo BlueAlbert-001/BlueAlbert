@@ -141,7 +141,9 @@ description: 三分钟快速了解天幕
 
 ### 6.3、接入工作量预估
 
-以下为四个“主模块”及“游戏收支”功能**所需的SDK接入工作**：
+以下为四个“主模块”及“游戏收支”功能正常使用**所需的SDK接入工作**：
+
+（×代表当前状态此模块无法使用，需更多接入工作）
 
 <table>
   <thead>
@@ -149,7 +151,7 @@ description: 三分钟快速了解天幕
       <th style="text-align:left"></th>
       <th style="text-align:left">&#x672A;&#x5F15;&#x5165;SDK</th>
       <th style="text-align:left">&#x76F4;&#x63A5;&#x5F15;&#x5165;SDK</th>
-      <th style="text-align:left">&#x989D;&#x5916;&#x63A5;&#x5165;</th>
+      <th style="text-align:left">&#x66F4;&#x591A;</th>
     </tr>
   </thead>
   <tbody>
@@ -158,21 +160,21 @@ description: 三分钟快速了解天幕
       </td>
       <td style="text-align:left">&#xD7;</td>
       <td style="text-align:left">&#xD7;</td>
-      <td style="text-align:left">&#x63A5;&#x5165;&#x5E7F;&#x544A;&#x4F4D;</td>
+      <td style="text-align:left">&#x2714;&#x63A5;&#x5165;&#x5E7F;&#x544A;&#x4F4D;</td>
     </tr>
     <tr>
       <td style="text-align:left"><a href="channel/">&#x4E70;&#x91CF;&#x52A9;&#x624B;</a>
       </td>
       <td style="text-align:left">&#xD7;</td>
-      <td style="text-align:left">&#x5168;&#x90E8;&#x529F;&#x80FD;</td>
-      <td style="text-align:left">&#xD7;</td>
+      <td style="text-align:left">&#x2714;&#x5168;&#x90E8;&#x529F;&#x80FD;</td>
+      <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left"><a href="game-data/">&#x6E38;&#x620F;&#x6570;&#x636E;</a>
       </td>
       <td style="text-align:left">&#xD7;</td>
       <td style="text-align:left">
-        <p>95%&#x529F;&#x80FD;&#xFF0C;&#x91CD;&#x70B9;&#x529F;&#x80FD;</p>
+        <p>&#x2714;95%&#x529F;&#x80FD;&#xFF0C;&#x91CD;&#x70B9;&#x529F;&#x80FD;</p>
         <p>&#x5747;&#x53EF;&#x4F7F;&#x7528;</p>
       </td>
       <td style="text-align:left">
@@ -186,7 +188,7 @@ description: 三分钟快速了解天幕
       <td style="text-align:left">&#xD7;</td>
       <td style="text-align:left">&#xD7;</td>
       <td style="text-align:left">
-        <p>&#x6240;&#x6709;&#x529F;&#x80FD;&#x5747;&#x9700;</p>
+        <p>&#x2714;&#x6240;&#x6709;&#x529F;&#x80FD;&#x5747;&#x9700;</p>
         <p>&#x5355;&#x72EC;&#x63A5;&#x5165;</p>
       </td>
     </tr>
@@ -194,11 +196,11 @@ description: 三分钟快速了解天幕
       <td style="text-align:left"><a href="general-function/revenue/">&#x6E38;&#x620F;&#x6536;&#x652F;</a>
       </td>
       <td style="text-align:left">
-        <p>&#x53EF;&#x67E5;&#x770B;&#x5FAE;&#x4FE1;</p>
+        <p>&#x4EC5;&#x53EF;&#x67E5;&#x770B;&#x5FAE;&#x4FE1;</p>
         <p>&#x5B98;&#x65B9;&#x5E7F;&#x544A;&#x6536;&#x5165;</p>
       </td>
-      <td style="text-align:left">&#x5168;&#x90E8;&#x529F;&#x80FD;</td>
-      <td style="text-align:left">&#xD7;</td>
+      <td style="text-align:left">&#x2714;&#x5168;&#x90E8;&#x529F;&#x80FD;</td>
+      <td style="text-align:left"></td>
     </tr>
   </tbody>
 </table>以下为上表中**不同SDK接入工作的工作量**预估，供参考：
