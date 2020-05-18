@@ -143,7 +143,7 @@ description: 三分钟快速了解天幕
 
 以下为四个“主模块”及“游戏收支”功能正常使用**所需的SDK接入工作**：
 
-（×代表当前状态此模块无法使用，需更多接入工作）
+（×代表当前接入状态此模块无法使用，需更多接入工作）
 
 <table>
   <thead>
@@ -216,10 +216,7 @@ description: 三分钟快速了解天幕
     <tr>
       <td style="text-align:left"><a href="selling/dev-guide/add-sdk.md">&#x76F4;&#x63A5;&#x5F15;&#x5165;SDK</a>
       </td>
-      <td style="text-align:left">
-        <p>10min&#xFF08;&#x5982;&#x6709;&#x517C;&#x5BB9;&#x6027;&#x95EE;&#x9898;&#xFF0C;&#x89C6;&#x6E38;&#x620F;&#x539F;&#x672C;&#x767B;&#x5F55;&#x6D41;&#x7A0B;</p>
-        <p>&#x590D;&#x6742;&#x6027;&#xFF0C;&#x4F1A;&#x989D;&#x5916;&#x589E;&#x52A0;&#x5DE5;&#x4F5C;&#x91CF;&#xFF09;</p>
-      </td>
+      <td style="text-align:left">10min&#xFF08;&#x5982;&#x6709;&#x517C;&#x5BB9;&#x6027;&#x95EE;&#x9898;&#xFF0C;&#x4F1A;&#x989D;&#x5916;&#x589E;&#x52A0;&#x5DE5;&#x4F5C;&#x91CF;&#xFF09;</td>
     </tr>
     <tr>
       <td style="text-align:left">
