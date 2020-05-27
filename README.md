@@ -234,7 +234,7 @@ description: 三分钟快速了解天幕
         <p><a href="game-data/dev-guide/">&#x6027;&#x80FD;&#x5206;&#x6790;&#x3001;&#x5185;&#x8D2D;&#x5206;&#x6790;</a>
         </p>
       </td>
-      <td style="text-align:left">&#x6BCF;&#x9879;1h</td>
+      <td style="text-align:left">&#x6BCF;&#x9879;0.5h</td>
     </tr>
     <tr>
       <td style="text-align:left">
@@ -243,7 +243,7 @@ description: 三分钟快速了解天幕
         <p><a href="game-set/dev-guide/">&#x5168;&#x90E8;&#x529F;&#x80FD;</a>
         </p>
       </td>
-      <td style="text-align:left">&#x5206;&#x4EAB;&#x7D20;&#x6750;&#x914D;&#x7F6E;0.5&#x5929;&#xFF0C;&#x5176;&#x4F59;&#x6BCF;&#x9879;1h</td>
+      <td style="text-align:left">&#x5206;&#x4EAB;&#x7D20;&#x6750;&#x914D;&#x7F6E;2h&#xFF0C;&#x5176;&#x4F59;&#x6BCF;&#x9879;0.5h</td>
     </tr>
   </tbody>
 </table>{% hint style="info" %}
