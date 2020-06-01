@@ -203,7 +203,9 @@ description: 三分钟快速了解天幕
       <td style="text-align:left"></td>
     </tr>
   </tbody>
-</table>以下为上表中**不同SDK接入工作的工作量**预估，供参考：
+</table>
+
+以下为上表中**不同SDK接入工作的工作量**预估，供参考：
 
 <table>
   <thead>
@@ -246,7 +248,9 @@ description: 三分钟快速了解天幕
       <td style="text-align:left">&#x5206;&#x4EAB;&#x7D20;&#x6750;&#x914D;&#x7F6E;2h&#xFF0C;&#x5176;&#x4F59;&#x6BCF;&#x9879;0.5h</td>
     </tr>
   </tbody>
-</table>{% hint style="info" %}
+</table>
+
+{% hint style="info" %}
 四个模块共用一个SDK，无需重复引入
 {% endhint %}
 
