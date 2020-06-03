@@ -30,7 +30,7 @@ description: 三分钟快速了解天幕
 
 天幕产品简介下载（pdf版）
 
-{% file src=".gitbook/assets/tian-mu-v2.0-xiao-you-xi-yi-zhan-shi-yun-ying-fang-an.pdf" %}
+{% file src=".gitbook/assets/tian-mu-v2.0-xiao-you-xi-yi-zhan-shi-yun-ying-fang-an-.pdf" %}
 
 ## 2、主体
 
