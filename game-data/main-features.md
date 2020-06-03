@@ -22,18 +22,6 @@ description: 游戏数据功能说明及使用指引，建议阅读者：小游�
 渠道数据，建议在[买量助手](../channel/)中查看（游戏数据中只提供了单款游戏下的渠道数据）
 {% endhint %}
 
-**可接入的功能一览**
-
-| 功能 | 是否必选 | 对应接口或说明 |
-| :--- | :--- | :--- |
-| 接入天幕SDK | 是 | [接入SDK](../selling/dev-guide/add-sdk.md) |
-| 登录 | 是 | [登录功能](../selling/dev-guide/login/) |
-| 内购分析 | 否 | [内购数据回传](../general-function/midas.md) |
-| 游戏加载性能分析 | 否 | [性能分析](dev-guide/performance-analysis.md) |
-| 自定义事件 | 否 | [自定义事件](../game-set/dev-guide/diy-event.md) |
-| 分享转发素材分析 | 否 | [分享转发素材](../game-set/dev-guide/sharing/) |
-| 微信广告分析 | 否 | [广告分析](dev-guide/official-ad-analysis/) |
-
 ## 自定义视图
 
 可以将当前报表的搜索条件&展示指标（及指标展示顺序）保存为自定义视图
