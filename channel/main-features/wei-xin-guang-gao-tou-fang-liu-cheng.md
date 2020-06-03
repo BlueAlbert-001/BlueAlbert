@@ -1,6 +1,76 @@
 # 微信广告投放流程
 
-天幕将支持在后台中进行微信广告平台的广告投放，天幕使用腾讯广告官方接口进行广告投放。
+## 一、功能概述
 
-待补充……敬请期待
+在小游戏开发完成以后，我们需要导入用户进行产品调优以及进行商业化运营，此时需要导入用户。在微信小游戏生态中，导入用户即买量主要通过与其他公司合作导入用户，还有一个则是通过腾讯官方的微信广告系统导入用户。
+
+天幕通过腾讯广告系统官方开放的功能设计了从广告物料准备、广告投放、广告数据监控、广告引入用户质量监控全流程的运营功能系统。
+
+在天幕系统中，您不仅可以使用到天幕全面的渠道用户数据分析，还可以使用腾讯广告投放功能。下图为使用天幕进行微信广告投放的流程图。
+
+![](../../.gitbook/assets/image%20%28274%29.png)
+
+## 二、菜单功能以及使用说明
+
+根据以上流程，按顺序各步骤对应的操作菜单以及操作说明如下。
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">&#x529F;&#x80FD;</th>
+      <th style="text-align:left">&#x5BF9;&#x5E94;&#x83DC;&#x5355;</th>
+      <th style="text-align:left">&#x529F;&#x80FD;&#x7B80;&#x4ECB;</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">&#x521B;&#x5EFA;&#x4EBA;&#x7FA4;&#x5305;</td>
+      <td style="text-align:left">&#x521B;&#x5EFA;&#x4EBA;&#x7FA4;&#x5305;</td>
+      <td style="text-align:left">&#x4ECE;&#x5929;&#x5E55;&#x7CFB;&#x7EDF;&#x4E2D;&#x5BFC;&#x51FA;&#x6E38;&#x620F;&#x4E2D;&#x7684;&#x7528;&#x6237;openid&#x6587;&#x4EF6;&#xFF0C;&#x7528;&#x4E8E;&#x5FAE;&#x4FE1;&#x5E7F;&#x544A;&#x7CFB;&#x7EDF;&#x5B9A;&#x5411;&#x6295;&#x653E;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x521B;&#x5EFA;&#x4EBA;&#x7FA4;</td>
+      <td style="text-align:left">&#x4EBA;&#x7FA4;&#x7BA1;&#x7406;</td>
+      <td style="text-align:left">
+        <p>&#x4F7F;&#x7528;&#x817E;&#x8BAF;&#x5E7F;&#x544A;&#x7684;&#x4EBA;&#x7FA4;&#x529F;&#x80FD;&#x4E0A;&#x4F20;&#x5BFC;&#x51FA;&#x7684;openid&#x4EBA;&#x7FA4;&#x5305;&#x6587;&#x4EF6;&#x5E76;&#x521B;&#x5EFA;&#x76F8;&#x5E94;&#x7684;&#x4EBA;&#x7FA4;&#xFF0C;&#x7528;&#x4E8E;&#x6295;&#x653E;&#x5E7F;&#x544A;&#x65F6;&#x9009;&#x62E9;&#x5B9A;&#x5411;&#x7684;&#x4EBA;&#x7FA4;</p>
+        <p>&#x6CE8;&#xFF1A;&#x4F7F;&#x7528;&#x4EBA;&#x7FA4;&#x7BA1;&#x7406;&#x5FC5;&#x987B;&#x8981;&#x5148;&#x5230;&#x5E7F;&#x544A;&#x6295;&#x653E;&#x8D26;&#x53F7;&#x83DC;&#x5355;&#x4E2D;&#x6DFB;&#x52A0;&#x62E5;&#x6709;&#x6E38;&#x620F;&#x6743;&#x9650;&#x7684;&#x6295;&#x653E;&#x8D26;&#x53F7;&#xFF0C;&#x6E38;&#x620F;&#x6743;&#x9650;&#x7BA1;&#x7406;&#x8BF7;&#x81F3;&#x5FAE;&#x4FE1;MP&#x540E;&#x53F0;&#x6216;&#x817E;&#x8BAF;&#x5E7F;&#x544A;&#x540E;&#x53F0;&#x4E2D;&#x8FDB;&#x884C;&#x6388;&#x6743;&#xFF0C;&#x5426;&#x5219;&#x65E0;&#x6CD5;&#x4F7F;&#x7528;&#x4EBA;&#x7FA4;&#x7BA1;&#x7406;&#x4EE5;&#x53CA;&#x5E7F;&#x544A;&#x6295;&#x653E;&#x529F;&#x80FD;&#x3002;</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x914D;&#x7F6E;&#x6E20;&#x9053;ID</td>
+      <td style="text-align:left">&#x6E20;&#x9053;&#x7BA1;&#x7406;</td>
+      <td style="text-align:left">&#x4F7F;&#x7528;&#x5929;&#x5E55;&#x7CFB;&#x7EDF;&#x7684;&#x6E20;&#x9053;&#x7BA1;&#x7406;&#x751F;&#x6210;&#x5E26;&#x6709;&#x5929;&#x5E55;&#x6E20;&#x9053;ID&#x53C2;&#x6570;&#x7684;path&#x8DEF;&#x5F84;&#xFF0C;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x6E20;&#x9053;ID&#x76D1;&#x63A7;&#x8BE5;&#x6765;&#x6E90;&#x7684;&#x7528;&#x6237;&#x6570;&#x636E;&#xFF0C;&#x7528;&#x4EE5;&#x5206;&#x6790;&#x6E20;&#x9053;&#x8D28;&#x91CF;&#x3002;&#x76F8;&#x5173;&#x9605;&#x8BFB;&#x63A8;&#x8350;&#xFF1A;
+        <a
+        href="channel-management.md">&#x5929;&#x5E55;&#x6E20;&#x9053;&#x673A;&#x5236;</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x6295;&#x653E;&#x5E7F;&#x544A;</td>
+      <td style="text-align:left">&#x5E7F;&#x544A;&#x6295;&#x653E;</td>
+      <td style="text-align:left">
+        <p>&#x4F7F;&#x7528;&#x817E;&#x8BAF;&#x5E7F;&#x544A;&#x7684;&#x5E7F;&#x544A;&#x6295;&#x653E;&#x529F;&#x80FD;&#x8FDB;&#x884C;&#x5E7F;&#x544A;&#x6295;&#x653E;&#xFF0C;&#x5728;&#x6B64;&#x8FC7;&#x7A0B;&#x4E2D;&#x9700;&#x8981;&#x4E0A;&#x4F20;&#x5E7F;&#x544A;&#x56FE;&#x7247;&#x7269;&#x6599;&#x3001;&#x586B;&#x5199;path&#x8DEF;&#x5F84;&#x3001;&#x9009;&#x62E9;&#x5B9A;&#x5411;&#x4EBA;&#x7FA4;&#x3001;&#x586B;&#x5199;&#x9884;&#x7B97;&#x7B49;&#x64CD;&#x4F5C;&#x3002;</p>
+        <p>&#x6CE8;&#xFF1A;&#x4F7F;&#x7528;&#x4EBA;&#x7FA4;&#x7BA1;&#x7406;&#x5FC5;&#x987B;&#x8981;&#x5148;&#x5230;&#x5E7F;&#x544A;&#x6295;&#x653E;&#x8D26;&#x53F7;&#x83DC;&#x5355;&#x4E2D;&#x6DFB;&#x52A0;&#x62E5;&#x6709;&#x6E38;&#x620F;&#x6743;&#x9650;&#x7684;&#x6295;&#x653E;&#x8D26;&#x53F7;&#xFF0C;&#x6E38;&#x620F;&#x6743;&#x9650;&#x7BA1;&#x7406;&#x8BF7;&#x81F3;&#x5FAE;&#x4FE1;MP&#x540E;&#x53F0;&#x6216;&#x817E;&#x8BAF;&#x5E7F;&#x544A;&#x540E;&#x53F0;&#x4E2D;&#x8FDB;&#x884C;&#x6388;&#x6743;&#xFF0C;&#x5426;&#x5219;&#x65E0;&#x6CD5;&#x4F7F;&#x7528;&#x4EBA;&#x7FA4;&#x7BA1;&#x7406;&#x4EE5;&#x53CA;&#x5E7F;&#x544A;&#x6295;&#x653E;&#x529F;&#x80FD;&#x3002;</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x5E7F;&#x544A;&#x6570;&#x636E;&#x76D1;&#x63A7;</td>
+      <td style="text-align:left">&#x5E7F;&#x544A;&#x76D1;&#x63A7;</td>
+      <td style="text-align:left">&#x4F7F;&#x7528;&#x817E;&#x8BAF;&#x5E7F;&#x544A;&#x5B98;&#x65B9;&#x7684;&#x5E7F;&#x544A;&#x6570;&#x636E;&#xFF0C;&#x76D1;&#x63A7;&#x6295;&#x653E;&#x4EE5;&#x540E;&#x7684;&#x5E7F;&#x544A;&#x5728;&#x66DD;&#x5149;&#x3001;&#x70B9;&#x51FB;&#x3001;&#x7528;&#x6237;&#x8F6C;&#x5316;&#x7B49;&#x65B9;&#x9762;&#x7684;&#x6570;&#x636E;&#x3002;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x6E20;&#x9053;&#x76D1;&#x63A7;</td>
+      <td style="text-align:left">&#x6E20;&#x9053;&#x76D1;&#x63A7;&#x3001;&#x6CE8;&#x76D1;&#x63A7;</td>
+      <td
+      style="text-align:left">&#x901A;&#x8FC7;&#x5929;&#x5E55;&#x7684;&#x6E20;&#x9053;&#x76D1;&#x63A7;&#x4EE5;&#x53CA;&#x6CE8;&#x518C;&#x76D1;&#x63A7;&#x5B9E;&#x65F6;&#x6570;&#x636E;&#xFF0C;&#x53EF;&#x4EE5;&#x53CA;&#x65F6;&#x4E86;&#x89E3;&#x5E7F;&#x544A;&#x6295;&#x653E;&#x4EE5;&#x540E;&#x7684;&#x7528;&#x6237;&#x8F6C;&#x5316;&#x60C5;&#x51B5;&#x4EE5;&#x53CA;&#x7528;&#x6237;&#x5728;&#x65F6;&#x957F;&#x3001;&#x8BBF;&#x95EE;&#x3001;&#x4ED8;&#x8D39;&#x3001;&#x7559;&#x5B58;&#x7B49;&#x60C5;&#x51B5;&#x3002;</td>
+    </tr>
+  </tbody>
+</table>
+
+## 三、各菜单功能详细说明
+
+1、 广告投放账号
+
+在进行微信广告投放之前，必须要先添加已拥有游戏权限的广告投放账号。
+
+待补充……
 
