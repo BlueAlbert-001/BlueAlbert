@@ -7,7 +7,7 @@ description: 4个主要模块外的其他功能说明
 除了四个主要模块外，天幕中还有如下功能，请按需参阅：
 
 {% hint style="info" %}
-除内购数据回传（可选）外，都无需SDK接入
+除内购数据回传（可选）与有效新增用户外，都无需SDK接入
 {% endhint %}
 
 {% page-ref page="customized-view.md" %}

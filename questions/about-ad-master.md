@@ -33,7 +33,3 @@
 
 这两个类型的渠道是天幕自动生成自动标记用户来源的标志，**请不要修改这两个类型的渠道，以免影响数据统计**。
 
-### 6. 我想要找其他人买量，哪里可以提供这些信息呢？
-
-可访问天幕买卖量平台查看寻找您需要的信息，买卖量平台请见：[https://www.skysriver.com/tianmu/admin/exchange](https://www.skysriver.com/tianmu/admin/exchange)
-
