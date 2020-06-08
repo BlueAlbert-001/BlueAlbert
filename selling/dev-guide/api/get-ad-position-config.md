@@ -2,7 +2,7 @@
 
 ## 概述
 
-请先完成阅读：[API方式接入广告位](./)
+注意：请先完成阅读：[API方式接入广告位](./)
 
 {% hint style="warning" %}
 使用该接口前，请先进行[SDK初始化](../initialization.md)
@@ -13,6 +13,10 @@
 #### 创意ID的获取
 
 调用了getFlowConfig后，返回的creativeId的值即为创意ID
+
+#### 【重要】接口调用策略
+
+[查看接口调用策略](./#zhong-yao-jie-kou-tiao-yong-ce-lve)
 
 ## **调用方法**
 
