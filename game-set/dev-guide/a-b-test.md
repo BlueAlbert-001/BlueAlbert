@@ -1,4 +1,4 @@
-# A/B test （.abtest）
+# A/B test
 
 ## 概述
 

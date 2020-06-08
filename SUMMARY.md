@@ -85,7 +85,7 @@
     * [【通用】SDK接入](game-set/dev-guide/add-sdk.md)
     * [【通用】SDK初始化](game-set/dev-guide/initialization.md)
     * [【通用】登录](game-set/dev-guide/login.md)
-    * [A/B test （.abtest）](game-set/dev-guide/a-b-test.md)
+    * [A/B test](game-set/dev-guide/a-b-test.md)
     * [自定义事件 （.sendEvent）](game-set/dev-guide/diy-event.md)
     * [版本控制 （.getJudgeConfig）](game-set/dev-guide/function-switch.md)
     * [分享素材配置](game-set/dev-guide/sharing/README.md)
