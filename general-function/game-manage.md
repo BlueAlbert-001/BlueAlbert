@@ -8,7 +8,7 @@ description: 管理主体下的游戏及SDK接入
 
 ![](../.gitbook/assets/image%20%2886%29.png)
 
-点击【编辑】按钮即可编辑游戏信息，可编辑游戏名称与app\_secret，不可编辑游戏的appid。
+点击【编辑】按钮即可编辑游戏信息，可编辑游戏名称与app\_secret，不可编辑游戏的appid（仅管理员可修改app\_secret）。
 
 点击【下载/接入SDK】会去到SDK文档的接入页面，为当前游戏接入SDK。接入的具体技术说明文档，请参阅：[接入SDK](../selling/dev-guide/add-sdk.md)
 
