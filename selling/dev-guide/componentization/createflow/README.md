@@ -31,6 +31,7 @@ description: 组件化接入广告位
 
 * 调用该组件后，自动按照推广位类型渲染UI，并支持点击、动态效果等
 * cocos引擎中，请在画布初始化完毕后才调用`createFlow`
+* cocos引擎依赖ScrollView模块
 
 ## **使用标准屏幕坐标系定位**
 
