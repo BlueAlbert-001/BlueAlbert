@@ -12,7 +12,7 @@ description: 天幕SDK更新记录
 
 SDK更新方式：
 
-1. 在域名白名单中，额外添加udp类型的域名：udp://h5game-log.kuaiyugo.com:5003
+1. 在域名白名单中，额外添加udp类型的域名：`udp://h5game-log.kuaiyugo.com:5003`
 2. 下载最新SDK，直接替换文件即可
 
 ## v2.6.9 - 2020-04-22
