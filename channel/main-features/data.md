@@ -51,5 +51,3 @@ description: 聚焦全局与单渠道的数据
 
 ![](../../.gitbook/assets/image%20%28147%29.png)
 
-## 
-
