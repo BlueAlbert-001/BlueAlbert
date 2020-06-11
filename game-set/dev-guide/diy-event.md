@@ -33,10 +33,14 @@ wx.tmSDK.sendEvent('buyStuff', {
 
 {% hint style="info" %}
 简单的事件可以不包含参数。
+
+调用方法中的内容简释如下：
+
+‘buyStuff’为后台配置的事件ID；‘brand’，’productName‘为后台配置的参数ID；'CASIO','计算器'为各参数对应的参数值，即需要开发者传入的内容。
 {% endhint %}
 
 {% hint style="danger" %}
-事件中的参数一定要在后台事先配置，未配置但上传了的参数都会被归类为未定义参数，统计不到对应参数的数据。
+事件中的参数一定要在后台事先配置，未配置但上传了的参数都会被归类为未定义参数，将统计不到对应参数的数据。
 {% endhint %}
 
 {% hint style="danger" %}
