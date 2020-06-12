@@ -1,4 +1,4 @@
-# A/B test
+# A/B test（.abtest）
 
 ## 概述
 
