@@ -14,7 +14,11 @@
 
 调用了getFlowConfig后，返回的creativeId的值即为创意ID
 
-#### 【重要】接口调用策略
+## 【重要】接口调用策略
+
+{% hint style="danger" %}
+请 **严格按照** 接口调用策略调用此接口，否则造成的后果请自负！
+{% endhint %}
 
 [查看接口调用策略](./#zhong-yao-jie-kou-tiao-yong-ce-lve)
 
@@ -31,6 +35,10 @@ wx.tmSDK.getFlowConfig({
 ## **传入参数**
 
 positionId将对应的不同类型返回值，使用前请确认当前使用的positionId类型
+
+{% hint style="info" %}
+天幕根据传入的positionID判断当前广告位的类型
+{% endhint %}
 
 | 字段 | 字段类型 | 说明 |
 | :--- | :--- | :--- |
@@ -58,7 +66,7 @@ positionId将对应的不同类型返回值，使用前请确认当前使用的p
     },
     "creatives":[
         {
-            "creativeId":162,
+            "creativeId":162,//创意ID
             "positionId":"1013280",
             "show_config":{
                 "image": "https://cdn.kuaiyugo.com/appprogram/tiger/admin/2018-11-06_6fe2c240-e1a7-11e8-bc47-27d9eee1c822.png",
@@ -96,7 +104,7 @@ positionId将对应的不同类型返回值，使用前请确认当前使用的p
     "auto_change":10,
     "creatives":[
         {
-            "creativeId":162,
+            "creativeId":162,//创意ID
             "positionId":"1013280",
             "show_config":{
                 "fps":0.5,
@@ -126,7 +134,7 @@ positionId将对应的不同类型返回值，使用前请确认当前使用的p
     "cornerOpen": true, // 角标是否开启
     "creatives":[
         {
-            "creativeId":162,
+            "creativeId":162,//创意ID
             "positionId":"1013280",
             "show_config":{
                 "image": "https://cdn.kuaiyugo.com/appprogram/tiger/admin/2018-11-06_6fe2c240-e1a7-11e8-bc47-27d9eee1c822.png",
@@ -150,7 +158,7 @@ positionId将对应的不同类型返回值，使用前请确认当前使用的p
             }
         },
          {
-            "creativeId":162,
+            "creativeId":162,//创意ID
             "positionId":"1013280",
             "show_config":{
                 "image": "https://cdn.kuaiyugo.com/appprogram/tiger/admin/2018-11-06_6fe2c240-e1a7-11e8-bc47-27d9eee1c822.png",
@@ -171,7 +179,7 @@ positionId将对应的不同类型返回值，使用前请确认当前使用的p
 {
     "creatives":[
         {                    
-            "creativeId":162,
+            "creativeId":162,//创意ID
             "positionId":"1013280",
             "show_config":{
                 //多张图片拼接成动态图片
@@ -199,7 +207,7 @@ positionId将对应的不同类型返回值，使用前请确认当前使用的p
     "type": 11, // Banner类型
     "creatives":[
         {
-            "creativeId":162,
+            "creativeId":162,//创意ID
             "positionId":"1013280",
             "show_config":{
                 "image": "https://cdn.kuaiyugo.com/test/tianmu/2019-06-26_959a525097be11e9aee7bfaee0856d23.jpg"

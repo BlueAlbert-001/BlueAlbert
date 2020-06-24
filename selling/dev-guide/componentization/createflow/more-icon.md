@@ -26,10 +26,6 @@ description: 本篇介绍如何使用createFlow进行多Icon广告的渲染。
 
 ## **使用实例**
 
-{% hint style="info" %}
-只要确定广告位的参数与需要渲染的位置即可，SDK会根据广告位ID自动渲染出对应类型的广告位
-{% endhint %}
-
 ```java
 let flowUI = wx.tmSDK.createFlow({
     positionId: 1260，
