@@ -40,44 +40,32 @@ SDK组件无法满足，则可通过API的方式接入。
 * 创意配置获取：[getFlowConfig](get-ad-position-config.md)
 * 点击跳转：[flowNavigate](https://doc.skysriver.com/dev-guide/create-ad-position/landing)
 
+## 获取广告位开关状态
+
+需要获取广告位的开启状态，请参阅以下接口：
+
+{% page-ref page="../ad-position-status.md" %}
+
 ## **【重要】接口调用策略**
-
-{% hint style="danger" %}
-为保证数据统计准确性及游戏性能，使用api方式接入广告位，请 **严格按照** 下列说明调用相关接口；否则造成的相关线上问题带来的后果请自负！
-{% endhint %}
-
-### 接口调用步骤
 
 当游戏中需要展示创意的时候：
 
 1. 首先通过调用[`checkFlowIsOpen`](../ad-position-status.md)，传入广告位ID，获取广告位开关状态：开启/关闭。
 2. 如果广告位为开启状态，调用[`getFlowConfig`](get-ad-position-config.md)，传入广告位ID，获取配置。
 
-### 特殊说明
+{% hint style="warning" %}
+缓存策略：
+
+请按下方策略进行相关数据的缓存，以**保证数据的准确性&&游戏的加载性能**
 
 每次调用[`getFlowConfig`](get-ad-position-config.md)，对应广告位都会视作**产生曝光**，所以为了数据准确性：
 
-1. 请先获取广告位的开关状态，广告位开启时再调用[`getFlowConfig`](get-ad-position-config.md)。
-2. **只有**在每次需要展示创意的时候才调用该接口，不要**提前调用**或**缓存上一次的接口返回值，不展示请销毁（但URL及已下载的图片资源建议缓存，见下方说明）**
+1. 请先获取广告位的开关状态，广告位开启时再调用[`getFlowConfig`](get-ad-position-config.md)\`\`
+2. **只有**在每次需要展示创意的时候才调用该接口，不要**提前加载**或**缓存上一次的接口返回值，不展示请销毁（但URL及已下载的图片资源建议缓存，见下方说明）**
 
-{% hint style="warning" %}
-提前调用，会影响曝光统计的准确性，另外，如果是在游戏loading阶段提前调用上述两个接口，还会应网络请求数量增加导致影响游戏的启动性能！
-{% endhint %}
+另外：
 
-### 缓存机制
-
-素材图片本身的缓存：[`getFlowConfig`](get-ad-position-config.md)接口返回的是创意素材图片的URL；
-
-请首次下载图片完成后，本地缓存URL及对应的素材图片文件，这样在本次游戏周期中再次调用[`getFlowConfig`](get-ad-position-config.md)接口时，如有重复的素材图片（对应同一个URL，即**利用URL作为索引**），**直接从缓存中获取，而非重复下载**。
-
-这可以大大提高素材加载速度，提高分发效率！
-
-（推荐使用引擎自身的图片缓存机制实现）
-
-{% hint style="danger" %}
-请注意：
-
-天幕CDN对于图片的请求设置了严格的频次限制；如因未设置上述缓存机制，导致触发频次限制无法获取创意图片，影响导出效率等后果请自负！
+[`getFlowConfig`](get-ad-position-config.md)接口的返回值中包含素材图片的URL；强烈建议**本地缓存URL及对应的素材图片文件**，这样在本次游戏周期中再次调用[`getFlowConfig`](get-ad-position-config.md)接口时，如有重复的素材图片（对应同一个URL），**直接从缓存中获取，而非重复下载**，可以大大提高素材加载速度，提高分发效率！
 {% endhint %}
 
 ## 浮动窗广告位接入
