@@ -66,11 +66,13 @@ SDK组件无法满足，则可通过API的方式接入。
 
 ### 缓存机制
 
-图片本身的缓存：[`getFlowConfig`](get-ad-position-config.md)接口的返回值中包含素材图片的URL；
+素材图片本身的缓存：[`getFlowConfig`](get-ad-position-config.md)接口返回的是创意素材图片的URL；
 
-强烈建议本地缓存URL及对应的素材图片文件，这样在本次游戏周期中再次调用[`getFlowConfig`](get-ad-position-config.md)接口时，如有重复的素材图片（对应同一个URL，即利用URL作为索引），直接从缓存中获取，而非重复下载。
+请首次下载图片完成后，本地缓存URL及对应的素材图片文件，这样在本次游戏周期中再次调用[`getFlowConfig`](get-ad-position-config.md)接口时，如有重复的素材图片（对应同一个URL，即**利用URL作为索引**），**直接从缓存中获取，而非重复下载**。
 
-这可以大大提高素材加载速度，提高分发效率！（推荐使用引擎自身的缓存机制实现）
+这可以大大提高素材加载速度，提高分发效率！
+
+（推荐使用引擎自身的图片缓存机制实现）
 
 {% hint style="danger" %}
 请注意：
