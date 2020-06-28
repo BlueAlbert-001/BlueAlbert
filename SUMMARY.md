@@ -101,6 +101,7 @@
     * [卖量收入管理操作说明](general-function/revenue/flow-income-management.md)
     * [微信收入管理操作说明](general-function/revenue/official-income-management.md)
     * [买量成本管理操作说明](general-function/revenue/cost-management.md)
+    * [内购退款管理操作说明](general-function/revenue/refund.md)
   * [成员权限](general-function/permission.md)
   * [游戏管理](general-function/game-manage.md)
   * [内购数据回传](general-function/midas.md)
