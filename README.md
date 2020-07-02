@@ -24,10 +24,6 @@ description: 三分钟快速了解天幕
 当接入全部模块时，可实现数据互通，实现真正**一站式运营**。
 {% endhint %}
 
-{% hint style="success" %}
-费用：天幕将在2020年7月1日起开始收费，查看[定价方案](price.md)
-{% endhint %}
-
 天幕产品简介下载（pdf版）
 
 {% file src=".gitbook/assets/tian-mu-v2.0-xiao-you-xi-yi-zhan-shi-yun-ying-fang-an-.pdf" %}
