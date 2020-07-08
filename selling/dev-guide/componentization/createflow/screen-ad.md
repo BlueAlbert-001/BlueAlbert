@@ -32,11 +32,7 @@ flowUI.onDestroy(function({message}) {
 });
 ```
 
-如果出现调用销毁方法后，组件未立即销毁的情况，请使用如下写法：
-
-```javascript
-setTimeout(() => flowUI.destroy());
-```
+插屏广告位的destroy方法将在后续版本上线，目前仅支持用户手动关闭。
 
 ### **onError**
 
