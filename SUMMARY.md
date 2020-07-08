@@ -41,6 +41,7 @@
     * [渠道机制与管理](channel/main-features/channel-management.md)
     * [渠道商与开放数据管理](channel/main-features/distributor.md)
     * [微信广告投放说明](channel/main-features/wechat-ad.md)
+    * [自动计算成本](channel/main-features/cost-calculations.md)
   * [渠道类型说明](channel/channe_type.md)
   * [数据指标说明](channel/data-indicator.md)
   * [技术接入指南](channel/dev-guide/README.md)
