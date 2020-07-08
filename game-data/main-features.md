@@ -4,7 +4,7 @@ description: 游戏数据功能说明及使用指引，建议阅读者：小游�
 
 # 主要功能说明
 
-## 功能一览
+## 一、功能一览
 
 1. [数据概览——快速了解矩阵概况 ](main-features.md#1-shu-ju-gai-lan)
 2. [核心数据——掌握单款产品核心内容](main-features.md#2-he-xin-shu-ju)
@@ -34,7 +34,7 @@ description: 游戏数据功能说明及使用指引，建议阅读者：小游�
 | 分享转发素材分析 | 否 | [分享转发素材](../game-set/dev-guide/sharing/) |
 | 微信广告分析 | 否 | [广告分析](dev-guide/official-ad-analysis/) |
 
-## 自定义视图
+## 二、自定义视图
 
 可以将当前报表的搜索条件&展示指标（及指标展示顺序）保存为自定义视图
 
@@ -42,7 +42,7 @@ description: 游戏数据功能说明及使用指引，建议阅读者：小游�
 
 详情请参阅：[自定义视图](../general-function/customized-view.md)
 
-## 功能说明
+## 三、功能说明
 
 ### 1、数据概览
 
