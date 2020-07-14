@@ -4,6 +4,25 @@ description: 天幕后台更新记录
 
 # 天幕更新日志
 
+## v2.8.3 - 2020-07-14
+
+【买量助手】 
+
+1、自动计算/上传买量成本 
+
+1. 对外买量时，当与流量主以“天幕”为依据进行结算时，可预设单价等信息，实现系统自动上传买量成本，无需手动上传。
+2. 说明文档：[https://doc.skysriver.com/channel/main-features/cost-calculations](https://doc.skysriver.com/channel/main-features/cost-calculations) 
+
+2、渠道监控显示指标调整
+
+ 【游戏收支】 
+
+1、内购退款管理后台，在上传了退款数据后，会自动更新当天的收支记录
+
+【卖量助手】 
+
+1、结算单功能优化
+
 ## v2.8.2 - 2020-07-06
 
 【游戏收支】 
