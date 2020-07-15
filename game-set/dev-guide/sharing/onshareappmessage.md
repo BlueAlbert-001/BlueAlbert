@@ -27,10 +27,10 @@ wx.tmSDK.onShareAppMessage(function(){
 
 | 字段 | 字段类型 | 字段说明 |
 | :--- | :--- | :--- |
-| scene | string | **必填**,，天幕后台配置的分享位ID，如果该分享位下有多个素材，将自动随机获取该分享位下的素材 |
+| scene | string | **必填，**天幕后台配置的分享位ID，如果该分享位下有多个素材，将自动随机获取该分享位下的素材 |
 | query | string | **非必填**，自定义分享卡片参数, 可在卡片打开后启动参数中获取到对应的 |
 | title | string | **非必填**，自定义分享的标题，当scene存在时，将覆盖scene对应的素材标题 |
-| imageUrl | string | **非必填**，自定义分享的标题，当scene存在时，将覆盖scene对应的素材图片 |
+| imageUrl | string | **非必填**，自定义分享的素材，当scene存在时，将覆盖scene对应的素材图片 |
 | cancel | Function | 微信分享取消时触发的回调 |
 | success | Function | 微信分享成功后触发的回调 |
 
