@@ -38,3 +38,10 @@
 
 可访问天幕买卖量平台查看寻找您需要的信息，买卖量平台请见：[https://www.skysriver.com/tianmu/admin/exchange](https://www.skysriver.com/tianmu/admin/exchange)
 
+### 7. 为什么我买量时，无法统计到数据呢？
+
+需要和流量主方面一起确认以下信息：
+
+* 首先确认我方配置的path路径是否有误，需要检查是否加上了天幕统计的参数（channelCode=XXXXXX）。
+* 若提供的路径无误，需要和流量主方确认添加的路径是否有误，如果有误则无法统计到数据。
+
