@@ -13,8 +13,7 @@ description: 从微信获取用户信息（昵称、头像等）
 关于用户信息的更新策略，开发者可[点击此处](./#he-shi-chu-fa-shou-quan)。
 
 {% hint style="info" %}
-1. 接入此接口时，注意[兼容性问题](./#2-jian-rong-xing-wen-ti-zhong-yao-1)。
-2. 该接口返回的用户信息每天凌晨更新一次，非实时更新。
+接入此接口时，注意[兼容性问题](./#2-jian-rong-xing-wen-ti-zhong-yao-1)
 {% endhint %}
 
 ## **调用方法**
