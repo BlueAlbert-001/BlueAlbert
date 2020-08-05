@@ -58,6 +58,7 @@ wx.tmSDK.login().then(res=>{
 
 | 字段 | 字段类型 | 字段说明 |
 | :--- | :--- | :--- |
+| pid | string | 用户在天幕的统一索引，但可能变化，已废弃 |
 | app\_id | string | 应用的appid |
 | open\_id | string | 用户在该应用下的openid |
 | union\_id | string | 用户的unionid，默认为空字符串。union\_id获取方法 |
