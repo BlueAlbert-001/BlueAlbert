@@ -145,7 +145,7 @@ banner分析帮助产品负责人了解广告从加载、展示到点击全流�
 ![](../.gitbook/assets/image%20%28240%29.png)
 
 {% hint style="info" %}
-接入回传内购数据均可实现订单查询功能。详见：[天幕米大师支付](../general-function/midas.md)
+接入回传内购数据均可实现订单查询功能。详见：[天幕内购数据回传](dev-guide/pay.md)
 {% endhint %}
 
 ### 6、渠道分析
