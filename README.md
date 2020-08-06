@@ -26,6 +26,8 @@ description: 三分钟快速了解天幕
 
 天幕产品简介下载（pdf版）
 
+{% file src=".gitbook/assets/tian-mu-v2.0-xiao-you-xi-yi-zhan-shi-yun-ying-fang-an- \(1\).pdf" %}
+
 ## 2、主体
 
 类似微信主体的一个抽象概念：
