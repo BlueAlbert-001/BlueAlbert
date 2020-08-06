@@ -6,7 +6,7 @@ description: 三分钟快速了解天幕
 
 ## 1、简介
 
-![&#x5929;&#x5E55;&#x7531;&#x56DB;&#x4E2A;&#x4E3B;&#x8981;&#x6A21;&#x5757;&#x7EC4;&#x6210;](https://cdn.61week.com/tianmu/doc/index/image/README-1.jpg)
+![&#x5929;&#x5E55;&#x7531;&#x56DB;&#x4E2A;&#x4E3B;&#x8981;&#x6A21;&#x5757;&#x7EC4;&#x6210;](.gitbook/assets/assets_-lfes0jlk8ivd-s88ioo_-lnptbicscsqgdjzznhf_-lnptolxsjsgti7n9qpn_image.png)
 
 天幕是服务于微信小游戏开发者/运营者的一站式运营方案，由**四个模块**组成：
 
@@ -107,7 +107,7 @@ description: 三分钟快速了解天幕
 
 ## 5、添加第一款游戏
 
-![&#x70B9;&#x51FB;&#x6E38;&#x620F;&#x7BA1;&#x7406;&#xFF0C;&#x6DFB;&#x52A0;&#x6E38;&#x620F;](https://cdn.61week.com/tianmu/doc/index/image/README-2.jpg)
+![&#x70B9;&#x51FB;&#x6E38;&#x620F;&#x7BA1;&#x7406;&#xFF0C;&#x6DFB;&#x52A0;&#x6E38;&#x620F;](.gitbook/assets/qi-ye-wei-xin-jie-tu-15770861408763-1.png)
 
 ## 6、SDK接入
 
@@ -256,15 +256,13 @@ description: 三分钟快速了解天幕
 
 相关链接：[天幕服务条款](terms/)
 
-## 
-
 ## 8、贴心服务
 
 我们强烈建议您添加如下微信号，
 
 在您了解、接入、使用天幕过程中，我们会提供全程的服务和支持
 
-![&#x5FAE;&#x4FE1;&#x626B;&#x4E00;&#x626B;&#xFF0C;&#x6DFB;&#x52A0;&#x5BF9;&#x63A5;&#x4EBA;&#x5458;&#x5FAE;&#x4FE1;](https://cdn.61week.com/tianmu/doc/index/image/README-3.jpg)
+![&#x5FAE;&#x4FE1;&#x626B;&#x4E00;&#x626B;&#xFF0C;&#x6DFB;&#x52A0;&#x5BF9;&#x63A5;&#x4EBA;&#x5458;&#x5FAE;&#x4FE1;](.gitbook/assets/wei-xin-tu-pian-20191009150820.jpg)
 
 {% hint style="info" %}
 建议进一步建立微信对接群，添加天幕技术、产品人员
