@@ -4,7 +4,7 @@ description: 分析微信广告自加载到展示到点击的完全流程与收�
 
 # 广告分析
 
-![](https://cdn.61week.com/tianmu/doc/index/image/game-data/indicator-description/广告分析/image.png)
+![](../../.gitbook/assets/image%20%28307%29.png)
 
 ## 零、微信类指标
 

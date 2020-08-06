@@ -12,7 +12,7 @@ description: 分析内购类产品用户付费情况
 内购分析从游戏以及渠道两个维度提供了全面的内购付费分析，可以帮助运营人员充分了解渠道新用户以及游戏全体用户内购付费情况，LTV可以直接而客观的帮助运营人员了解内购付费的效果。
 {% endhint %}
 
-![](https://cdn.61week.com/tianmu/doc/index/image/game-data/indicator-description/内购分析/image.png)
+![](../../.gitbook/assets/image%20%28309%29.png)
 
 ### 基础数据
 
