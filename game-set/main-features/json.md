@@ -22,7 +22,7 @@ description: 云存储Json参数，用于在线控制游戏内容
 
 点击“新建参数”按钮，在弹出的编辑窗口中，输入参数ID，参数说明以及Json配置。
 
-![&#x7F16;&#x8F91;&#x9875;&#x9762;](../../.gitbook/assets/image%20%28163%29.png)
+![&#x7F16;&#x8F91;&#x9875;&#x9762;](https://cdn.61week.com/tianmu/doc/index/image/game-set/json/1.png)
 
 ###  Tips
 
@@ -32,7 +32,7 @@ Json字符串的格式，可提前在[https://www.json.cn/](https://www.json.cn/
 
 请点击每条参数最右侧的“接入”图标，复制弹窗内容，发送给开发人员
 
-![&#x53EF;&#x590D;&#x5236;&#x8BE5;&#x5185;&#x5BB9;&#xFF0C;&#x76F4;&#x63A5;&#x53D1;&#x9001;&#x5F00;&#x53D1;&#xFF0C;&#x63D0;&#x9AD8;&#x6C9F;&#x901A;&#x6548;&#x7387;](../../.gitbook/assets/qq-jie-tu-20191012165452-1-1-1-1-1.png)
+![&#x53EF;&#x590D;&#x5236;&#x8BE5;&#x5185;&#x5BB9;&#xFF0C;&#x76F4;&#x63A5;&#x53D1;&#x9001;&#x5F00;&#x53D1;&#xFF0C;&#x63D0;&#x9AD8;&#x6C9F;&#x901A;&#x6548;&#x7387;](https://cdn.61week.com/tianmu/doc/index/image/game-set/json/2.png)
 
 开发说明请参阅：[在线参数-开发说明](../dev-guide/json.md)
 
