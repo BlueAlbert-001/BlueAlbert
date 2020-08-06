@@ -6,7 +6,9 @@
 
 广告效果图如下：
 
-![](../../.gitbook/assets/glossary-4.jpg)
+
+
+![](https://cdn.61week.com/tianmu/doc/index/image/glossary-4.jpg)
 
 目前仅支持竖屏展示。
 

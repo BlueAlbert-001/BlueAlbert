@@ -7,7 +7,7 @@
 1. 是否有天幕账号，若无，请先[注册天幕账号](https://www.skysriver.com)，已有账号请登录；
 2. 添加游戏，在控制台页面可见当前账号已加入的主体，请进入对应主体中的【游戏管理】后台进行添加。
 
-![](../../.gitbook/assets/image%20%281%29.jpg)
+![](https://cdn.61week.com/tianmu/doc/index/image/selling/dev-guide/add-sdk/1.jpg)
 
 下面对接入流程进行详细说明，共有两个步骤，十分钟左右即可搞定SDK接入。
 
@@ -17,7 +17,7 @@
 
 请按要求配置微信的域名白名单，非常重要，务必添加，确认添加完毕后，点击下一步。
 
-![](../../.gitbook/assets/image-1-.jpg)
+![](https://cdn.61week.com/tianmu/doc/index/image/selling/dev-guide/add-sdk/2.jpg)
 
 {% hint style="danger" %}
 1. 请勿多个游戏使用同一个SDK，每个游戏会对应一个单独的SDK；
@@ -56,7 +56,7 @@
 * 设置好参数并完成了编译，请点击“开始检测”按钮进行检测接入状态;
 * 天幕将自动检测您的接入是否正常，即可了解SDK接入是否正常;
 
-![](../../.gitbook/assets/sdk-demo.c229fdba.gif)
+![](https://cdn.61week.com/tianmu/doc/index/image/selling/dev-guide/add-sdk/3.gif)
 
 \*\*\*\*
 

@@ -2,7 +2,9 @@
 
 天幕提供的浮动窗广告是类似icon的广告位，同一个广告位，支持展示静态图与类GIF动态图两种类型的素材，使广告位创意的展示更多样化，得到用户更多的关注。
 
-![](../../.gitbook/assets/glossary-2.jpg)
+
+
+![](https://cdn.61week.com/tianmu/doc/index/image/glossary-2.jpg)
 
 该广告位需要的素材尺寸为：190\*270
 

@@ -35,7 +35,7 @@ description: 组件化接入广告位
 
 ## **使用标准屏幕坐标系定位**
 
-![](../../../../.gitbook/assets/createtiger_coordinate.jpg)
+![](https://cdn.61week.com/tianmu/doc/index/image/selling/dev-guide/componentization/1.jpg)
 
 ## **使用实例**
 

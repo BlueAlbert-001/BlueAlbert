@@ -4,7 +4,9 @@
 
 广告效果如下：
 
-![](../../.gitbook/assets/glossary-3.jpg)
+
+
+![](https://cdn.61week.com/tianmu/doc/index/image/glossary-3.jpg)
 
 天幕伪视频广告使用的素材尺寸为：960\*540，目前仅支持竖屏。
 
