@@ -64,7 +64,7 @@ description: 游戏数据功能说明及使用指引，建议阅读者：小游�
 
 指标说明：[核心数据](indicator-description/core-data.md)
 
-![](../.gitbook/assets/image-1-%20%282%29.png)
+![](../.gitbook/assets/image-1-%20%283%29.png)
 
 ### 3、用户分析
 
