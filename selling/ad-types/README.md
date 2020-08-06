@@ -8,7 +8,7 @@ description: 天幕目前的5种广告位说明，建议阅读者：流量运营
 
 天幕上的多Icon广告位类似市面上的多创意推荐广告位或是抽屉类型的广告位，可在广告位内同时展示多个创意，广告效果如下：
 
-![](../../.gitbook/assets/glossary-1.jpg)
+![](https://cdn.61week.com/tianmu/doc/index/image/glossary-1.jpg)
 
 具体广告位说明请参阅：[天幕多Icon广告位](more-icon.md)
 
@@ -18,7 +18,7 @@ description: 天幕目前的5种广告位说明，建议阅读者：流量运营
 
 天幕浮动窗广告是类似icon的广告位，支持展示静态图与类GIF动态图。
 
-![](../../.gitbook/assets/glossary-2.jpg)
+![](https://cdn.61week.com/tianmu/doc/index/image/glossary-2.jpg)
 
 具体说明文档请参阅：[天幕浮动窗广告](icon.md)
 
@@ -30,7 +30,7 @@ description: 天幕目前的5种广告位说明，建议阅读者：流量运营
 
 广告效果图如下：
 
-![](../../.gitbook/assets/glossary-4.jpg)
+![](https://cdn.61week.com/tianmu/doc/index/image/glossary-4.jpg)
 
 具体广告位说明文档请参阅：[天幕插屏广告](interstitial.md)
 
@@ -42,7 +42,7 @@ description: 天幕目前的5种广告位说明，建议阅读者：流量运营
 
 广告效果如下：
 
-![](../../.gitbook/assets/glossary-3.jpg)
+![](https://cdn.61week.com/tianmu/doc/index/image/glossary-3.jpg)
 
 具体广告位说明参阅：[天幕伪视频广告](like-video.md)
 
@@ -52,7 +52,7 @@ description: 天幕目前的5种广告位说明，建议阅读者：流量运营
 
 天幕中的banner广告展示样式类似微信的banner广告，具体可参见下方的效果图。
 
-![](../../.gitbook/assets/glossary-5.jpg)
+![](https://cdn.61week.com/tianmu/doc/index/image/glossary-5.jpg)
 
 广告说明文档，请参阅：[天幕Banner广告](banner.md)
 
