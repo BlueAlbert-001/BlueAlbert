@@ -10,7 +10,7 @@ description: 买量助手入门指引
 
 功能：渠道管理，渠道质量监控，最大化买量ROI
 
-![&#x5929;&#x5E55;-&#x4E70;&#x91CF;&#x52A9;&#x624B;&#x5165;&#x53E3;](../.gitbook/assets/image%20%283%29.jpg)
+![&#x5929;&#x5E55;-&#x4E70;&#x91CF;&#x52A9;&#x624B;&#x5165;&#x53E3;](https://cdn.61week.com/tianmu/doc/index/image/channel/image.jpg)
 
 ## 入门指引
 
