@@ -4,7 +4,7 @@
 
 卖量助手提供了多维度的数据表格，不同维度报表数据粒度不同，请根据实际需求查看。
 
-![](../../.gitbook/assets/data-1.jpg)
+![](https://cdn.61week.com/tianmu/doc/index/image/selling/main-features/data/data-1.jpg)
 
 {% hint style="info" %}
 在2019/09/15的版本中，天幕新增了一个报表——“广告位日报”：
@@ -27,37 +27,37 @@
 
 汇总日报为当前主体的**每日汇总数据**。
 
-![](../../.gitbook/assets/data-2.jpg)
+![](https://cdn.61week.com/tianmu/doc/index/image/selling/main-features/data/data-2.jpg)
 
 ### 2、流量主汇总日报
 
 以流量主的角度来展示当前主体下的**流量主游戏**数据概况，可查看每个**流量主游戏**的总体情况。
 
-![](../../.gitbook/assets/data-3.jpg)
+![](https://cdn.61week.com/tianmu/doc/index/image/selling/main-features/data/data-3.jpg)
 
 ### 3、广告主汇总汇总
 
 以广告主的角度来展示当前主体下的**广告主游戏**数据概况，可查看每个**广告主游戏**的总体情况。
 
-![](../../.gitbook/assets/data-4.jpg)
+![](https://cdn.61week.com/tianmu/doc/index/image/selling/main-features/data/data-4.jpg)
 
 ### 4、流量主详细日报
 
 可查看单个流量主游戏的数据表现情况，推荐使用【高级查询】与【显示指标】功能，可快速进行数据查看与分析。
 
-![](../../.gitbook/assets/data-5.jpg)
+![](https://cdn.61week.com/tianmu/doc/index/image/selling/main-features/data/data-5.jpg)
 
 ### 5、广告主详细日报
 
 查看广告主游戏在不同流量主游戏上的数据表现情况，推荐使用【高级查询】与【显示指标】功能，可快速进行数据查看与分析。
 
-![](../../.gitbook/assets/data-6.jpg)
+![](https://cdn.61week.com/tianmu/doc/index/image/selling/main-features/data/data-6.jpg)
 
 ### 6、创意详细日报
 
 对流量主下的所有游戏进行集中管理，总览所有流量主上在跑的广告主游戏创意的数据情况，天幕会根据创意在线上跑量的数据表现情况，给出相应的优化建议，可用于决策参考。
 
-![](../../.gitbook/assets/data-7.jpg)
+![](https://cdn.61week.com/tianmu/doc/index/image/selling/main-features/data/data-7.jpg)
 
 具体参考的说明如下：
 

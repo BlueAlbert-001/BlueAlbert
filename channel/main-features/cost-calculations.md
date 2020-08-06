@@ -17,7 +17,7 @@ description: 提升收支计算的便捷功能
 
 功能配置入口：新建或编辑渠道时的编辑窗口
 
-![](../../.gitbook/assets/image%20%282%29.jpg)
+![](https://cdn.61week.com/tianmu/doc/index/image/channel/main-features/cost-calculations/image.jpg)
 
 使用说明如下。
 

@@ -10,7 +10,7 @@ description: 聚焦每一个分享转发素材，这里提升分享裂变效率
 分享素材配置功能接入，详见：[分享素材配置](https://doc.skysriver.com/game-set/main-features/sharing-management)。
 {% endhint %}
 
-![](../../.gitbook/assets/image%20%28310%29.png)
+![](https://cdn.61week.com/tianmu/doc/index/image/game-data/indicator-description/分享裂变/image.png)
 
 ### 基础数据
 

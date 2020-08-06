@@ -8,7 +8,7 @@ description: 分析渠道用户质量，助力ROI提升
 渠道分析提供了渠道维度的用户数据，从用户访问、留存与付费的行为，到渠道的新用户在天幕交叉推广中的行为，为运营人员对渠道引新能力以及新用户质量提供充分的分析依据，结局微信小游戏生态渠道分析难的问题。
 {% endhint %}
 
-![](../../.gitbook/assets/image%20%28316%29.png)
+![](https://cdn.61week.com/tianmu/doc/index/image/game-data/indicator-description/渠道分析/image.png)
 
 ### 渠道信息
 

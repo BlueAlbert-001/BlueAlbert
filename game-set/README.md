@@ -6,7 +6,7 @@
 
 功能：在线运营游戏内容，A/Btest、自定义事件、版本控制、分享素材配置、在线参数
 
-![&#x5929;&#x5E55;-&#x6E38;&#x620F;&#x914D;&#x7F6E;&#x5165;&#x53E3;](../.gitbook/assets/image-1-.png)
+![&#x5929;&#x5E55;-&#x6E38;&#x620F;&#x914D;&#x7F6E;&#x5165;&#x53E3;](https://cdn.61week.com/tianmu/doc/index/image/game-set/image.png)
 
 ## 入门指引
 

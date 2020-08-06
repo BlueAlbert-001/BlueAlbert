@@ -12,7 +12,7 @@ description: 使用天幕进行微信广告投放的流程介绍
 
 在天幕系统中，您不仅可以使用到天幕全面的渠道用户数据分析，还可以使用腾讯广告投放功能。下图为使用天幕进行微信广告投放的流程图。
 
-![](../../.gitbook/assets/image-0-.png)
+![](https://cdn.61week.com/tianmu/doc/index/image/channel/main-features/wechat-ad/1.png)
 
 ## 二、菜单功能以及使用说明
 
@@ -82,13 +82,13 @@ description: 使用天幕进行微信广告投放的流程介绍
 在进行人群管理以及广告投放之前，必须要先添加广告投放账号权限。若广告投放账号缺少一些游戏的授权，则可能无法创建这些游戏的人群，请到腾讯微信广告相关后台中进行授权，避免使用过程中遇到问题。
 {% endhint %}
 
-![](../../.gitbook/assets/image-1-%20%281%29.png)
+![](https://cdn.61week.com/tianmu/doc/index/image/channel/main-features/wechat-ad/2.png)
 
 ### 2、 创建人群包
 
 若要在投放广告时，选择定向人群进行投放，则先需要创建人群文件并创建人群。在天幕中，可以使用天幕独家提供的创建人群包功能获取人群文件。
 
-![](../../.gitbook/assets/image-2-%20%281%29.png)
+![](https://cdn.61week.com/tianmu/doc/index/image/channel/main-features/wechat-ad/3.png)
 
 在创建人群包文件时，首先您需要选择以下信息：
 
@@ -103,7 +103,7 @@ description: 使用天幕进行微信广告投放的流程介绍
 
 获取了人群文件以后，则需要通过创建相应的人群方可在广告投放时使用。
 
-![](../../.gitbook/assets/image-3-%20%282%29.png)
+![](https://cdn.61week.com/tianmu/doc/index/image/channel/main-features/wechat-ad/4.png)
 
 创建人群需要进行以下操作。
 
