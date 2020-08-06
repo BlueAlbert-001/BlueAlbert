@@ -1,7 +1,7 @@
 # Table of contents
 
 * [新手入门](README.md)
-* [名词解释](glossary.md)
+* [名册解释](glossary.md)
 * [主模块1：卖量助手](selling/README.md)
   * [主要功能及操作说明](selling/main-features/README.md)
     * [投放管理](selling/main-features/advertising-manage.md)
