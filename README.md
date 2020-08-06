@@ -6,7 +6,7 @@ description: 三分钟快速了解天幕
 
 ## 1、简介
 
-![&#x5929;&#x5E55;&#x7531;&#x56DB;&#x4E2A;&#x4E3B;&#x8981;&#x6A21;&#x5757;&#x7EC4;&#x6210;](.gitbook/assets/assets_-lfes0jlk8ivd-s88ioo_-lnptbicscsqgdjzznhf_-lnptolxsjsgti7n9qpn_image.png)
+![&#x5929;&#x5E55;&#x7531;&#x56DB;&#x4E2A;&#x4E3B;&#x8981;&#x6A21;&#x5757;&#x7EC4;&#x6210;](https://cdn.61week.com/tianmu/doc/index/image/README-1.jpg)
 
 天幕是服务于微信小游戏开发者/运营者的一站式运营方案，由**四个模块**组成：
 
@@ -25,8 +25,6 @@ description: 三分钟快速了解天幕
 {% endhint %}
 
 天幕产品简介下载（pdf版）
-
-{% file src=".gitbook/assets/tian-mu-v2.0-xiao-you-xi-yi-zhan-shi-yun-ying-fang-an-.pdf" %}
 
 ## 2、主体
 
@@ -107,7 +105,7 @@ description: 三分钟快速了解天幕
 
 ## 5、添加第一款游戏
 
-![&#x70B9;&#x51FB;&#x6E38;&#x620F;&#x7BA1;&#x7406;&#xFF0C;&#x6DFB;&#x52A0;&#x6E38;&#x620F;](.gitbook/assets/qi-ye-wei-xin-jie-tu-15770861408763-1.png)
+![&#x70B9;&#x51FB;&#x6E38;&#x620F;&#x7BA1;&#x7406;&#xFF0C;&#x6DFB;&#x52A0;&#x6E38;&#x620F;](https://cdn.61week.com/tianmu/doc/index/image/README-2.jpg)
 
 ## 6、SDK接入
 
@@ -218,7 +216,7 @@ description: 三分钟快速了解天幕
     </tr>
     <tr>
       <td style="text-align:left">
-        <p>&#x2461;<a href="selling/dev-guide/">&#x5356;&#x91CF;&#x52A9;&#x624B; - </a>
+        <p>&#x2461;<a href="selling/dev-guide/">&#x5356;&#x91CF;&#x52A9;&#x624B; -</a>
         </p>
         <p><a href="selling/dev-guide/">&#x63A5;&#x5165;&#x5E7F;&#x544A;&#x4F4D;</a>
         </p>
@@ -227,7 +225,7 @@ description: 三分钟快速了解天幕
     </tr>
     <tr>
       <td style="text-align:left">
-        <p>&#x2462;<a href="game-data/dev-guide/">&#x6E38;&#x620F;&#x6570;&#x636E; - </a>
+        <p>&#x2462;<a href="game-data/dev-guide/">&#x6E38;&#x620F;&#x6570;&#x636E; -</a>
         </p>
         <p><a href="game-data/dev-guide/">&#x6027;&#x80FD;&#x5206;&#x6790;&#x3001;&#x5185;&#x8D2D;&#x5206;&#x6790;</a>
         </p>
@@ -236,7 +234,7 @@ description: 三分钟快速了解天幕
     </tr>
     <tr>
       <td style="text-align:left">
-        <p>&#x2463;<a href="game-set/dev-guide/">&#x6E38;&#x620F;&#x914D;&#x7F6E; - </a>
+        <p>&#x2463;<a href="game-set/dev-guide/">&#x6E38;&#x620F;&#x914D;&#x7F6E; -</a>
         </p>
         <p><a href="game-set/dev-guide/">&#x5168;&#x90E8;&#x529F;&#x80FD;</a>
         </p>
@@ -262,7 +260,7 @@ description: 三分钟快速了解天幕
 
 在您了解、接入、使用天幕过程中，我们会提供全程的服务和支持
 
-![&#x5FAE;&#x4FE1;&#x626B;&#x4E00;&#x626B;&#xFF0C;&#x6DFB;&#x52A0;&#x5BF9;&#x63A5;&#x4EBA;&#x5458;&#x5FAE;&#x4FE1;](.gitbook/assets/wei-xin-tu-pian-20191009150820.jpg)
+![&#x5FAE;&#x4FE1;&#x626B;&#x4E00;&#x626B;&#xFF0C;&#x6DFB;&#x52A0;&#x5BF9;&#x63A5;&#x4EBA;&#x5458;&#x5FAE;&#x4FE1;](https://cdn.61week.com/tianmu/doc/index/image/README-3.jpg)
 
 {% hint style="info" %}
 建议进一步建立微信对接群，添加天幕技术、产品人员
