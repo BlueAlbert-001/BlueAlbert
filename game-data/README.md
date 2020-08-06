@@ -10,7 +10,7 @@ description: 游戏数据入门指引
 
 以用户为基础，针对用户行为、多维度的数据统计分析
 
-![&#x5929;&#x5E55;-&#x6E38;&#x620F;&#x6570;&#x636E;&#x5165;&#x53E3;](../.gitbook/assets/image%20%28312%29.png)
+![&#x5929;&#x5E55;-&#x6E38;&#x620F;&#x6570;&#x636E;&#x5165;&#x53E3;](https://cdn.61week.com/tianmu/doc/index/image/game-data/image.png)
 
 ## 入门指引
 

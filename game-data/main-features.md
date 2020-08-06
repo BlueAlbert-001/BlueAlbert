@@ -50,7 +50,7 @@ description: 游戏数据功能说明及使用指引，建议阅读者：小游�
 
 帮助产品策划与负责人快速了解产品矩阵概况与整体用户概况，聚焦于全局汇总数据，帮助管理层快速了解产品数据
 
-![](../.gitbook/assets/image-0-%20%282%29.png)
+![](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/1.png)
 
 {% hint style="warning" %}
 由于官方接口返回的微信广告的汇总数据与细分数据中各广告点击量可能不一致（汇总的点击量比细分加和的点击量大），天幕广告分析中的汇总数据点击量采用的是使用细分数据中的点击量加和，而核心数据与数据概览中则直接使用微信接口的汇总数据接口返回数据，因此这两个菜单中的点击量可能会比广告分析中的偏大。
@@ -64,7 +64,7 @@ description: 游戏数据功能说明及使用指引，建议阅读者：小游�
 
 指标说明：[核心数据](indicator-description/core-data.md)
 
-![](../.gitbook/assets/image-1-%20%283%29.png)
+![](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/2.png)
 
 ### 3、用户分析
 
@@ -72,15 +72,15 @@ description: 游戏数据功能说明及使用指引，建议阅读者：小游�
 
 从活跃用户活跃度到新增构成再到用户停留时长分布，帮助产品运营了解活跃用户粘度与新增用户来源情况，更有针对性的分析用户，解决用户分析无针对性的问题。
 
-![](../.gitbook/assets/image-2-.png)
+![](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/3.png)
 
 指标说明：[活跃用户](indicator-description/dau.md)
 
-![](../.gitbook/assets/image-3-.png)
+![](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/4.png)
 
 指标说明：[新增用户](indicator-description/increased-user.md)
 
-![](../.gitbook/assets/image-4-.png)
+![](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/5.png)
 
 {% hint style="info" %}
 用户时长统计仅计算截止到前一日数据
@@ -92,9 +92,9 @@ description: 游戏数据功能说明及使用指引，建议阅读者：小游�
 
 帮助产品运营与策划了解新增、活跃用户两类留存，全面分析用户留存。
 
-![&#x65B0;&#x589E;&#x7559;&#x5B58;](../.gitbook/assets/image-5-.png)
+![&#x65B0;&#x589E;&#x7559;&#x5B58;](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/6.png)
 
-![&#x6D3B;&#x8DC3;&#x7559;&#x5B58;](../.gitbook/assets/image-6-.png)
+![&#x6D3B;&#x8DC3;&#x7559;&#x5B58;](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/7.png)
 
 ### 5、收入增长
 
@@ -104,7 +104,7 @@ description: 游戏数据功能说明及使用指引，建议阅读者：小游�
 
 收入概况帮助产品负责人与运营人员全面了解微信各项收入情况，分析ARPU，了解产品营收能力。 
 
-![](../.gitbook/assets/image-7-.png)
+![](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/8.png)
 
 #### 5.2、微信广告分析
 
@@ -120,7 +120,7 @@ banner分析帮助产品负责人了解广告从加载、展示到点击全流�
 要使用该功能，SDK需做[额外接入工作](dev-guide/#step-3-ke-xuan)
 {% endhint %}
 
-![](../.gitbook/assets/image-8-.png)
+![](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/9.png)
 
 {% hint style="warning" %}
 由于官方接口返回的汇总数据与细分数据中点击量可能不一致（汇总的点击量比细分加和的点击量大），天幕广告分析中的汇总数据点击量采用的是使用细分数据中的点击量加和。而核心数据与数据概览中则直接使用微信接口的汇总数据，因此这两个菜单中的点击量会比广告分析中的偏大。
@@ -136,13 +136,13 @@ banner分析帮助产品负责人了解广告从加载、展示到点击全流�
 若要使用该功能，需[额外接入工作](https://doc.skysriver.com/game-data/dev-guide/pay)
 {% endhint %}
 
-![](../.gitbook/assets/image-9-.png)
+![](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/10.png)
 
 **5.4、内购订单查询**
 
 内购订单查询可以查看每一笔成功的内购订单用户信息以及订单详细信息，运营人员可以导出用户信息，上传openid至微信MP广告平台，进行更有针对性的广告投放。
 
-![](../.gitbook/assets/image-10-.png)
+![](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/11.png)
 
 {% hint style="info" %}
 接入回传内购数据均可实现订单查询功能。详见：[天幕内购数据回传](dev-guide/pay.md)
@@ -156,11 +156,11 @@ banner分析帮助产品负责人了解广告从加载、展示到点击全流�
 
 指标说明：[渠道分析](indicator-description/channel-analysis.md)
 
-![&#x6E20;&#x9053;&#x603B;&#x89C8;](../.gitbook/assets/image-11-.png)
+![&#x6240;&#x6709;&#x6E20;&#x9053;&#x603B;&#x89C8;](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/12.png)
 
-![&#x5355;&#x4E2A;&#x6E20;&#x9053;&#x8BE6;&#x7EC6;](../.gitbook/assets/image-12-.png)
+![&#x5355;&#x4E2A;&#x6E20;&#x9053;&#x8BE6;&#x7EC6;&#x6570;&#x636E;](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/13.png)
 
-![&#x5355;&#x4E2A;&#x6E20;&#x9053;&#x7528;&#x6237;&#x65F6;&#x957F;&#x5206;&#x5E03;](../.gitbook/assets/image-13-.png)
+![&#x5355;&#x4E2A;&#x6E20;&#x9053;&#x7528;&#x6237;&#x65F6;&#x957F;&#x5206;&#x5E03;](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/14.png)
 
 ### 7、分享裂变
 
@@ -174,7 +174,7 @@ banner分析帮助产品负责人了解广告从加载、展示到点击全流�
 分享素材的配置后台在“[游戏配置](../game-set/)”中、需[额外接入](../game-set/dev-guide/sharing/)
 {% endhint %}
 
-![](../.gitbook/assets/image-14-.png)
+![](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/15.png)
 
 ### 8、用户终端
 
@@ -188,9 +188,9 @@ banner分析帮助产品负责人了解广告从加载、展示到点击全流�
 
 地域分析从省份、城市两个维度帮助产品负责人了解用户所在地，通过可视化图标直观的了解地域分布，为用户分析提供参考依据。
 
-![&#x7701;&#x4EFD;&#x5206;&#x5E03;](../.gitbook/assets/image-15-.png)
+![&#x7701;&#x4EFD;&#x5206;&#x5E03;](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/16.png)
 
-![&#x57CE;&#x5E02;&#x5206;&#x5E03;](../.gitbook/assets/image-16-.png)
+![&#x57CE;&#x5E02;&#x5206;&#x5E03;](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/17.png)
 
 #### 8.2、机型分析
 
@@ -198,9 +198,9 @@ banner分析帮助产品负责人了解广告从加载、展示到点击全流�
 
 机型分析从使用的设备品牌、机型两个维度帮助产品负责人了解用户使用的设备。 
 
-![&#x8BBE;&#x5907;&#x54C1;&#x724C;](../.gitbook/assets/image-17-.png)
+![&#x8BBE;&#x5907;&#x54C1;&#x724C;](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/18.png)
 
-![&#x8BBE;&#x5907;&#x578B;&#x53F7;](../.gitbook/assets/image-18-.png)
+![&#x8BBE;&#x5907;&#x578B;&#x53F7;](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/19.png)
 
 #### **8.3、系统分析**
 
@@ -208,7 +208,7 @@ banner分析帮助产品负责人了解广告从加载、展示到点击全流�
 
 系统分析提供了系统分布，帮助用户终端设备分析有更多的参考依据。
 
-![](../.gitbook/assets/image-19-.png)
+![](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/20.png)
 
 ### 9、场景值分析
 
@@ -216,7 +216,7 @@ banner分析帮助产品负责人了解广告从加载、展示到点击全流�
 
 场景值分析根据微信官方定义的场景值记录了每一个场景值与场景类型的用户情况，让产品负责人可以更加直接的了解到自己的用户来源，解决了用户来源分析的问题，同时为渠道分析提供参考。
 
-![](../.gitbook/assets/image-20-.png)
+![](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/21.png)
 
 ### 10、自定义事件
 
@@ -226,7 +226,7 @@ banner分析帮助产品负责人了解广告从加载、展示到点击全流�
 自定义事件的内容配置在“[游戏配置](../game-set/)”中进行管理，接入说明见[自定义事件技术接入说明](https://doc.skysriver.com/game-set/dev-guide/diy-event)。
 {% endhint %}
 
-![](../.gitbook/assets/image-21-.png)
+![](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/22.png)
 
 ### 11、性能分析
 
@@ -240,7 +240,7 @@ banner分析帮助产品负责人了解广告从加载、展示到点击全流�
 要使用该功能，SDK需做[额外接入工作](dev-guide/#step-3-ke-xuan)
 {% endhint %}
 
-![](../.gitbook/assets/image-22-.png)
+![](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/23.png)
 
 
 
