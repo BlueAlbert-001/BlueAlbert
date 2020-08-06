@@ -2,7 +2,7 @@
 
 天幕中的Banner广告展示样式类似微信的banner广告，具体可参见下方的效果图，Banner广告的应用场景多变，请根据游戏实际的页面，选择合适的位置进行展示。
 
-![&#x5929;&#x5E55;Banner&#x5E7F;&#x544A;](../../.gitbook/assets/banner-guang-11.png)
+![](../../.gitbook/assets/glossary-5.jpg)
 
 天幕Banner广告需要的素材尺寸为：960\*334，横竖屏都支持。
 

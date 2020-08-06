@@ -14,7 +14,7 @@ description: 管理广告主游戏
 
 点击添加按钮后，按要求填入信息即可。
 
-![](../../.gitbook/assets/image-1-%20%281%29.jpg)
+![](../../.gitbook/assets/image-1-%20%282%29.jpg)
 
 ## 添加公司
 

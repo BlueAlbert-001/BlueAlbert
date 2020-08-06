@@ -35,7 +35,7 @@ description: 组件化接入广告位
 
 ## **使用标准屏幕坐标系定位**
 
-![](https://cdn.kuaiyugo.com/plat/SDK/prod/static_files/createTiger_coordinate.png)
+![](../../../../.gitbook/assets/createtiger_coordinate.jpg)
 
 ## **使用实例**
 

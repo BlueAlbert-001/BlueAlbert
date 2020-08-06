@@ -57,5 +57,5 @@ SDK接入完成后，在使用某些接口时，需要进行SDK的初始化，�
 
 接入过程中有任何问题，欢迎微信扫描下方二维码，咨询天幕对接人员
 
-![&#x5FAE;&#x4FE1;&#x626B;&#x4E00;&#x626B;&#xFF0C;&#x6DFB;&#x52A0;&#x5929;&#x5E55;&#x5BF9;&#x63A5;&#x4EBA;&#x5458;&#x5FAE;&#x4FE1;](../../.gitbook/assets/wei-xin-tu-pian-20191009150820%20%281%29.jpg)
+![](../../.gitbook/assets/readme-3.jpg)
 

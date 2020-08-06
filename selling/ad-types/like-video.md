@@ -4,7 +4,7 @@
 
 广告效果如下：
 
-![&#x5929;&#x5E55;&#x4F2A;&#x89C6;&#x9891;&#x5E7F;&#x544A;](../../.gitbook/assets/wei-shi-pin-xiao-guo-tu%20%281%29.png)
+![](../../.gitbook/assets/glossary-3.jpg)
 
 天幕伪视频广告使用的素材尺寸为：960\*540，目前仅支持竖屏。
 

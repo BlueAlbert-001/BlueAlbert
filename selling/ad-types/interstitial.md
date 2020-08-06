@@ -6,7 +6,7 @@
 
 广告效果图如下：
 
-![&#x5929;&#x5E55;&#x63D2;&#x5C4F;&#x5E7F;&#x544A;](../../.gitbook/assets/cha-ping-guang-gao-2%20%283%29.png)
+![](../../.gitbook/assets/glossary-4.jpg)
 
 目前仅支持竖屏展示。
 
