@@ -17,7 +17,7 @@ description: 提升收支计算的便捷功能
 
 功能配置入口：新建或编辑渠道时的编辑窗口
 
-![](../../.gitbook/assets/image%20%28293%29.png)
+![](../../.gitbook/assets/image%20%282%29.jpg)
 
 使用说明如下。
 

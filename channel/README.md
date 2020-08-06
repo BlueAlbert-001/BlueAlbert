@@ -10,7 +10,7 @@ description: 买量助手入门指引
 
 功能：渠道管理，渠道质量监控，最大化买量ROI
 
-![](../.gitbook/assets/image%20%282%29.jpg)
+![](../.gitbook/assets/image%20%283%29.jpg)
 
 ## 入门指引
 

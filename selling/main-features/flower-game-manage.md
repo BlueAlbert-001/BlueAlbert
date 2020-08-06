@@ -8,7 +8,7 @@ description: 管理流量主游戏、控制广告位开关
 
 该功能为集中管理流量主游戏上的广告位，版本屏蔽，SDK接入等。
 
-![](../../.gitbook/assets/image%20%283%29.jpg)
+![](../../.gitbook/assets/image%20%284%29.jpg)
 
 ## 版本屏蔽
 
@@ -28,7 +28,7 @@ description: 管理流量主游戏、控制广告位开关
 
 点击【新建广告位】即可添加广告位。
 
-![](../../.gitbook/assets/image-2-.jpg)
+![](../../.gitbook/assets/image-2-%20%281%29.jpg)
 
 广告位在使用之前，请确保已经在游戏中接入相关的广告位，接入广告位的技术说明文档请参阅：
 
