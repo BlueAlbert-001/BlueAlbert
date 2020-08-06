@@ -33,9 +33,9 @@ description: 介绍天幕的渠道功能原理与管理操作
 * 按渠道模式 按渠道模式需要选择投放的产品、渠道商以及媒体，系统将根据所选择的媒体各创建一个渠道ID。 例如游戏1选择渠道商A和B，媒体甲乙为渠道商A所属，媒体丙丁为渠道商B所属。通过按渠道模式批量创建，将会根据游戏1创建4条渠道ID，分别为渠道商A的甲乙两个渠道，渠道商B的丙丁两个渠道。 注：媒体至多可以选择50个。
 * 按数量模式 按数量模式中所有的条件均为单选，您可以输入想要创建的数量（至多50条），根据您所选的条件批量创建相应数量的渠道ID。
 
-![&#x5355;&#x6761;&#x521B;&#x5EFA;](../../.gitbook/assets/image-0-%20%282%29.jpg)
+![&#x5355;&#x6761;&#x521B;&#x5EFA;](https://cdn.61week.com/tianmu/doc/index/image/channel/main-features/channel-management/1.jpg)
 
-![&#x6279;&#x91CF;&#x521B;&#x5EFA;](../../.gitbook/assets/image-1-%20%283%29.jpg)
+![&#x6279;&#x91CF;&#x521B;&#x5EFA;](https://cdn.61week.com/tianmu/doc/index/image/channel/main-features/channel-management/2.jpg)
 
 ### 2. 渠道路径的生成
 
@@ -55,9 +55,9 @@ description: 介绍天幕的渠道功能原理与管理操作
 
 点击操作中的发送渠道物料功能后会弹出一个窗口由您确认渠道投放产品等信息是否有误，可点击预览链接查看网页中呈现的信息，确认无误后点击复制链接即可将物料网页发送给合作方。
 
-![&#x53D1;&#x9001;&#x6E20;&#x9053;&#x7269;&#x6599;&#x529F;&#x80FD;&#x5165;&#x53E3;](../../.gitbook/assets/image-2-.jpg)
+![&#x53D1;&#x9001;&#x6E20;&#x9053;&#x7269;&#x6599;&#x529F;&#x80FD;&#x5165;&#x53E3;](https://cdn.61week.com/tianmu/doc/index/image/channel/main-features/channel-management/3.jpg)
 
-![&#x786E;&#x8BA4;&#x7269;&#x6599;&#x4FE1;&#x606F;](../../.gitbook/assets/image-3-%20%281%29.jpg)
+![&#x786E;&#x8BA4;&#x7269;&#x6599;&#x4FE1;&#x606F;](https://cdn.61week.com/tianmu/doc/index/image/channel/main-features/channel-management/4.jpg)
 
 ## 四、渠道商管理
 
@@ -65,11 +65,11 @@ description: 介绍天幕的渠道功能原理与管理操作
 
 ### 渠道商的创建与管理
 
-![](../../.gitbook/assets/image-4-.jpg)
+![](https://cdn.61week.com/tianmu/doc/index/image/channel/main-features/channel-management/5.jpg)
 
 创建一个渠道商仅需要填写全称、简称，媒体可在需要时添加。
 
-![&#x521B;&#x5EFA;&#x6E20;&#x9053;&#x5546;](../../.gitbook/assets/image-5-.jpg)
+![&#x521B;&#x5EFA;&#x6E20;&#x9053;&#x5546;](https://cdn.61week.com/tianmu/doc/index/image/channel/main-features/channel-management/6.jpg)
 
 {% hint style="info" %}
 拓展阅读：[渠道商与开放数据管理](https://doc.skysriver.com/channel/main-features/distributor)

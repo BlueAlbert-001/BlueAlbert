@@ -25,29 +25,29 @@ description: 聚焦全局与单渠道的数据
 1. 面向对象 注册监控从主体、游戏、渠道三个维度记录了每个小时内的新增注册用户数，帮助**渠道运营人员**实时了解渠道投放引入的新用户情况，及时了解效果进而调整策略。
 2. 功能说明 在后台中，除了当日实时的数据以外，还提供了昨天以及上后同期的数值进行对比，可以更直接的了解投放进度。
 
-![](https://cdn.61week.com/tianmu/doc/index/image/channel/main-features/data/1.jpg)
+![](../../.gitbook/assets/image-0-%20%281%29.jpg)
 
 ### 2. 汇总数据
 
-![](https://cdn.61week.com/tianmu/doc/index/image/channel/main-features/data/2.jpg)
+![](../../.gitbook/assets/image-1-%20%284%29.jpg)
 
 1. 面向对象 汇总数据主要针对**运营团队负责人**，提供当前主体下各个渠道的新增用户数据。
 2. 功能说明 汇总数据可以总览当前在跑的渠道有多少，目前所有的渠道带来的新增数据如何。从各类新增构成以及占比了解渠道投放的情况，更加客观的评估与决策买量计划。 点击【高级查询】可查看渠道商或是买量产品上的表现数据，即单条渠道或是单个渠道商带来的新增情况，以此初步衡量渠道的导量成效。
 
-![](https://cdn.61week.com/tianmu/doc/index/image/channel/main-features/data/3.jpg)
+![](../../.gitbook/assets/image-2-%20%285%29.jpg)
 
 ### 3. 渠道监控
 
 1. 面向对象 渠道监控针对一线**渠道运营人员**，提供所有在投渠道用户数据。
 2. 功能说明 渠道监控提供了主体下投放的所有渠道的数据，针对具体投放的渠道，分析每个渠道引入的新用户数据，并提供了渠道对比投放产品整体的数据，客观了解渠道质量。
 
-![](https://cdn.61week.com/tianmu/doc/index/image/channel/main-features/data/4.jpg)
+![](../../.gitbook/assets/image-3-.jpg)
 
 点击操作中的详细，可查看单条渠道码投放在单个投放产品上的投放详情。
 
-![](https://cdn.61week.com/tianmu/doc/index/image/channel/main-features/data/5.jpg)
+![](../../.gitbook/assets/image-4-%20%281%29.jpg)
 
 点击操作中的时长分布，可以看到该渠道活跃与新增用户的使用时长区间分布，该数据非实时更新，每天更新前一天数据。
 
-![](https://cdn.61week.com/tianmu/doc/index/image/channel/main-features/data/6.jpg)
+![](../../.gitbook/assets/image-5-%20%281%29.jpg)
 
