@@ -10,7 +10,7 @@ description: 卖量助手入门指引
 
 功能：流量变现，最大化变现效率
 
-![&#x5929;&#x5E55;-&#x5356;&#x91CF;&#x52A9;&#x624B;&#x5165;&#x53E3;](https://cdn.61week.com/tianmu/doc/index/image/selling/image.png)
+![&#x5929;&#x5E55;-&#x5356;&#x91CF;&#x52A9;&#x624B;&#x5165;&#x53E3;](../.gitbook/assets/image%20%28304%29.png)
 
 ## 入门指引
 

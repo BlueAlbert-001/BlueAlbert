@@ -27,7 +27,7 @@ description: 详细阐述创意下发的策略，帮助您更好的理解数据�
 可针对广告位粒度进行策略的设置
 {% endhint %}
 
-![](https://cdn.61week.com/tianmu/doc/index/image/selling/creative-strategy-1.jpg)
+![](../.gitbook/assets/creative-strategy-1.jpg)
 
 ## 2、策略1：基于eCPM自动优化
 
@@ -89,7 +89,7 @@ eCPM是实时更新的，所以对应的，下发的创意以及顺序也是实�
 
 展示顺序为：B3-创意1（eCPM：0.6），B1-创意2（eCPM：0.5），B2-创意3（eCPM：0.4）
 
-![](https://cdn.61week.com/tianmu/doc/index/image/selling/creative-strategy-2.jpg)
+![](../.gitbook/assets/creative-strategy-2.jpg)
 
 ### 2.4、优先跑量
 
@@ -106,7 +106,7 @@ eCPM是实时更新的，所以对应的，下发的创意以及顺序也是实�
 “优先跑量”的广告主游戏，其下的所有创意，在参与“[2.2、下发策略-STPE2、多广告主游戏整合排序](creative-strategy.md#2-2-xia-fa-ce-lve)"时，eCPM实际值+100后参与排序。
 {% endhint %}
 
-![](https://cdn.61week.com/tianmu/doc/index/image/selling/creative-strategy-3.png)
+![](../.gitbook/assets/creative-strategy-3.png)
 
 ### 2.5、多Icon-创意展示上限
 
@@ -167,7 +167,7 @@ eCPM是实时更新的，所以对应的，下发的创意以及顺序也是实�
 
 展示顺序为｛B1-创意2（eCPM：0.5），B2-创意3（eCPM：0.4），B3-创意1（eCPM：0.6）｝3个创意随机。
 
-![](https://cdn.61week.com/tianmu/doc/index/image/selling/creative-strategy-4.jpg)
+![](../.gitbook/assets/creative-strategy-4.jpg)
 
 ### 3.3、多Icon-创意展示上限
 
@@ -286,5 +286,5 @@ eCPM = 点击数\*点击价格/曝光数\*1000\*校正值L = CTR\*点击价格\*
 
 每天凌晨会重新计数。
 
-![](https://cdn.61week.com/tianmu/doc/index/image/selling/creative-strategy-5.jpg)
+![](../.gitbook/assets/creative-strategy-5.jpg)
 
