@@ -24,7 +24,7 @@
 
 该功能配置后台位于：控制台-主体设置-有效新增设置（仅管理员可操作）
 
-![](../.gitbook/assets/image%20%2866%29.png)
+![](https://cdn.61week.com/tianmu/doc/index/image/general-function/valid-user/1.jpg)
 
 {% hint style="info" %}
 该功能需配合天幕统计功能，需要接入游戏数据模块SDK中的登录功能，接入请参阅【[SDK接入-登录](../selling/dev-guide/login/)
@@ -34,7 +34,7 @@
 
 进入后台以后，点击“添加新配置”会看到如下弹窗。
 
-![](../.gitbook/assets/image%20%2814%29.png)
+![](https://cdn.61week.com/tianmu/doc/index/image/general-function/valid-user/2.jpg)
 
 从上到下您需要依次配置：
 
@@ -46,7 +46,7 @@
 
 您可以访问游戏数据后台的[核心数据](../game-data/indicator-description/core-data.md)、[新增用户](../game-data/indicator-description/increased-user.md)、[渠道分析](../game-data/indicator-description/channel-analysis.md)以及买量助手的[渠道监控](../channel/data-indicator.md)菜单查询到有效新增与有效新增占比两个指标。
 
-![](../.gitbook/assets/image%20%2897%29.png)
+![](https://cdn.61week.com/tianmu/doc/index/image/general-function/valid-user/3.jpg)
 
 相关阅读推荐：[游戏数据功能说明](../game-data/)、[买量助手](../channel/)
 

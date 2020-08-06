@@ -13,7 +13,7 @@ description: 快速筛选数据
 
 每个使用者的所在角色及用户习惯不同，针对数据所做的筛选及展示的指标也不同，每次查看数据都需要重新调整会相当的耗时耗力。
 
-![&#x9AD8;&#x7EA7;&#x67E5;&#x8BE2;&#x3001;&#x663E;&#x793A;&#x6307;&#x6807;](../.gitbook/assets/qi-ye-wei-xin-jie-tu-15710452159249%20%281%29.png)
+![&#x9AD8;&#x7EA7;&#x67E5;&#x8BE2;&#xFF0C;&#x663E;&#x793A;&#x6307;&#x6807;](https://cdn.61week.com/tianmu/doc/index/image/general-function/customized-view/1.jpg)
 
 ## 自定义视图的保存与查看
 
@@ -25,7 +25,7 @@ description: 快速筛选数据
 自定义视图可保存当前的筛选条件、展示指标及指标顺序，建议使用
 {% endhint %}
 
-![&#x81EA;&#x5B9A;&#x4E49;&#x89C6;&#x56FE;&#x64CD;&#x4F5C;&#x533A;&#x57DF;&#x793A;&#x610F;](../.gitbook/assets/qq-jie-tu-20191012165452-1-1-1-1-1-1.png)
+![&#x81EA;&#x5B9A;&#x4E49;&#x89C6;&#x56FE;&#x64CD;&#x4F5C;&#x533A;&#x57DF;&#x793A;&#x610F;](https://cdn.61week.com/tianmu/doc/index/image/general-function/customized-view/2.jpg)
 
 ### 1、 另存并新建一个视图
 
@@ -43,17 +43,17 @@ description: 快速筛选数据
 
 点击左上角视图列表红框中的按钮，可以导出当前视图的配置文件。
 
-![](../.gitbook/assets/image%20%28242%29.png)
+![](https://cdn.61week.com/tianmu/doc/index/image/general-function/customized-view/3.jpg)
 
 ### 2、视图的导入
 
 首先在视图列表中选择“新建+”；
 
-![](../.gitbook/assets/image%20%2835%29.png)
+![](https://cdn.61week.com/tianmu/doc/index/image/general-function/customized-view/4.jpg)
 
 接着点击弹窗中的“点击导入”，选择其他伙伴分享给你的配置文件，即可导入创建一个新视图。新视图包含了伙伴的指标配置，但不包含他的高级查询筛选条件。
 
-![](../.gitbook/assets/image%20%2889%29.png)
+![](https://cdn.61week.com/tianmu/doc/index/image/general-function/customized-view/5.jpg)
 
 
 

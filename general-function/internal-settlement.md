@@ -50,7 +50,7 @@ description: 天幕内部结算的实现方式
 
 控制台-&gt;主体设置-&gt;内部结算配置（仅管理员可操作）
 
-![&#x5929;&#x5E55;-&#x5185;&#x90E8;&#x7ED3;&#x7B97;&#x914D;&#x7F6E;](../.gitbook/assets/qq-jie-tu-20191012155002.png)
+![&#x5929;&#x5E55;-&#x5185;&#x90E8;&#x7ED3;&#x7B97;&#x914D;&#x7F6E;](https://cdn.61week.com/tianmu/doc/index/image/general-function/internal-settlement/1.png)
 
 #### 默认配置
 
@@ -93,7 +93,7 @@ description: 天幕内部结算的实现方式
 
 设置统一结算依据和单价后，可针对单独游戏，设置该游戏买量时的特例规则（结算依据&结算单价），而不再按统一的依据和单价进行结算。
 
-![&#x521B;&#x5EFA;&#x65B0;&#x7684;&#x5185;&#x90E8;&#x7ED3;&#x7B97;&#x914D;&#x7F6E;](../.gitbook/assets/qq-jie-tu-20191012155753.png)
+![](https://cdn.61week.com/tianmu/doc/index/image/general-function/internal-settlement/2.png)
 
 #### 查看编辑删除
 
