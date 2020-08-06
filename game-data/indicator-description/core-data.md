@@ -9,7 +9,7 @@ description: 包含天幕所有的核心数据，帮助数据分析者了解产�
 此菜单还提供了分钟粒度的同时在线人数趋势图，可以帮助产品运营团队直观了解用户访问趋势，可用于排查异常情况等问题。
 {% endhint %}
 
-![](../../.gitbook/assets/image%20%28306%29.png)
+![](https://cdn.61week.com/tianmu/doc/index/image/game-data/indicator-description/核心数据/image.png)
 
 ### 规模数据
 
