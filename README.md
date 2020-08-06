@@ -26,7 +26,7 @@ description: 三分钟快速了解天幕
 
 天幕产品简介下载（pdf版）
 
-{% file src=".gitbook/assets/tian-mu-v2.0-xiao-you-xi-yi-zhan-shi-yun-ying-fang-an- \(1\).pdf" %}
+{% file src=".gitbook/assets/tian-mu-v2.0-xiao-you-xi-yi-zhan-shi-yun-ying-fang-an-.pdf" %}
 
 ## 2、主体
 
@@ -218,7 +218,7 @@ description: 三分钟快速了解天幕
     </tr>
     <tr>
       <td style="text-align:left">
-        <p>&#x2461;<a href="selling/dev-guide/">&#x5356;&#x91CF;&#x52A9;&#x624B; -</a>
+        <p>&#x2461;<a href="selling/dev-guide/">&#x5356;&#x91CF;&#x52A9;&#x624B; - </a>
         </p>
         <p><a href="selling/dev-guide/">&#x63A5;&#x5165;&#x5E7F;&#x544A;&#x4F4D;</a>
         </p>
@@ -227,7 +227,7 @@ description: 三分钟快速了解天幕
     </tr>
     <tr>
       <td style="text-align:left">
-        <p>&#x2462;<a href="game-data/dev-guide/">&#x6E38;&#x620F;&#x6570;&#x636E; -</a>
+        <p>&#x2462;<a href="game-data/dev-guide/">&#x6E38;&#x620F;&#x6570;&#x636E; - </a>
         </p>
         <p><a href="game-data/dev-guide/">&#x6027;&#x80FD;&#x5206;&#x6790;&#x3001;&#x5185;&#x8D2D;&#x5206;&#x6790;</a>
         </p>
@@ -236,7 +236,7 @@ description: 三分钟快速了解天幕
     </tr>
     <tr>
       <td style="text-align:left">
-        <p>&#x2463;<a href="game-set/dev-guide/">&#x6E38;&#x620F;&#x914D;&#x7F6E; -</a>
+        <p>&#x2463;<a href="game-set/dev-guide/">&#x6E38;&#x620F;&#x914D;&#x7F6E; - </a>
         </p>
         <p><a href="game-set/dev-guide/">&#x5168;&#x90E8;&#x529F;&#x80FD;</a>
         </p>
@@ -255,6 +255,8 @@ description: 三分钟快速了解天幕
 天幕始终将用户的数据安全视为最重要的事情，全力保障接入天幕系统的用户数据安全。
 
 相关链接：[天幕服务条款](terms/)
+
+## 
 
 ## 8、贴心服务
 
