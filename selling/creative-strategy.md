@@ -14,7 +14,7 @@ description: 详细阐述创意下发的策略，帮助您更好的理解数据�
 
 天幕提供两种创意下发策略供选择：
 
-* [策略1：基于eCPM自动优化](creative-strategy.md#2-ce-lve-1-ji-yu-ecpm-de-zi-dong-you-hua-ce-lve)
+* [策略1：基于eCPM自动优化](creative-strategy.md#2-ce-lve-1-ji-yu-ecpm-zi-dong-you-hua)
 * [策略2：随机下发（2019/12/10，天幕v2.4.5上线）](creative-strategy.md#3-ce-lve-2-sui-ji-xia-fa)
 
 {% hint style="info" %}

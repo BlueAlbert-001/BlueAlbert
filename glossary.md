@@ -50,19 +50,17 @@ description: 天幕上常用名词的解析，建议首次使用前快速浏览
 
 创意尺寸：200\*200；支持组件和API接入。
 
-
-
-![&#x591A;icon&#x5E7F;&#x544A;&#x4F4D;&#x793A;&#x610F;](.gitbook/assets/guang-gao-wei-xiao-guo-shi-yi-tu-22%20%282%29.jpg)
+![&#x591A;icon&#x5E7F;&#x544A;&#x4F4D;&#x793A;&#x610F;](https://cdn.61week.com/tianmu/doc/index/image/glossary-1.jpg)
 
 #### 类型2、浮动窗
 
-类似icon挂件的形式，可展示静态图片，或是通过多帧轮播实现类似gif的动态效果； 
+类似icon挂件的形式，可展示静态图片，或是通过多帧轮播实现类似gif的动态效果；
 
 一次性只展示一个创意，每10s自动切换，点击后切换展示创意；
 
 创意尺寸：190\*270；支持组件和API接入。
 
-![&#x6D6E;&#x52A8;&#x7A97;&#x5E7F;&#x544A;&#x4F4D;&#x793A;&#x610F;](.gitbook/assets/guang-gao-wei-xiao-guo-shi-yi-tu-12%20%281%29.jpg)
+![&#x6D6E;&#x52A8;&#x7A97;&#x5E7F;&#x544A;&#x4F4D;&#x793A;&#x610F;](https://cdn.61week.com/tianmu/doc/index/image/glossary-2.jpg)
 
 #### 类型3、伪视频
 
@@ -70,15 +68,15 @@ description: 天幕上常用名词的解析，建议首次使用前快速浏览
 
 创意尺寸：960\*540；仅支持组件接入。
 
-![&#x4F2A;&#x89C6;&#x9891;&#x793A;&#x610F;](.gitbook/assets/wei-shi-pin-xiao-guo-tu.png)
+![&#x4F2A;&#x89C6;&#x9891;&#x793A;&#x610F;](https://cdn.61week.com/tianmu/doc/index/image/glossary-3.jpg)
 
-#### 类型4、插屏广告 
+#### 类型4、插屏广告
 
 效果同常见的插屏广告；
 
 创意尺寸：780\*960；仅支持组件接入。
 
-![&#x63D2;&#x5C4F;&#x5E7F;&#x544A;&#x793A;&#x610F;](.gitbook/assets/cha-ping-guang-gao-2%20%281%29.png)
+![&#x63D2;&#x5C4F;&#x5E7F;&#x544A;&#x793A;&#x610F;](https://cdn.61week.com/tianmu/doc/index/image/glossary-4.jpg)
 
 #### 类型5、天幕banner广告
 
@@ -86,7 +84,7 @@ description: 天幕上常用名词的解析，建议首次使用前快速浏览
 
 创意尺寸：960\*334；仅支持API接入。
 
-![&#x5929;&#x5E55;Banner&#x5E7F;&#x544A;&#x793A;&#x610F;](.gitbook/assets/banner-guang-11.png)
+![&#x5929;&#x5E55;Banner&#x5E7F;&#x544A;&#x793A;&#x610F;](https://cdn.61week.com/tianmu/doc/index/image/glossary-5.jpg)
 
 ### 2.5、曝光次数
 
