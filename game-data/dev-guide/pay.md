@@ -83,7 +83,7 @@ ext的参数
       <td style="text-align:left">uid</td>
       <td style="text-align:left">String</td>
       <td style="text-align:left">&#x662F;</td>
-      <td style="text-align:left">&#x767B;&#x5F55;&#x8FD4;&#x56DE;&#x7684;&#x7528;&#x6237;&#x5FAE;&#x4FE1;open_id</td>
+      <td style="text-align:left">&#x767B;&#x5F55;&#x8FD4;&#x56DE;&#x7684;&#x7528;&#x6237;open_id</td>
     </tr>
     <tr>
       <td style="text-align:left">pid</td>
@@ -127,7 +127,7 @@ ext的参数
       <td style="text-align:left">scene</td>
       <td style="text-align:left">String</td>
       <td style="text-align:left">&#x662F;</td>
-      <td style="text-align:left">&#x5FAE;&#x4FE1;&#x573A;&#x666F;&#x503C;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;1001&#x3001;1037&#x3001;1089&#x7B49;</td>
+      <td style="text-align:left">&#x5404;&#x5E73;&#x53F0;&#x573A;&#x666F;&#x503C;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;&#x5FAE;&#x4FE1;&#x4E2D;&#x7684;1001&#x3001;1037&#x3001;1089&#x7B49;</td>
     </tr>
     <tr>
       <td style="text-align:left">order_code</td>
@@ -146,6 +146,9 @@ ext的参数
           <a
           href="../../general-function/revenue/">&#x6E38;&#x620F;&#x6536;&#x652F;</a>&#x529F;&#x80FD;&#x4E2D;&#x81EA;&#x52A8;&#x540C;&#x6B65;&#xFF0C;</p>
         <p>&#x5E76;&#x8BA1;&#x7B97;&#x6536;&#x5165;&#xFF0C;&#x65E0;&#x9700;&#x4EBA;&#x5DE5;&#x4E0A;&#x4F20;&#x3002;</p>
+        <p>&#x5BF9;&#x4E8E;&#x5FAE;&#x4FE1;&#x548C;QQ&#x5E73;&#x53F0;&#x5C0F;&#x6E38;&#x620F;&#xFF0C;&#x5B98;&#x65B9;&#x652F;&#x4ED8;&#x7C7B;&#x578B;&#x4E3A;&#x7C73;&#x5927;&#x5E08;&#x652F;&#x4ED8;&#xFF0C;
+          <br
+          />&#x9664;&#x7C73;&#x5927;&#x5E08;&#x652F;&#x4ED8;&#x5916;&#x5747;&#x9009;&#x62E9;&#x7B2C;&#x4E09;&#x65B9;&#x652F;&#x4ED8;&#x3002;</p>
       </td>
     </tr>
   </tbody>
