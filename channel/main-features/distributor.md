@@ -16,7 +16,7 @@ description: 合作公司与共享的开放数据管理说明
 
 ### 1、渠道商管理
 
-![](../../.gitbook/assets/image-0-%20%281%29.png)
+![](https://cdn.61week.com/tianmu/doc/index/image/channel/main-features/distributor/1.png)
 
 渠道商目前有共享开放数据、上下架、渠道商内容编辑、开放数据后台编辑以及渠道商删除几个操作。
 
@@ -25,7 +25,7 @@ description: 合作公司与共享的开放数据管理说明
 * **上下架**：渠道商的上下架不影响数据统计，下架的渠道商在创建渠道时不再作为候选项出现。
 * **编辑**：渠道商的编辑可以修改渠道商的全称与简称，同时您可以备注渠道商的合作方式。 还可以在编辑中修改媒体的名称以及上下架状态。
 
-![](../../.gitbook/assets/image-1-%20%282%29.png)
+![](https://cdn.61week.com/tianmu/doc/index/image/channel/main-features/distributor/2.png)
 
 * **删除**：渠道商的删除在“操作”列中，属于敏感操作。若渠道商删除，则之前使用该渠道商生成的渠道ID会被归类为未知的“其他”类型，请谨慎操作。
 
