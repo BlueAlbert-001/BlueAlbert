@@ -6,17 +6,17 @@ description: 三分钟快速了解天幕
 
 ## 1、简介
 
-![123](http://cdn.61week.com/tianmu/doc/index/test.png)
+![&#x5929;&#x5E55;&#x7531;&#x56DB;&#x4E2A;&#x4E3B;&#x8981;&#x6A21;&#x5757;&#x7EC4;&#x6210;](https://cdn.61week.com/tianmu/doc/index/image/README-1.jpg)
 
 天幕是服务于微信小游戏开发者/运营者的一站式运营方案，由**四个模块**组成：
 
-[卖量助手](selling/)：流量变现，最大化变现效率
+[卖量助手](selling)：流量变现，最大化变现效率
 
-[买量助手](channel/)：渠道监控，最大化渠道投放ROI
+[买量助手](/channel)：渠道监控，最大化渠道投放ROI
 
-[游戏数据](game-data/)：全面深度的数据监控
+[游戏数据](/game-data)：全面深度的数据监控
 
-[游戏配置](game-set/)：在线管理游戏分享转发素材、在线配置参数与ABtest等内容
+[游戏配置](/game-set)：在线管理游戏分享转发素材、在线配置参数与ABtest等内容
 
 {% hint style="info" %}
 四个主模块**相互独立**，可按需接入；
@@ -101,18 +101,18 @@ description: 三分钟快速了解天幕
 1. 四个模块的被设置的权限；
 2. 为主体添加小游戏；
 
-权限功能说明详见：[天幕权限功能说明](general-function/permission.md)
+权限功能说明详见：[天幕权限功能说明](/general-function/permission.md)
 
 ## 5、添加第一款游戏
 
-![123](http://cdn.61week.com/tianmu/doc/index/test.png)
+![&#x70B9;&#x51FB;&#x6E38;&#x620F;&#x7BA1;&#x7406;&#xFF0C;&#x6DFB;&#x52A0;&#x6E38;&#x620F;](https://cdn.61week.com/tianmu/doc/index/image/README-2.jpg)
 
 ## 6、SDK接入
 
 ### 6.1、兼容性
 
 1. 天幕SDK支持现有主流的小游戏开发引擎：Cocos、Laya、Egret
-2. 因微信本身机制限定，在登录获取openid时，存在兼容性风险，需做处理，[查看详细](questions/compatibility.md)
+2. 因微信本身机制限定，在登录获取openid时，存在兼容性风险，需做处理，[查看详细](/questions/compatibility.md)
 3. 与阿拉丁SDK兼容
 
 ### 6.2、留意事项
@@ -124,14 +124,14 @@ description: 三分钟快速了解天幕
 
 接入时，请参照不同模块中的“技术接入指南”：
 
-1. [卖量助手——技术接入指南](selling/dev-guide/)
-2. [买量助手——技术接入指南](channel/dev-guide/)
-3. [游戏数据——技术接入指南](game-data/dev-guide/)
-4. [游戏配置——技术接入指南](game-set/dev-guide/)
+1. [卖量助手——技术接入指南](/selling/dev-guide/)
+2. [买量助手——技术接入指南](/channel/dev-guide/)
+3. [游戏数据——技术接入指南](/game-data/dev-guide/)
+4. [游戏配置——技术接入指南](/game-set/dev-guide/)
 
 接入多个模块的功能时，前缀为【通用】的功能/接口无需重复接入。
 
-您在接入功能以及使用过程有何问题，可以到[常见问题](questions/)中查找。
+您在接入功能以及使用过程有何问题，可以到[常见问题](/questions/)中查找。
 
 ### 6.3、接入工作量预估
 
@@ -252,7 +252,7 @@ description: 三分钟快速了解天幕
 
 天幕始终将用户的数据安全视为最重要的事情，全力保障接入天幕系统的用户数据安全。
 
-相关链接：[天幕服务条款](terms/)
+相关链接：[天幕服务条款](/terms/)
 
 ## 8、贴心服务
 
@@ -260,7 +260,7 @@ description: 三分钟快速了解天幕
 
 在您了解、接入、使用天幕过程中，我们会提供全程的服务和支持
 
-![123](http://cdn.61week.com/tianmu/doc/index/test.png)
+![&#x5FAE;&#x4FE1;&#x626B;&#x4E00;&#x626B;&#xFF0C;&#x6DFB;&#x52A0;&#x5BF9;&#x63A5;&#x4EBA;&#x5458;&#x5FAE;&#x4FE1;](https://cdn.61week.com/tianmu/doc/index/image/README-3.jpg)
 
 {% hint style="info" %}
 建议进一步建立微信对接群，添加天幕技术、产品人员
