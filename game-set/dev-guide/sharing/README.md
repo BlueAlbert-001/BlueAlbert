@@ -10,7 +10,7 @@
 
 天幕中，将这些位置/功能作为不同的分享位进行管理。
 
-![&#x4E0A;&#x56FE;&#x53EF;&#x505A;&#x4E3A;&#x4E09;&#x4E2A;&#x4E0D;&#x540C;&#x7684;&#x5206;&#x4EAB;&#x4F4D;&#x8FDB;&#x884C;&#x7BA1;&#x7406;](https://cdn.kuaiyugo.com/plat/cms/plat/2019-02-20_4d8e3760-34bd-11e9-8a41-695d0962f26d.png)
+![&#x4E0A;&#x56FE;&#x53EF;&#x62BD;&#x8C61;&#x4E3A;&#x4E09;&#x4E2A;&#x4E0D;&#x540C;&#x7684;&#x5206;&#x4EAB;&#x4F4D;&#x8FDB;&#x884C;&#x7BA1;&#x7406;](https://cdn.61week.com/tianmu/doc/index/image/game-set/sharing-management/1.png)
 
 一款小游戏中的分享场景举例：
 

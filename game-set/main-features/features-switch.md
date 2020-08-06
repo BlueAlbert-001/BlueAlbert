@@ -40,7 +40,7 @@ description: 按照游戏版本返回TRUE/FALSE
 2. 全部版本为FALSE
 3. 指定版本为FALSE，其他为TRUE
 
-![](https://cdn.61week.com/tianmu/doc/index/image/game-set/features-switch/1.png)
+![&#x914D;&#x7F6E;&#x9879;&#x7684;&#x4E09;&#x79CD;&#x72B6;&#x6001;](../../.gitbook/assets/qq-jie-tu-20191012165452-1.png)
 
 #### 示例
 
@@ -60,7 +60,7 @@ description: 按照游戏版本返回TRUE/FALSE
 
 请点击每个配置项最右侧的“接入”图标，复制弹窗内容，发送给开发人员
 
-![](https://cdn.61week.com/tianmu/doc/index/image/game-set/features-switch/2.png)
+![&#x53EF;&#x590D;&#x5236;&#x8BE5;&#x5185;&#x5BB9;&#xFF0C;&#x76F4;&#x63A5;&#x53D1;&#x9001;&#x5F00;&#x53D1;&#xFF0C;&#x63D0;&#x9AD8;&#x6C9F;&#x901A;&#x6548;&#x7387;](../../.gitbook/assets/qq-jie-tu-20191012165452-1-1.png)
 
 开发说明请参阅：[版本控制-开发说明](../dev-guide/function-switch.md)
 
