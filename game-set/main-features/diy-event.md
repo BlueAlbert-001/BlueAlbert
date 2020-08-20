@@ -86,7 +86,7 @@ excel模板内容如下：
 
 点击操作栏最后一列的「复制代码」，复制开发需要的自定义事件埋点代码，在客户端中合适的位置加入此代码即可。
 
-![](https://cdn.61week.com/tianmu/doc/index/image/game-set/diy-event/8.png)
+![](../../.gitbook/assets/image%20%28319%29.png)
 
 将此内容发送给技术人员，请根据业务具体的需求使用。
 
