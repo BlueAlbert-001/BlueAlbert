@@ -23,9 +23,9 @@
 wx.tmSDK.sendEvent('clickStartButton', {
 });
 //事件触发
-wx.tmSDK.sendEvent('buyStuff', { //buyStuff为后台配置的事件ID
-    brand: 'CASIO', //brand为后台配置的参数ID，CASIO为开发者传入的对应参数值
-    productName: '计算器' //事件ID与参数ID仅可传天幕自定义事件后台配置的ID
+wx.tmSDK.sendEvent('buyStuff', { 
+    brand: 'CASIO',
+    productName: '计算器'
 });
 ```
 
@@ -36,11 +36,9 @@ wx.tmSDK.sendEvent('buyStuff', { //buyStuff为后台配置的事件ID
 {% hint style="info" %}
 （1）简单的事件可以不包含参数。
 
-（2）调用方法中的内容简释如下，请注意以下ID必须使用天幕自定义事件后台配置的id：
+（2）调用方法中的内容简释如下：
 
-* ‘buyStuff’为后台配置的事件ID；
-* ‘brand’，’productName‘为后台配置的参数ID；
-* 'CASIO'，'计算器'为各参数对应的参数值，即需要开发者传入的内容。
+‘buyStuff’为后台配置的事件ID；‘brand’，’productName‘为后台配置的参数ID；'CASIO','计算器'为各参数对应的参数值，即需要开发者传入的内容。
 
 （3）事件ID、参数ID仅支持英文、数字与下划线，最多32个字符。
 {% endhint %}
