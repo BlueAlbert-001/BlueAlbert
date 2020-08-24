@@ -53,10 +53,10 @@ wx.tmSDK.sendEvent('buyStuff', { //buyStuff为后台配置的事件ID
 请注意：
 
 1. 如果本次触发事件与上次触发事件的时间间隔小于1秒而且触发次数大于10次，则禁止触发事件，防止上报次数过于频繁（SDK会自行进行过滤）
-2. 长度不能大于128字节
-3. key的长度不能大于16字节
-4. data中每个值不能为undefined,null,NaN
-5. data中每个值的类型必须为Number或者String
-6. data通过字符串转化处理后的长度不超过512字节
+2. value长度不能大于128
+3. key的长度不能大于16
+4. data\(整个自定义事件对象\)中每个值不能为undefined,null,NaN
+5. data\(整个自定义事件对象\)中每个值的类型必须为Number或者String
+6. data\(整个自定义事件对象\)通过字符串转化处理后的长度不超过512
 {% endhint %}
 
