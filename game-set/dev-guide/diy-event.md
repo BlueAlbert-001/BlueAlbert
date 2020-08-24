@@ -55,39 +55,8 @@ wx.tmSDK.sendEvent('buyStuff', { //buyStuff为后台配置的事件ID
 1. 如果本次触发事件与上次触发事件的时间间隔小于1秒而且触发次数大于10次，则禁止触发事件，防止上报次数过于频繁（SDK会自行进行过滤）
 2. value长度不能大于128
 3. key的长度不能大于16
-4. data\(自定义事件参数对象\)中每个值不能为undefined,null,NaN
-5. data\(自定义事件参数对象\)中每个值的类型必须为Number或者String
-6. data\(自定义事件参数对象\)通过字符串转化处理后的长度不超过512
+4. data\(整个自定义事件对象\)中每个值不能为undefined,null,NaN
+5. data\(整个自定义事件对象\)中每个值的类型必须为Number或者String
+6. data\(整个自定义事件对象\)通过字符串转化处理后的长度不超过512
 {% endhint %}
-
-## 异常提示
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">&#x53C2;&#x6570;</th>
-      <th style="text-align:left">&#x7C7B;&#x578B;</th>
-      <th style="text-align:left">&#x63CF;&#x8FF0;</th>
-      <th style="text-align:left">&#x793A;&#x4F8B;&#x503C;</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">message</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">&#x9519;&#x8BEF;&#x63CF;&#x8FF0;</td>
-      <td style="text-align:left">
-        <p>100100&#xFF1A;&#x4E8B;&#x4EF6;id&#x5FC5;&#x987B;&#x4E3A;&#x975E;&#x7A7A;&#x5B57;&#x7B26;&#x4E32;&#xFF1B;</p>
-        <p>100101&#xFF1A;&#x81EA;&#x5B9A;&#x4E49;&#x4E8B;&#x4EF6;&#x53C2;&#x6570;data&#x957F;&#x5EA6;&#x4E0D;&#x80FD;&#x8D85;&#x8FC7;512&#xFF1B;</p>
-        <p>100102&#xFF1A;data&#x53C2;&#x6570;&#x4E2D;&#x7684;value&#x503C;&#x90FD;&#x4E0D;&#x80FD;&#x4E3A;undefined/null/NaN&#xFF1B;</p>
-        <p>100103&#xFF1A;key&#x7684;&#x503C;&#x5FC5;&#x987B;&#x4E3A;Number&#x6216;&#x8005;String&#x7C7B;&#x578B;&#xFF1B;</p>
-        <p>100104&#xFF1A;value&#x7684;&#x503C;&#x5FC5;&#x987B;&#x4E3A;Number&#x6216;&#x8005;String&#x7C7B;&#x578B;&#xFF1B;</p>
-        <p>100105&#xFF1A;key&#x7684;&#x957F;&#x5EA6;&#x4E0D;&#x80FD;&#x8D85;&#x8FC7;16&#xFF1B;</p>
-        <p>100106&#xFF1A;value&#x957F;&#x5EA6;&#x4E0D;&#x80FD;&#x8D85;&#x8FC7;128&#xFF1B;</p>
-        <p>100107&#xFF1A;data&#x53C2;&#x6570;&#x4E3A;&#x7A7A;&#xFF0C;&#x8BF7;&#x4F20;&#x5165;data&#x53C2;&#x6570;&#xFF1B;</p>
-        <p>&#x6BCF;&#x79D2;&#x949F;&#x4E0D;&#x80FD;&#x8C03;&#x7528;&#x8D85;&#x8FC7;10&#x6B21;&#xFF1B;</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
 

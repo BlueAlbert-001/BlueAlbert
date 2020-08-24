@@ -116,7 +116,7 @@ bindUserLogin: function(e) {
 | pid | string | 用户在天幕的统一索引，但可能变化，已废弃 |
 | app\_id | string | 应用的appid |
 | open\_id | string | 用户在该应用下的openid |
-| union\_id | string | 用户的unionid，默认为空字符串。union\_id获取方法 |
+| union\_id | string | 用户的unionid，默认为空字符串。[union\_id获取方法](https://developers.weixin.qq.com/minigame/dev/guide/open-ability/union-id.html) |
 | nick\_name | string | 用户的微信昵称，为空时需要调用 [`updateUserinfo`](update-userinfo.md) 获取 |
 | avatar\_url | string | 用户的微信头像，为空时需要调用 [`updateUserinfo`](update-userinfo.md) 获取 |
 | gender | number | 用户在微信中填写的性别，男：1 / 女：0 |
