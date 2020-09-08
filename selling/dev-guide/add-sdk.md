@@ -41,8 +41,10 @@
 
 将下载的sdk文件放置到小游戏工程中，在小游戏game.js中引入SDK，并在需要使用sdk功能的地方调用。
 
-{% hint style="success" %}
-* 在cocos引擎中，请确保SDK文件放在主包中一起打包，这样就可以直接调用了（还可以在wx.d.ts中定义tmSDK变量）
+{% hint style="info" %}
+请注意：
+
+* 在cocos引擎中，如果打包之前没有game.js文件，则只需将SDK文件放在主包中一起打包，这样就可以直接调用了，无需引入SDK文件（还可以在wx.d.ts中定义tmSDK变量）
 {% endhint %}
 
 #### 植入方式
