@@ -67,11 +67,11 @@
 
 1. 下载无无登录版本的SDK，并接入 
 2. [SDK初始化](initialization.md) 
-3. 开发者通过自己的服务端接口获取到openid后调用SDK接口，发送openid。
+3. 开发者通过自己的服务端接口获取到openid后调用SDK接口，发送openid。（**若不发送openid将导致天幕功能无法使用**）
 
 ```javascript
 wx.tmSDK.sendUserInfo({ openId: '开发者传入的openId', gender: 1 }); 
-// gender可选传入，默认值为1默认代表男生 
+// gender可选传入，默认值为1,默认代表男生 
 ```
 
 {% hint style="info" %}
@@ -81,7 +81,7 @@ wx.tmSDK.sendUserInfo({ openId: '开发者传入的openId', gender: 1 });
 {% hint style="danger" %}
 **【注意事项】** 
 
-1、无登录版本SDK，以下部分接口不可使用
+1、无登录版本SDK，以下接口无法使用
 
 *  [.updateUserInfo ](login/update-userinfo.md)（天幕-更新用户信息）
 *  [.getShareInfo](https://developers.weixin.qq.com/minigame/dev/api/share/wx.getShareInfo.html) （微信-获取分享信息）
