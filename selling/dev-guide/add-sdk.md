@@ -33,7 +33,7 @@
 
 ## **Step2.接入SDK**
 
-### **1、SDK接入说明**
+### **1、SDK接入流程说明**
 
 {% hint style="danger" %}
 小游戏引入SDK时请务必注意如下事项：
@@ -63,7 +63,7 @@
 
 ![](https://cdn.61week.com/tianmu/doc/index/image/selling/dev-guide/add-sdk/3.gif)
 
-### **2、无登录版SDK接入说明**
+### **2、无登录版SDK使用说明**
 
 1. 下载无无登录版本的SDK，并接入 
 2. [SDK初始化](initialization.md) 
