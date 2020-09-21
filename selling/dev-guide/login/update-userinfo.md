@@ -13,7 +13,8 @@ description: 从微信获取用户信息（昵称、头像等）
 关于用户信息的更新策略，开发者可[点击此处](./#he-shi-chu-fa-shou-quan)。
 
 {% hint style="info" %}
-接入此接口时，注意[兼容性问题](./#2-jian-rong-xing-wen-ti-zhong-yao-1)。
+1. 接入此接口时，注意[兼容性问题](./#2-jian-rong-xing-wen-ti-zhong-yao-1)。
+2. 若使用了无登录版天幕SDK，无法使用该接口获取用户信息。
 {% endhint %}
 
 ## **调用方法**
