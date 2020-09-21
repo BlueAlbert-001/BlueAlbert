@@ -22,6 +22,7 @@
 {% hint style="danger" %}
 1. 请勿多个游戏使用同一个SDK，每个游戏会对应一个单独的SDK；
 2. 微信小游戏转为qq小游戏时，请将其视为接入一个新游戏
+3. 天幕提供了登录以及无登录两种版本SDK文件，前者由天幕集成封装微信登录功能，后者需要由开发者自行接入微信登录并发送openid提供给天幕方可使用天幕的功能。 无登录版天幕SDK接入说明请见下方。
 {% endhint %}
 
 {% hint style="warning" %}
@@ -31,6 +32,8 @@
 {% endhint %}
 
 ## **Step2.接入SDK**
+
+### **1、SDK接入说明**
 
 {% hint style="danger" %}
 小游戏引入SDK时请务必注意如下事项：
@@ -60,5 +63,32 @@
 
 ![](https://cdn.61week.com/tianmu/doc/index/image/selling/dev-guide/add-sdk/3.gif)
 
-\*\*\*\*
+### **2、无登录版SDK接入说明**
+
+1. 下载无无登录版本的SDK，并接入 
+2. [SDK初始化](initialization.md) 
+3. 开发者通过自己的服务端接口获取到openid后调用SDK接口，发送openid。
+
+```javascript
+wx.tmSDK.sendUserInfo({ openId: '开发者传入的openId', gender: 1 }); 
+// gender可选传入，默认值为1默认代表男生 
+```
+
+{% hint style="info" %}
+强烈建议在登录获取到openid以后第一时间发送给天幕，避免数据统计、卖量助手等功能出现异常。
+{% endhint %}
+
+{% hint style="danger" %}
+**【注意事项】** 
+
+1、无登录版本SDK，以下部分接口不可使用
+
+*  [.updateUserInfo ](login/update-userinfo.md)（天幕-更新用户信息）
+*  [.getShareInfo](https://developers.weixin.qq.com/minigame/dev/api/share/wx.getShareInfo.html) （微信-获取分享信息）
+*  [.login](login/get-user-info.md)（天幕-登录/获取用户信息）
+
+2、无openid无法使用数据统计功能、买卖量助手功能，请接入SDK后及时发送openid避免数据统计、买卖量助手等功能无法使用或功能异常。
+{% endhint %}
+
+
 
