@@ -84,7 +84,6 @@ wx.tmSDK.sendUserInfo({ openId: '开发者传入的openId', gender: 1 });
 1、无登录版本SDK，以下接口无法使用
 
 *  [.updateUserInfo ](login/update-userinfo.md)（天幕-更新用户信息）
-*  [.getShareInfo](https://developers.weixin.qq.com/minigame/dev/api/share/wx.getShareInfo.html) （微信-获取分享信息）
 *  [.login](login/get-user-info.md)（天幕-登录/获取用户信息）
 
 2、无openid无法使用数据统计功能、买卖量助手功能，请接入SDK后及时发送openid避免数据统计、买卖量助手等功能无法使用或功能异常。
