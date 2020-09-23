@@ -28,6 +28,8 @@
 
 ![](https://cdn.61week.com/tianmu/doc/index/image/selling/dev-guide/add-sdk/2.jpg)
 
+![](../../.gitbook/assets/image%20%28325%29.png)
+
 {% hint style="danger" %}
 1. 请勿多个游戏使用同一个SDK，每个游戏会对应一个单独的SDK；
 2. 微信小游戏转为qq小游戏时，请将其视为接入一个新游戏
