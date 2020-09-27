@@ -60,7 +60,7 @@
 * 在cocos引擎中，如果打包之前没有game.js文件，则只需将SDK文件放在主包中一起打包，这样就可以直接调用了，无需引入SDK文件（还可以在wx.d.ts中定义tmSDK变量）
 {% endhint %}
 
-#### 植入方式
+#### 植入方式（注意根据所下载SDK版本文件名植入，以下以天幕包含登录的全功能sdk为例）
 
 * TypeScript或ES6 JavaScript语法植入方式：import 'tm\_sdk.min.js';
 * ES5 JavaScript使用commonJs规范的植入方式：require\('tm\_sdk.min.js'\);
