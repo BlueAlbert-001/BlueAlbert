@@ -4,6 +4,35 @@ description: 天幕后台更新记录
 
 # 天幕更新日志
 
+## v3.1.01 - 2020-09-27
+
+【本周天幕支持新建字节跳动版主体】： 
+
+*  支持创建字节跳动版主体并下载SDK接入游戏 
+* 支持字节跳动小游戏接入天幕游戏配置功能 
+
+字节跳动版买量助手、数据统计、游戏收支等功能已在开发中，将在国庆后陆续上线，敬请期待。
+
+【本周天幕微信QQ版功能更新】： 
+
+* 在原有SDK基础上增加无登录功能兼容版SDK
+
+ 部分开发者已自行接入微信QQ登录或者其他运营平台的基础上想要接入天幕功能，现可使用无登录功能兼容版天幕SDK，通过发送openid给天幕即可使用天幕大部分功能。 
+
+【无登录功能兼容版天幕SDK接入说明 】
+
+* 微信版：[https://doc.skysriver.com/selling/dev-guide/add-sdk\#2-wu-deng-lu-ban-sdk-shi-yong-shuo-ming](https://doc.skysriver.com/selling/dev-guide/add-sdk#2-wu-deng-lu-ban-sdk-shi-yong-shuo-ming) 
+* QQ版：[https://qq.skysriver.com/dev-guide/basic/add-sdk\#2-wu-deng-lu-ban-sdk-shi-yong-shuo-ming](https://qq.skysriver.com/dev-guide/basic/add-sdk#2-wu-deng-lu-ban-sdk-shi-yong-shuo-ming)
+
+【天幕字节跳动小游戏使用说明】： 
+
+* 字节跳动小游戏接入需先创建字节跳动版主体，而后将字节跳动版小游戏添加至该主体中。 
+
+字节跳动版主体创建入口：控制台-上方个人“设置”-新建主体-平台类型选择字节跳动. 创建字节跳动版主体后方可添加字节跳动小游戏。
+
+* 字节跳动版小游戏接入天幕技术指南：[https://tt.skysriver.com/dev-guide/basic](https://tt.skysriver.com/dev-guide/basic) 
+* 字节跳动版与微信、QQ版主体各自独立，人员权限、数据分别独立管理
+
 ## v3.0.1 - 2020-09-15
 
 【自定义事件】功能更新

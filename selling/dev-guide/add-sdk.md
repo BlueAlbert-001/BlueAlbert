@@ -79,7 +79,7 @@
 
 ![](../../.gitbook/assets/image%20%28323%29.png)
 
-1. 下载无无登录版本的SDK，在接入该SDK后，开发者需要自行接入微信登录流程并获取openid
+1. 下载无登录版本的SDK，在接入该SDK后，开发者需要自行接入微信登录流程并获取openid
 2. [SDK初始化](initialization.md)
 3. 开发者通过自己的服务端接口获取到openid后调用SDK接口，发送openid。（**若不发送openid将导致天幕功能无法使用**）
 
