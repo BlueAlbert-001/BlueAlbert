@@ -10,7 +10,7 @@ description: 管理流量主游戏、控制广告位开关
 
 ![](https://cdn.61week.com/tianmu/doc/index/image/selling/main-features/flower-game-manage/1.jpg)
 
-## 版本屏蔽
+## 版本屏蔽（开关控制）
 
 在表格中的【屏蔽版本】处点击编辑的小按钮即可进入编辑状态，填入需要屏蔽的版本号即可，支持多版本屏蔽。
 
