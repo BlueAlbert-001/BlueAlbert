@@ -15,16 +15,27 @@
 
 在【游戏管理】页面，点击操作中的【下载/接入SDK】开始接入。
 
+### 1、选择需要的SDK版本
+
+天幕提供了**有登录**以及**无登录**两种版本SDK文件。
+
+因为微信的[登录机制](https://developers.weixin.qq.com/minigame/dev/guide/open-ability/login.html)设定，无法在一次登录流程中多个服务器同时获取openID，故：
+
+1. 如果游戏原本**无获取openID的逻辑**，则使用**有登录版本SDK**。
+2. 如果待接入天幕SDK的游戏本身有获取openID的逻辑，请选用**无登录版本SDK**
+3. 如果曾接入过其他系统的SDK，且其他系统中有获取openID的逻辑，请选用**无登录版本SDK**
+
+   （阿拉丁的SDK无此逻辑，无需做处理，即使用**有登录版本SDK**即可）
+
 {% hint style="info" %}
-天幕提供了登录以及无登录两种版本SDK文件**。**
+**登录功能版SDK**由天幕集成封装微信登录功能
 
-**登录功能版SDK**由天幕集成封装微信登录功能，可使用天幕的所有功能，蓝色的下载按钮即可下载此版本SDK。
-
-**无登录功能版SDK**需要由开发者自行接入微信登录并发送openid提供给天幕方可使用天幕的功能，但是部分功能无法使用。蓝色按钮下方的文字按钮即可下载此版本SDK。  
-无登录版天幕SDK接入说明请见下方。
+**无登录功能版SDK**需要由开发者自行接入微信登录并发送openid提供给天幕方可使用天幕的功能。
 {% endhint %}
 
-请按要求配置微信的域名白名单，非常重要，务必添加，确认添加完毕后，点击下一步。
+### 2、下载SDK
+
+请按要求**配置微信的域名白名单**，非常重要，务必添加，确认添加完毕后，点击下一步。
 
 ![](https://cdn.61week.com/tianmu/doc/index/image/selling/dev-guide/add-sdk/2.jpg)
 
@@ -100,7 +111,7 @@ wx.tmSDK.sendUserInfo({ openId: '开发者传入的openId', gender: 1 });
 *  [.updateUserInfo ](login/update-userinfo.md)（天幕-更新用户信息）
 *  [.login](login/get-user-info.md)（天幕-登录/获取用户信息）
 
-2、无openid无法使用数据统计功能、买卖量助手功能，请接入SDK后及时发送openid避免数据统计、买卖量助手等功能无法使用或功能异常。
+2、因为无openid无法使用数据统计功能、买卖量助手功能，请接入SDK后及时发送openid避免数据统计、买卖量助手等功能无法使用或功能异常。
 {% endhint %}
 
 

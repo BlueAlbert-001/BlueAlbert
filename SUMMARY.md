@@ -109,7 +109,6 @@
   * [有效新增用户](general-function/valid-user.md)
 * [常见问题](questions/README.md)
   * [热门问题](questions/others.md)
-  * [SDK兼容问题（重要）](questions/compatibility.md)
   * [游戏提审发版](questions/you-xi-ti-shen-fa-ban.md)
   * [卖量助手](questions/about-traffic-master.md)
   * [买量相关](questions/about-ad-master.md)
