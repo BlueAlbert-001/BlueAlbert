@@ -4,10 +4,6 @@ description: 获取openid、用户信息
 
 # 【通用】登录/用户信息
 
-{% hint style="danger" %}
-使用无登录版本SDK的，无需接入此部分内容
-{% endhint %}
-
 ## 概述
 
 业内按照业务流程，将小游戏的登录分为两种：
@@ -23,9 +19,21 @@ description: 获取openid、用户信息
 
 ## 静默登录
 
+### **1、**说明
+
 用户打开小程序/小游戏时，默认进行静默登录，**该功能由sdk集成，无需开发**。
 
 可通过[`.login`](get-user-info.md)接口直接获取用户openID。
+
+### 2、兼容性问题（重要）
+
+因为微信的[登录机制](https://developers.weixin.qq.com/minigame/dev/guide/open-ability/login.html)设定，无法在一次登录流程中多个服务器同时获取openID，故：
+
+1. 如果待接入天幕SDK的游戏本身**有获取openID的逻辑**，需要**去除**此部分逻辑，改用天幕的接口直接获取openID
+2. 如果游戏原本**无获取openID的逻辑**，则直接引入SDK即可。
+3. 如果曾接入过其他系统的SDK，需要**去除**其中获取openID的逻辑（阿拉丁的SDK无此逻辑，无需做处理）
+
+相关链接：[SDK兼容性问题](../../../questions/compatibility.md)
 
 ## 授权登录
 
@@ -39,7 +47,17 @@ description: 获取openid、用户信息
 
 用户授权主要通过[`updateUserInfo`](update-userinfo.md)接口实现。
 
-### **2、何时触发授权**
+### 2、兼容性问题（重要）
+
+因为微信的[登录机制](https://developers.weixin.qq.com/minigame/dev/guide/open-ability/login.html)设定，无法在一次登录流程中多个服务器同时获取openID，故：
+
+1. 如果待接入天幕SDK的游戏本身**有获取openID的逻辑**，需要**去除**此部分逻辑，改用天幕的接口直接获取openID
+2. 如果游戏原本**无获取openID的逻辑**，则直接引入SDK即可。
+3. 如果曾接入过其他系统的SDK，需要**去除**其中获取openID的逻辑（阿拉丁的SDK无此逻辑，无需做处理）
+
+相关链接：[SDK兼容性问题](../../../questions/compatibility.md)
+
+### **3、何时触发授权**
 
 授权需要用户进行点击行为，会对转化率产生影响，因此策略上应该减少大授权的次数。大授权次数过少，可能会导致用户更换微信昵称、头像后，在小游戏中无法更新。
 

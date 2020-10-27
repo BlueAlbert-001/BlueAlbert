@@ -39,6 +39,8 @@
 
 ![](https://cdn.61week.com/tianmu/doc/index/image/selling/dev-guide/add-sdk/2.jpg)
 
+选择你需要的SDK版本：
+
 ![](../../.gitbook/assets/image%20%28325%29.png)
 
 {% hint style="danger" %}

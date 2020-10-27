@@ -52,7 +52,6 @@ SDK组件无法满足，则可通过API的方式接入。
 
 1. 首先通过调用[`checkFlowIsOpen`](../ad-position-status.md)，传入广告位ID，获取广告位开关状态：开启/关闭。
 2. 如果广告位为开启状态，调用[`getFlowConfig`](get-ad-position-config.md)，传入广告位ID，获取配置。
-3. 用户点击跳转时，请使用[`flowNavigate`](https://doc.skysriver.com/dev-guide/create-ad-position/landing)实现，请勿使用微信原生接口实现，否则会导致数据统计异常。
 
 ### 2、特殊说明
 

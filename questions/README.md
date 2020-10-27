@@ -4,6 +4,8 @@
 
 {% page-ref page="others.md" %}
 
+{% page-ref page="compatibility.md" %}
+
 {% page-ref page="you-xi-ti-shen-fa-ban.md" %}
 
 {% page-ref page="about-traffic-master.md" %}
