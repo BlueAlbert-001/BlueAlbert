@@ -94,7 +94,7 @@
 
 1. 下载无登录版本的SDK
 2. [SDK初始化](initialization.md)
-3. 开发者通过自己的服务端接口获取到openid后调用SDK接口，发送openid。（**若不发送openid将导致天幕功能无法使用**）
+3. 完成初始化后，开发者将自行获取到的openid，通过如下的SDK接口，发送openid到天幕。（**若不发送openid将导致天幕功能无法使用**）
 
 ```javascript
 wx.tmSDK.sendUserInfo({ openId: '开发者传入的openId', gender: 1 }); 
