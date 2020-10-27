@@ -1,6 +1,6 @@
 # 【通用】SDK接入
 
-{% hint style="success" %}
+{% hint style="warning" %}
 友情提醒：请严格按照此文档完成SDK接入，60%的SDK接入中的问题发生的原因是未能按照此文档完成SDK接入。
 {% endhint %}
 
