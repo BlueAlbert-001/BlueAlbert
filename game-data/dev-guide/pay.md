@@ -86,48 +86,10 @@ ext的参数
       <td style="text-align:left">&#x767B;&#x5F55;&#x8FD4;&#x56DE;&#x7684;&#x7528;&#x6237;open_id</td>
     </tr>
     <tr>
-      <td style="text-align:left">pid</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">&#x5426;</td>
-      <td style="text-align:left">&#x5929;&#x5E55;&#x5E73;&#x53F0;&#x7684;&#x7EDF;&#x4E00;&#x7528;&#x6237;&#x552F;&#x4E00;&#x6807;&#x8BC6;&#xFF0C;&#x5DF2;&#x5E9F;&#x5F03;&#xFF0C;&#x65E0;&#x9700;&#x4F20;&#x5165;</td>
-    </tr>
-    <tr>
       <td style="text-align:left">user_ip</td>
       <td style="text-align:left">String</td>
       <td style="text-align:left">&#x662F;</td>
       <td style="text-align:left">&#x7528;&#x6237;&#x7684;IP&#x5730;&#x5740;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">device_type</td>
-      <td style="text-align:left">Number</td>
-      <td style="text-align:left">&#x662F;</td>
-      <td style="text-align:left">&#x624B;&#x673A;&#x7CFB;&#x7EDF;&#x7C7B;&#x578B;&#xFF0C;&#x5177;&#x4F53;&#x4E3A;1
-        other&#xFF0C;2 IOS&#xFF0C;3 android</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">device_brand</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">&#x662F;</td>
-      <td style="text-align:left">&#x624B;&#x673A;&#x54C1;&#x724C;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;vivo&#x3001;OPPO&#x3001;iPhone&#x3001;HUAWEI</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">device_model</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">&#x662F;</td>
-      <td style="text-align:left">&#x624B;&#x673A;&#x673A;&#x578B;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;iPhone
-        6s Plus&#x3001;OPPO A57&#x7B49;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">net_type</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">&#x662F;</td>
-      <td style="text-align:left">&#x7F51;&#x7EDC;&#x7C7B;&#x578B;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;wifi&#x3001;5G&#x3001;4G&#x3001;3G&#x7B49;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">scene</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">&#x662F;</td>
-      <td style="text-align:left">&#x5404;&#x5E73;&#x53F0;&#x573A;&#x666F;&#x503C;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;&#x5FAE;&#x4FE1;&#x4E2D;&#x7684;1001&#x3001;1037&#x3001;1089&#x7B49;</td>
     </tr>
     <tr>
       <td style="text-align:left">order_code</td>
@@ -151,6 +113,62 @@ ext的参数
           />&#x9664;&#x7C73;&#x5927;&#x5E08;&#x652F;&#x4ED8;&#x5916;&#x5747;&#x9009;&#x62E9;&#x7B2C;&#x4E09;&#x65B9;&#x652F;&#x4ED8;&#x3002;</p>
       </td>
     </tr>
+    <tr>
+      <td style="text-align:left">device_type</td>
+      <td style="text-align:left">Number</td>
+      <td style="text-align:left">&#x662F;</td>
+      <td style="text-align:left">&#x624B;&#x673A;&#x7CFB;&#x7EDF;&#x7C7B;&#x578B;&#xFF0C;&#x5177;&#x4F53;&#x4E3A;1
+        other&#xFF0C;2 IOS&#xFF0C;3 android</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">device_brand</td>
+      <td style="text-align:left">String</td>
+      <td style="text-align:left">&#x5426;</td>
+      <td style="text-align:left">&#x624B;&#x673A;&#x54C1;&#x724C;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;vivo&#x3001;OPPO&#x3001;iPhone&#x3001;HUAWEI</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">device_model</td>
+      <td style="text-align:left">String</td>
+      <td style="text-align:left">&#x5426;</td>
+      <td style="text-align:left">&#x624B;&#x673A;&#x673A;&#x578B;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;iPhone
+        6s Plus&#x3001;OPPO A57&#x7B49;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">net_type</td>
+      <td style="text-align:left">String</td>
+      <td style="text-align:left">&#x5426;</td>
+      <td style="text-align:left">&#x7F51;&#x7EDC;&#x7C7B;&#x578B;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;wifi&#x3001;5G&#x3001;4G&#x3001;3G&#x7B49;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">scene</td>
+      <td style="text-align:left">String</td>
+      <td style="text-align:left">&#x5426;</td>
+      <td style="text-align:left">&#x5404;&#x5E73;&#x53F0;&#x573A;&#x666F;&#x503C;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;&#x5FAE;&#x4FE1;&#x4E2D;&#x7684;1001&#x3001;1037&#x3001;1089&#x7B49;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">zone</td>
+      <td style="text-align:left">String</td>
+      <td style="text-align:left">&#x5426;</td>
+      <td style="text-align:left">&#x6E38;&#x620F;&#x5185;&#x533A;&#x670D;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;&#x5317;&#x4EAC;&#x4E00;&#x670D;&#xFF0C;&#x534E;&#x4E1C;&#x4E00;&#x533A;&#x7B49;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">goods_name</td>
+      <td style="text-align:left">String</td>
+      <td style="text-align:left">&#x5426;</td>
+      <td style="text-align:left">&#x5546;&#x54C1;&#x540D;&#x79F0;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;10&#x94BB;&#x77F3;&#x3001;1000&#x91D1;&#x5E01;&#x3001;1&#x5F20;&#x6708;&#x5361;&#x7B49;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">game_uid</td>
+      <td style="text-align:left">String</td>
+      <td style="text-align:left">&#x5426;</td>
+      <td style="text-align:left">&#x73A9;&#x5BB6;&#x6E38;&#x620F;&#x5185;ID</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">game_nickname</td>
+      <td style="text-align:left">String</td>
+      <td style="text-align:left">&#x5426;</td>
+      <td style="text-align:left">&#x73A9;&#x5BB6;&#x6E38;&#x620F;&#x5185;&#x6635;&#x79F0;</td>
+    </tr>
   </tbody>
 </table>
 
@@ -166,15 +184,18 @@ ext的参数
       "pay_amount": 2000,
       "is_first_pay": true,
       "uid": "oI2nx3EUnScOMVVBJBYq-1234567",
-      "pid": "e496a4d0-1662-11ea-b3aa-cdab23d31c7a",
       "user_ip": "113.105.0.58",
-  	  "device_type": 3,
+      "device_type": 3,
       "device_brand": "OPPO",
       "device_model": "OPPO A57",
       "net_type": "4G",
       "scene": "1047",
-  	  "order_code": "74a3a21ffca9b09d8def90a54a3014ca",
-      "pay_type": 2
+      "order_code": "74a3a21ffca9b09d8def90a54a3014ca",
+      "pay_type": 2，
+      "zone": "华东大区1服"，
+      "goods_name": "20钻石"，
+      "game_uid": "1d45s23s2"，
+      "game_nickname": "轻舞飞扬"
     }
   }
 }
