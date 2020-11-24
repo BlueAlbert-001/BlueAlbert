@@ -102,8 +102,8 @@ ext的参数
       <td style="text-align:left">Number</td>
       <td style="text-align:left">&#x662F;</td>
       <td style="text-align:left">
-        <p>&#x652F;&#x4ED8;&#x65B9;&#x5F0F;&#xFF1A;1 &#x5FAE;&#x4FE1;&#x652F;&#x4ED8;&#xFF0C;
-          2 &#x7C73;&#x5927;&#x5E08;&#x652F;&#x4ED8;&#xFF0C;3 &#x7B2C;&#x4E09;&#x65B9;&#x652F;&#x4ED8;&#x3002;</p>
+        <p>&#x652F;&#x4ED8;&#x65B9;&#x5F0F;&#xFF1A; 2 &#x7C73;&#x5927;&#x5E08;&#x652F;&#x4ED8;&#xFF0C;3
+          &#x7B2C;&#x4E09;&#x65B9;&#x652F;&#x4ED8;&#x3002;</p>
         <p>&#x56DE;&#x4F20;&#x540E;&#x7B2C;&#x4E09;&#x65B9;&#x652F;&#x4ED8;&#x6570;&#x636E;&#x540E;&#x53EF;&#x5728;
           <a
           href="../../general-function/revenue/">&#x6E38;&#x620F;&#x6536;&#x652F;</a>&#x529F;&#x80FD;&#x4E2D;&#x81EA;&#x52A8;&#x540C;&#x6B65;&#xFF0C;</p>
