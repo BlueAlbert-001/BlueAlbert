@@ -114,6 +114,7 @@
   * [买量相关](questions/about-ad-master.md)
   * [数据相关](questions/about-data.md)
   * [游戏配置](questions/game-manage.md)
+  * [兼容问题](questions/compatibility.md)
   * [多Icon广告位 - 支持“多帧动图200\*200”](questions/gif200-200.md)
 * [更新日志](change-log/README.md)
   * [天幕更新日志](change-log/skysriver-change-log.md)
