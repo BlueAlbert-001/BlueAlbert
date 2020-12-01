@@ -116,7 +116,6 @@ wx.tmSDK.sendUserInfo({ openId: '开发者传入的openId', gender: 1 });
 
 *  [.updateUserInfo ](login/update-userinfo.md)（天幕-更新用户信息）
 *  [.login](login/get-user-info.md)（天幕-登录/获取用户信息）
-* 分享裂变数据分析功能（游戏数据-分享裂变分析无法统计数据）
 
 2、因为无openid无法使用数据统计功能、买卖量助手功能，请接入SDK后及时发送openid避免数据统计、买卖量助手等功能无法使用或功能异常。
 {% endhint %}
