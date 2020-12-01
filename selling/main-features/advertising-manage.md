@@ -19,7 +19,7 @@
 
 ![](../../.gitbook/assets/image%20%28331%29.png)
 
-![](../../.gitbook/assets/image%20%28335%29.png)
+![](../../.gitbook/assets/image%20%28336%29.png)
 
 ### 方法二
 
@@ -27,5 +27,7 @@
 
 ![](../../.gitbook/assets/image%20%28329%29.png)
 
-![](../../.gitbook/assets/image%20%28334%29.png)
+![](../../.gitbook/assets/image%20%28335%29.png)
+
+
 

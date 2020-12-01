@@ -16,9 +16,9 @@ description: 管理广告主游戏
 
 ![](https://cdn.61week.com/tianmu/doc/index/image/selling/main-features/ad-game-manage/2.jpg)
 
-## 添加公司
+## 添加客户
 
-天幕支持将合作的渠道公司录入，这样可以高效的管理不同渠道所代表的公司，方便日后渠道的结算，点击【公司管理】按钮，在弹出的页面中点击【添加公司】即可。
+天幕支持将合作的渠道所属的客户公司录入，这样可以高效的管理不同渠道所代表的公司，方便日后渠道的结算，点击【客户管理】按钮，在弹出的页面中点击【添加客户】以及客户的公司信息即可。
 
-![](https://cdn.61week.com/tianmu/doc/index/image/selling/main-features/ad-game-manage/3.jpg)
+![](../../.gitbook/assets/image%20%28334%29.png)
 
