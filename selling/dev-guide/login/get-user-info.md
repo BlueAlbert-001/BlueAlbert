@@ -9,7 +9,7 @@ description: 获取存储在天幕的用户信息
 `login`接口用于获取已经存放在天幕平台的用户信息，包含OpenID、头像、昵称、地区等，用做后续业务逻辑判断的依据。（其中头像昵称需要用户授权，详见[授权登录](./#shou-quan-deng-lu)）
 
 {% hint style="info" %}
-1. 接入此接口时，注意[兼容性问题](./#2-jian-rong-xing-wen-ti-zhong-yao)
+1. 接入此接口时，注意[兼容性问题](../../../questions/compatibility.md)
 2. 若使用了无登录版天幕SDK，无法使用该接口获取用户信息。
 {% endhint %}
 
