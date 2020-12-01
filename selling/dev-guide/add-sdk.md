@@ -112,7 +112,7 @@ wx.tmSDK.sendUserInfo({ openId: '开发者传入的openId', gender: 1 });
 {% hint style="danger" %}
 **【注意事项】** 
 
-1、无登录版本SDK，以下接口无法使用
+1、无登录版本SDK，以下接口或功能无法使用
 
 *  [.updateUserInfo ](login/update-userinfo.md)（天幕-更新用户信息）
 *  [.login](login/get-user-info.md)（天幕-登录/获取用户信息）
