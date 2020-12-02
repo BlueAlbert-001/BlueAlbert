@@ -172,20 +172,21 @@ SDK组件无法满足，则可通过API的方式接入。
 
 每次调用[`getFlowConfig`](get-ad-position-config.md)，根据`auto_change`的返回值，设置一个Timer，调用[`getFlowConfig`](get-ad-position-config.md)，展示接口返回的广告配置。
 
+{% hint style="info" %}
+如果要同时实现自动刷新和点击刷新，这里建议，在用户点击触发点击刷新逻辑后，重置这里的timer，避免出现点击刷新后，很快又触发自动刷新的情况。
+{% endhint %}
+
 #### **自测方法**
 
 观察游戏中的广告，是否按照接口的返回值自动切换，可通过观察广告图片上的文字内容得知是否切换了广告。
 
 ### **2、点击刷新**
 
-根据在上述自动刷新说明的`auto_change`返回值设定的时间内，点击广告，自动刷新广告内容。
-
 该“点击刷新”策略，仅适用于[type=1浮动窗广告位](./#fu-dong-chuang-guang-gao-wei-jie-ru)、[type=7多Icon广告位](./#duo-icon-guang-gao-wei-jie-ru)。
 
 **实现方法**
 
 1. 点击后调用[`flowNavigate`](landing.md)，利用该接口返回的创意配置刷新显示的创意。
-2. 执行了此刷新后，自动刷新中的timer重新计时。
 
 #### **自测方法**
 
