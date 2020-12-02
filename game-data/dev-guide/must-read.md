@@ -9,7 +9,7 @@ description: 请按照如下步骤完成“游戏数据”的接入，建议阅�
 | 功能名 | 接口或接入说明 | 可选或必选 |
 | :--- | :--- | :--- |
 | SDK接入 |  | **必选** |
-| 登录 |  | **必选** |
+| 登录 | 若使用无登录版需要返回openid | **必选** |
 | 性能分析 | [.sendloading](performance-analysis.md) | 可选 |
 | 微信广告分析-banner | [.creatBannerAd](official-ad-analysis/.createbannerad.md) | 可选 |
 | 微信广告分析-视频 | [.creatRewardedVideoAd](official-ad-analysis/.createrewardedvideoad.md) | 可选 |
