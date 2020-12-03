@@ -26,7 +26,7 @@
 因为微信的[登录机制](https://developers.weixin.qq.com/minigame/dev/guide/open-ability/login.html)设定，无法在一次登录流程中多个服务器同时获取openID，故：
 
 1. 如果游戏原本**无获取openID的逻辑**，则使用**有登录版本SDK**。
-2. 如果待接入天幕SDK的游戏本身有获取openID的逻辑，请选用**无登录版本SDK**
+2. 如果接入天幕SDK的游戏本身有获取openID的逻辑，请选用**无登录版本SDK**
 3. 如果曾接入过其他系统的SDK，且其他系统中有获取openID的逻辑，请选用**无登录版本SDK**
 
    （阿拉丁的SDK无此逻辑，无需做处理，即使用**有登录版本SDK**即可）
