@@ -106,7 +106,7 @@ wx.tmSDK.sendUserInfo({ openId: '开发者传入的openId', gender: 1 });
 ```
 
 {% hint style="info" %}
-强烈建议在登录获取到openid以后第一时间发送给天幕，避免数据统计、卖量助手等功能出现异常。
+强烈建议在登录获取到openid以后第一时间发送给天幕，避免数据统计、买卖量助手等功能出现异常。
 {% endhint %}
 
 {% hint style="danger" %}
