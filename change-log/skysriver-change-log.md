@@ -4,6 +4,27 @@ description: 天幕后台更新记录
 
 # 天幕更新日志
 
+## v3.3.1 - 2021-02-02
+
+**1、华为版主要支持支持功能如下**
+
+* 功能配置-支持版本控制、在线参数、自定义事件与ABtest
+* 游戏数据-支持留存、时长、渠道等数据统计
+* 买量助手-配置投放的渠道与参数，统计不同渠道来源用户数据
+* 卖量助手-将自己的游戏作为流量主游戏卖量进行创意配置投放管理，统计卖量曝光点击及收入数据
+
+帮助与接入文档：[https://huawei.skysriver.com/](https://huawei.skysriver.com/)
+
+华为版使用过程中有任何问题欢迎反馈给我们。
+
+**2、接入天幕SDK的产品，可通过天幕接口获取access\_token**
+
+接入天幕SDK后如果开发者需要使用access\_token，现在可通过天幕接口获取，避免各自获取造成冲突。
+
+* 微信：[https://doc.skysriver.com/general-function/accesstoken](https://doc.skysriver.com/general-function/accesstoken)
+* QQ：[https://qq.skysriver.com/general-functions/accesstoken](https://qq.skysriver.com/general-functions/accesstoken)
+* 字节跳动：[https://tt.skysriver.com/general-functions/accesstoken](https://tt.skysriver.com/general-functions/accesstoken)
+
 ## v3.2.8 - 2021-01-05
 
 * 卖量助手配置创意时已上传的图片可以删除，避免使用过期低效素材，提升素材管理效率。
