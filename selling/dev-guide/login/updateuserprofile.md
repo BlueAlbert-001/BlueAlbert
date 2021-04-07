@@ -19,16 +19,20 @@
 ## **调用方法**
 
 ```javascript
-wx.tmSDK.updateUserProfile({ refresh: false }).then(res => {});
+wx.tmSDK.updateUserProfile({
+refresh: false ,
+desc: "更新用户信息" // 默认为更新用户信息，官方要求必填项，声明获取用户个人信息后的用途，后续会展示在弹窗中，请谨慎填写
+}).then(res => {});
 // refresh 可选 默认为false：不强制拉起授权弹窗，根据缓存时间判断是否拉起授权弹窗。
 // true：无论是否有缓存，都会直接拉起授权弹窗
 ```
 
 ## **参数说明**
 
-| 字段 | 字段类型 | 小程序 | 小游戏 |
-| :--- | :--- | :--- | :--- |
-| refresh | boolean | 不兼容 | 可调用 |
+| 字段 | 是否必填 | 字段类型 | 小程序 | 小游戏 |
+| :--- | :--- | :--- | :--- | :--- |
+| refresh | 否 | boolean | 不兼容 | 可调用 |
+| desc | 是 | string | 可调用 | 可调用 |
 
 ## **返回值说明**
 
