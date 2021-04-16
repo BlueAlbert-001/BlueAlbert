@@ -77,7 +77,7 @@
 * 在cocos引擎中，如果打包之前没有game.js文件，则只需将SDK文件放在cocos引擎主包中一起打包，这样就可以直接调用了，无需引入SDK文件（还可以在wx.d.ts中定义tmSDK变量）
 {% endhint %}
 
-![](../../.gitbook/assets/image%20%28339%29.png)
+![](../../.gitbook/assets/image%20%28340%29.png)
 
 #### 植入方式（注意根据所下载SDK版本文件名植入，以下以天幕包含登录的全功能sdk为例）
 
