@@ -2,7 +2,13 @@
 description: 从微信获取用户信息（昵称、头像等）
 ---
 
-# .updateUserInfo
+# .updateUserInfo\(注意更新\)
+
+{% hint style="info" %}
+此接口调用了微信官方wx.getUserInfo获取用户。由于官方登录、获取用户信息将使用新接口，在2021年4月13日后发布的小游戏（小程序）若依然使用wx.getUserInfo将无法获取用户信息。**建议下载2021年3月7日发布的新版天幕微信天幕SDK，并调用**[**.updataUserProfile**](updateuserprofile.md)**接口获取用户信息**。
+
+关于微信小程序登录、用户信息相关接口调整说明：[https://developers.weixin.qq.com/community/develop/doc/000cacfa20ce88df04cb468bc52801?blockType=1](https://developers.weixin.qq.com/community/develop/doc/000cacfa20ce88df04cb468bc52801?blockType=1)
+{% endhint %}
 
 ## 概述
 
