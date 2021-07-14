@@ -38,7 +38,7 @@ SDK组件无法满足，则可通过API的方式接入。
 
 * 获取广告位开关：[checkFlowIsOpen](../ad-position-status.md)
 * 创意配置获取：[getFlowConfig](get-ad-position-config.md)
-* 点击跳转：[flowNavigate](https://doc.skysriver.com/dev-guide/create-ad-position/landing)
+* 点击跳转：[flowNavigate](landing.md)
 
 ## **【重要】接口调用策略**
 
