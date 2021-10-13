@@ -6,9 +6,12 @@
 
 ## 激励视频
 
-{% page-ref page=".createrewardedvideoad.md" %}
+{% content-ref url=".createrewardedvideoad.md" %}
+[.createrewardedvideoad.md](.createrewardedvideoad.md)
+{% endcontent-ref %}
 
 ## Banner
 
-{% page-ref page=".createbannerad.md" %}
-
+{% content-ref url=".createbannerad.md" %}
+[.createbannerad.md](.createbannerad.md)
+{% endcontent-ref %}

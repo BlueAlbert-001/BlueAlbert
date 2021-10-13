@@ -10,7 +10,7 @@ description: 分析资源加载性能问题，降低用户流失率
 性能分析功能接入，详见：[性能分析技术指南](https://doc.skysriver.com/game-data/dev-guide/performance-analysis)
 {% endhint %}
 
-![](https://cdn.61week.com/tianmu/doc/index/image/game-data/indicator-description/性能分析/image.png)
+![](https://cdn.61week.com/tianmu/doc/index/image/game-data/indicator-description/%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90/image.png)
 
 * T1（进入应用）次数 在微信加载完成后，正式进入应用阶段的次数
 * T2（开始加载）次数 微信加载完进入应用，随后进入资源加载阶段的次数
@@ -18,4 +18,3 @@ description: 分析资源加载性能问题，降低用户流失率
 * T1-T2转化率 从进入应用到开始加载这一过程的转化情况，计算公式为：T2次数/T1次数
 * T2-T3转化率 从开始加载到加载完成这一过程的转化情况，计算公式为：T3次数/T2次数
 * T1-T3转化率 从进入应用到加载完成整个阶段的转化情况，计算公式为：T3次数/T1次数
-

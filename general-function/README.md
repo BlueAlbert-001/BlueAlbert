@@ -10,19 +10,31 @@ description: 4个主要模块外的其他功能说明
 除内购数据回传（可选）与有效新增用户外，都无需SDK接入
 {% endhint %}
 
-{% page-ref page="customized-view.md" %}
+{% content-ref url="customized-view.md" %}
+[customized-view.md](customized-view.md)
+{% endcontent-ref %}
 
-{% page-ref page="internal-settlement.md" %}
+{% content-ref url="internal-settlement.md" %}
+[internal-settlement.md](internal-settlement.md)
+{% endcontent-ref %}
 
-{% page-ref page="revenue/" %}
+{% content-ref url="revenue/" %}
+[revenue](revenue/)
+{% endcontent-ref %}
 
-{% page-ref page="permission.md" %}
+{% content-ref url="permission.md" %}
+[permission.md](permission.md)
+{% endcontent-ref %}
 
-{% page-ref page="game-manage.md" %}
+{% content-ref url="game-manage.md" %}
+[game-manage.md](game-manage.md)
+{% endcontent-ref %}
 
-{% page-ref page="midas.md" %}
+{% content-ref url="midas.md" %}
+[midas.md](midas.md)
+{% endcontent-ref %}
 
-{% page-ref page="valid-user.md" %}
-
-
+{% content-ref url="valid-user.md" %}
+[valid-user.md](valid-user.md)
+{% endcontent-ref %}
 

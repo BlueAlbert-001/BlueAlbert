@@ -11,18 +11,18 @@ description: 本篇介绍如何使用createFlow进行多Icon广告的渲染。
 
 ## 支持的引擎
 
-| 引擎 | 版本号 |
-| :--- | :--- |
-| laya | v1.7.1 |
-| laya | v2.0.0beta5.1 |
-| cocos | v1.9.3 |
-| cocos | v2.0.5 |
+| 引擎    | 版本号           |
+| ----- | ------------- |
+| laya  | v1.7.1        |
+| laya  | v2.0.0beta5.1 |
+| cocos | v1.9.3        |
+| cocos | v2.0.5        |
 
 ## **组件样式**
 
 组件化接入样式如下，如无法满足需求，可使用[API方式接入](../../api/)
 
-![&#x591A;Icon&#x5E7F;&#x544A;&#x4F4D;&#x7EC4;&#x4EF6;&#x5C55;&#x793A;&#x6837;&#x5F0F;](../../../../.gitbook/assets/image%20%28221%29.png)
+![多Icon广告位组件展示样式](<../../../../.gitbook/assets/image (41).png>)
 
 ## **使用实例**
 
@@ -90,4 +90,3 @@ let callBack = function(error){
 };
 flowUI.offNavigate(callBack);  // 取消某个监听事件
 ```
-

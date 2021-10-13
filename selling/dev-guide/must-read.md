@@ -19,15 +19,21 @@ description: 请按照如下步骤完成“卖量助手”的接入，建议阅�
 
 要完整使用天幕的卖量助手，需要进行SDK的接入，请参阅：
 
-{% page-ref page="add-sdk.md" %}
+{% content-ref url="add-sdk.md" %}
+[add-sdk.md](add-sdk.md)
+{% endcontent-ref %}
 
 ## Step2
 
 SDK接入完成后，在使用某些接口时，需要进行SDK的初始化，另外，游戏可能需要获取用户头像昵称等信息（登录流程），请参阅：
 
-{% page-ref page="initialization.md" %}
+{% content-ref url="initialization.md" %}
+[initialization.md](initialization.md)
+{% endcontent-ref %}
 
-{% page-ref page="login/" %}
+{% content-ref url="login/" %}
+[login](login/)
+{% endcontent-ref %}
 
 1. 未接入天幕登录功能（或使用无登录版SDK时未发送uid）导致卖量功能无法使用
 2. 未按照正确SDK接入说明引入SDK文件导致异常或广告展示异常；
@@ -43,11 +49,17 @@ SDK接入完成后，在使用某些接口时，需要进行SDK的初始化，�
 
 请参阅以下内容：
 
-{% page-ref page="componentization/" %}
+{% content-ref url="componentization/" %}
+[componentization](componentization/)
+{% endcontent-ref %}
 
-{% page-ref page="api/" %}
+{% content-ref url="api/" %}
+[api](api/)
+{% endcontent-ref %}
 
-{% page-ref page="ad-position-status.md" %}
+{% content-ref url="ad-position-status.md" %}
+[ad-position-status.md](ad-position-status.md)
+{% endcontent-ref %}
 
 ## 其他
 
@@ -55,11 +67,12 @@ SDK接入完成后，在使用某些接口时，需要进行SDK的初始化，�
 
 开发demo，请参阅：
 
-{% page-ref page="dev-demo.md" %}
+{% content-ref url="dev-demo.md" %}
+[dev-demo.md](dev-demo.md)
+{% endcontent-ref %}
 
 ### 技术支持
 
 接入过程中有任何问题，欢迎微信扫描下方二维码，咨询天幕对接人员
 
-![](../../.gitbook/assets/readme-3.jpg)
-
+![](../../.gitbook/assets/README-3.jpg)

@@ -13,11 +13,11 @@ description: 本篇介绍如何使用createFlow进行伪视频广告的渲染。
 
 ## 支持的引擎
 
-| 引擎 | 版本号 |
-| :--- | :--- |
-| laya | v1.7.1 |
-| laya | v2.0.0beta5.1 |
-| cocos | v2.1.0 |
+| 引擎    | 版本号           |
+| ----- | ------------- |
+| laya  | v1.7.1        |
+| laya  | v2.0.0beta5.1 |
+| cocos | v2.1.0        |
 
 ## **使用实例**
 
@@ -83,4 +83,3 @@ let callBack = function(error){
 };
 flowUI.offNavigate(callBack);  // 取消某个监听事件
 ```
-

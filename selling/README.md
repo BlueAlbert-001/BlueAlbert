@@ -10,7 +10,7 @@ description: 卖量助手入门指引
 
 功能：流量变现，最大化变现效率
 
-![&#x5929;&#x5E55;-&#x5356;&#x91CF;&#x52A9;&#x624B;&#x5165;&#x53E3;](https://cdn.61week.com/tianmu/doc/index/image/selling/image.png)
+![天幕-卖量助手入口](https://cdn.61week.com/tianmu/doc/index/image/selling/image.png)
 
 ## 入门指引
 
@@ -24,19 +24,25 @@ description: 卖量助手入门指引
 
 建议阅读者：流量运营
 
-{% page-ref page="main-features/" %}
+{% content-ref url="main-features/" %}
+[main-features](main-features/)
+{% endcontent-ref %}
 
 ### 2、【基础】广告位类型说明
 
 建议阅读者：流量运营、技术人员
 
-{% page-ref page="ad-types/" %}
+{% content-ref url="ad-types/" %}
+[ad-types](ad-types/)
+{% endcontent-ref %}
 
 ### 3、【进阶1】数据指标说明
 
 建议阅读者：流量运营
 
-{% page-ref page="data-indicator.md" %}
+{% content-ref url="data-indicator.md" %}
+[data-indicator.md](data-indicator.md)
+{% endcontent-ref %}
 
 ### 4、【进阶2】创意的下发策略
 
@@ -44,19 +50,23 @@ description: 卖量助手入门指引
 
 天幕创意的下发策略，建议首次快速浏览，开始使用天幕后详细阅读
 
-{% page-ref page="creative-strategy.md" %}
+{% content-ref url="creative-strategy.md" %}
+[creative-strategy.md](creative-strategy.md)
+{% endcontent-ref %}
 
 ### 5、【基础】接入指南、API说明
 
 建议阅读者：技术人员
 
-{% page-ref page="dev-guide/" %}
+{% content-ref url="dev-guide/" %}
+[dev-guide](dev-guide/)
+{% endcontent-ref %}
 
 ### 6、常见问题指引
 
 建议阅读者：技术人员与运营人员
 
-{% page-ref page="../questions/about-traffic-master.md" %}
-
-
+{% content-ref url="../questions/about-traffic-master.md" %}
+[about-traffic-master.md](../questions/about-traffic-master.md)
+{% endcontent-ref %}
 

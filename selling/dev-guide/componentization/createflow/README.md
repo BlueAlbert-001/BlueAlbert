@@ -19,13 +19,21 @@ description: 组件化接入广告位
 
 也可以参阅实例，看看如何在实际中使用`createFlow`渲染广告位。
 
-{% page-ref page="more-icon.md" %}
+{% content-ref url="more-icon.md" %}
+[more-icon.md](more-icon.md)
+{% endcontent-ref %}
 
-{% page-ref page="icon.md" %}
+{% content-ref url="icon.md" %}
+[icon.md](icon.md)
+{% endcontent-ref %}
 
-{% page-ref page="screen-ad.md" %}
+{% content-ref url="screen-ad.md" %}
+[screen-ad.md](screen-ad.md)
+{% endcontent-ref %}
 
-{% page-ref page="like-video.md" %}
+{% content-ref url="like-video.md" %}
+[like-video.md](like-video.md)
+{% endcontent-ref %}
 
 ## **接口描述**
 
@@ -61,13 +69,13 @@ flowUI.onRender(function({message}){
 
 ## **参数**
 
-| 参数 | 字段名称 | 字段说明 |
-| :--- | :--- | :--- |
-| positionId | 广告位id | 广告位id |
-| x | 渲染x轴位置 | 推广位在画布中的渲染X轴方向位置，坐标原点为视图左上角 |
-| y | 渲染y轴位置 | 推广位在画布中的渲染Y轴方向位置，坐标原点为视图左上角 |
-| width\(可选参数\) | 渲染宽度 | 可选参数，设置后可调整推广位尺寸, 不设置则使用默认尺寸, 最小值为100,最大值为默认广告类型宽 |
-| zIndex\(可选参数\) | 渲染层级 | 可选参数，设置后可调整UI的渲染层级， 默认值为999999999 |
+| 参数           | 字段名称   | 字段说明                                              |
+| ------------ | ------ | ------------------------------------------------- |
+| positionId   | 广告位id  | 广告位id                                             |
+| x            | 渲染x轴位置 | 推广位在画布中的渲染X轴方向位置，坐标原点为视图左上角                       |
+| y            | 渲染y轴位置 | 推广位在画布中的渲染Y轴方向位置，坐标原点为视图左上角                       |
+| width(可选参数)  | 渲染宽度   | 可选参数，设置后可调整推广位尺寸, 不设置则使用默认尺寸, 最小值为100,最大值为默认广告类型宽 |
+| zIndex(可选参数) | 渲染层级   | 可选参数，设置后可调整UI的渲染层级， 默认值为999999999                 |
 
 ## **销毁**
 
@@ -180,13 +188,13 @@ flowUI.offError(errorCallBack);  // 只取消errorCallBack监听事件
 ## **监听广告位跳转事件**
 
 1. 监听广告位是否触发点击跳转
-2. 回调参数中为返回的原始微信信息
+2.  回调参数中为返回的原始微信信息
 
-   ```javascript
-   flowUI.onNavigate(function(msg) {
-    console.error(msg);
-   })
-   ```
+    ```javascript
+    flowUI.onNavigate(function(msg) {
+     console.error(msg);
+    })
+    ```
 
 ## **取消监听广告位跳转事件**
 
@@ -196,4 +204,3 @@ let callBack = function(error){
 };
 flowUI.offNavigate(callBack);  // 取消某个监听事件
 ```
-

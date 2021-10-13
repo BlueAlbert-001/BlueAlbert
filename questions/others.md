@@ -3,7 +3,8 @@
 ## 1. 我有小游戏想要买量或者寻找代理运营，有什么办法吗？
 
 * 买卖量信息可访问：[天幕买卖量信息平台](https://www.skysriver.com/tianmu/admin/exchange)
-* 微信小游戏发行、代运营，如有洽谈意向，请联系： **grace@starsriver.cn**
+* 微信小游戏发行、代运营，如有洽谈意向，请联系：\
+  **grace@starsriver.cn**
 
 ## 2. 我有多款产品，可以使用同一个SDK文件吗？
 
@@ -35,11 +36,9 @@
 
 （1）修改个人信息可通过右上角的个人设置功能，修改头像与用户名。
 
-![](../.gitbook/assets/image%20%28295%29.png)
+![](<../.gitbook/assets/image (301).png>)
 
 （2）修改主体名称与图标，直接点击主体图标处即可。
 
-![](../.gitbook/assets/image%20%28302%29.png)
-
-
+![](<../.gitbook/assets/image (302).png>)
 

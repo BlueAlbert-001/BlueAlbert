@@ -17,7 +17,7 @@
 ## **调用方法**
 
 {% hint style="danger" %}
-请 **严格按照 【**[接口调用策略](./#zhong-yao-jie-kou-tiao-yong-ce-lve)**】** 调用此接口，否则造成的一切后果请自负！
+请 **严格按照 【**[接口调用策略](./#zhong-yao-jie-kou-tiao-yong-ce-lve)**】 **调用此接口，否则造成的一切后果请自负！
 {% endhint %}
 
 ```java
@@ -36,8 +36,8 @@ positionId将对应的不同类型返回值，使用前请确认当前使用的p
 天幕根据传入的positionID判断当前广告位的类型
 {% endhint %}
 
-| 字段 | 字段类型 | 说明 |
-| :--- | :--- | :--- |
+| 字段         | 字段类型   | 说明    |
+| ---------- | ------ | ----- |
 | positionId | string | 广告位id |
 
 ## **返回值与广告类型**
@@ -45,7 +45,7 @@ positionId将对应的不同类型返回值，使用前请确认当前使用的p
 ### **浮动窗广告位**
 
 * type为1时，positionId对应的是浮动窗类型
-* 如果创意列表creatives的show\_config中，只有image，则只需渲染该静态图
+* 如果创意列表creatives的show_config中，只有image，则只需渲染该静态图
 * 浮动窗广告可在天幕设置角标功能
 
 ```java
@@ -214,24 +214,22 @@ positionId将对应的不同类型返回值，使用前请确认当前使用的p
 
 ### **返回参数**
 
-| 字段 | 字段类型 | 说明 |
-| :--- | :--- | :--- |
-| isOpen | boolean | 广告位是否开启 |
-| type | string | 该广告位的类型 |
-| auto\_change | number | 自动切换时间 |
-| borderStyle | object | 边框样式属性  \*仅当后台配置开启时 |
-| borderStyle.imageUrl | string | 边框图片 |
-| borderStyle.size | string | 边框尺寸，通常比show\_config中的图片大 |
-| borderStyle.left | number | show\_config中图片相对边框的左位置 |
-| borderStyle.top | number | show\_config中图片相对边框的上位置 |
-| creatives | array | 该广告位可渲染的创意列表, 浮动icon类型该数组有且只有一个 |
-| creativeId | string | 创意id |
-| positionId | string | 广告位id |
-| show\_config | object | 广告位素材详情 |
-| show\_config.title | string | 素材对应渲染的标题 |
-| show\_config.image | string | 素材图片 |
-| title | string | 多icon广告位的广告文案 |
-| cornerOpen | boolean | 角标是否开启 |
-
-
+| 字段                   | 字段类型    | 说明                              |
+| -------------------- | ------- | -------------------------------- |
+| isOpen               | boolean | 广告位是否开启                          |
+| type                 | string  | 该广告位的类型                          |
+| auto_change          | number  | 自动切换时间                           |
+| borderStyle          | object  | 边框样式属性  \*仅当后台配置开启时              |
+| borderStyle.imageUrl | string  | 边框图片                             |
+| borderStyle.size     | string  | 边框尺寸，通常比show_config中的图片大         |
+| borderStyle.left     | number  | show_config中图片相对边框的左位置           |
+| borderStyle.top      | number  | show_config中图片相对边框的上位置           |
+| creatives            | array   | 该广告位可渲染的创意列表, 浮动icon类型该数组有且只有一个 |
+| creativeId           | string  | 创意id                            |
+| positionId           | string  | 广告位id                           |
+| show_config          | object  | 广告位素材详情                         |
+| show_config.title    | string  | 素材对应渲染的标题                       |
+| show_config.image    | string  | 素材图片                            |
+| title                | string  | 多icon广告位的广告文案                    |
+| cornerOpen           | boolean | 角标是否开启                           |
 

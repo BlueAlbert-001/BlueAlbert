@@ -8,7 +8,7 @@ description: 分析产品活跃用户粘性
 活跃用户数据菜单提供了产品日活、近7日以及近30日活跃用户数，通过日活除以近7日活跃以及近30日活跃帮助分析人员了解产品的用户粘性以及其他活跃用户相关指标
 {% endhint %}
 
-![](https://cdn.61week.com/tianmu/doc/index/image/game-data/indicator-description/活跃用户/image.png)
+![](https://cdn.61week.com/tianmu/doc/index/image/game-data/indicator-description/%E6%B4%BB%E8%B7%83%E7%94%A8%E6%88%B7/image.png)
 
 * 活跃用户：进入小程序或者小游戏的用户数，同一用户同周期多次访问不重复记录（需要接入天幕SDK登录功能，所以与官方略有出入） 
 * 新增用户：首次登录小程序或者小游戏的用户数，同一用户多次访问不重复记录
@@ -21,4 +21,3 @@ description: 分析产品活跃用户粘性
 * 日活/30日活：当日活跃用户数量/最近30日的去重后的活跃用户数
 * 7日活/30日活：最近7日的去重后的活跃用户数/最近30日的去重后的活跃用户数
 * PCU：当日最高同时在线玩家人数
-

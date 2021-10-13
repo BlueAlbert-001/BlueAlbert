@@ -15,19 +15,25 @@ description: 请按照如下步骤完成“游戏配置”的接入，建议阅�
 * [ ] 分享素材（可选）
 * [ ] 在线参数（可选）
 
-## Step1 <a id="step1"></a>
+## Step1 <a href="step1" id="step1"></a>
 
 要完整使用天幕的游戏配置，需要进行SDK的接入，请参阅：
 
-{% page-ref page="../../selling/dev-guide/add-sdk.md" %}
+{% content-ref url="../../selling/dev-guide/add-sdk.md" %}
+[add-sdk.md](../../selling/dev-guide/add-sdk.md)
+{% endcontent-ref %}
 
-## Step2 <a id="step2"></a>
+## Step2 <a href="step2" id="step2"></a>
 
 SDK接入完成后，在使用某些接口时，需要进行SDK的初始化，以及用户登录处理，请参阅：
 
-{% page-ref page="../../selling/dev-guide/initialization.md" %}
+{% content-ref url="../../selling/dev-guide/initialization.md" %}
+[initialization.md](../../selling/dev-guide/initialization.md)
+{% endcontent-ref %}
 
-{% page-ref page="../../selling/dev-guide/login/" %}
+{% content-ref url="../../selling/dev-guide/login/" %}
+[login](../../selling/dev-guide/login/)
+{% endcontent-ref %}
 
 ## Step3（可选）
 
@@ -35,25 +41,35 @@ SDK接入完成后，在使用某些接口时，需要进行SDK的初始化，�
 
 ### A/B test
 
-{% page-ref page="a-b-test.md" %}
+{% content-ref url="a-b-test.md" %}
+[a-b-test.md](a-b-test.md)
+{% endcontent-ref %}
 
 ### 自定义事件
 
-{% page-ref page="diy-event.md" %}
+{% content-ref url="diy-event.md" %}
+[diy-event.md](diy-event.md)
+{% endcontent-ref %}
 
 ### 版本控制
 
-{% page-ref page="function-switch.md" %}
+{% content-ref url="function-switch.md" %}
+[function-switch.md](function-switch.md)
+{% endcontent-ref %}
 
 ### 分享素材
 
-{% page-ref page="sharing/" %}
+{% content-ref url="sharing/" %}
+[sharing](sharing/)
+{% endcontent-ref %}
 
 ### 在线参数
 
 若要使用在线参数功能，需要进行功能接入，具体请参阅：
 
-{% page-ref page="json.md" %}
+{% content-ref url="json.md" %}
+[json.md](json.md)
+{% endcontent-ref %}
 
 ## 其他
 
@@ -61,11 +77,12 @@ SDK接入完成后，在使用某些接口时，需要进行SDK的初始化，�
 
 开发demo，请参阅：
 
-{% page-ref page="../../selling/dev-guide/dev-demo.md" %}
+{% content-ref url="../../selling/dev-guide/dev-demo.md" %}
+[dev-demo.md](../../selling/dev-guide/dev-demo.md)
+{% endcontent-ref %}
 
 ### 技术支持
 
 接入过程中有任何问题，欢迎微信扫描下方二维码，咨询天幕对接人员
 
-![&#x5FAE;&#x4FE1;&#x626B;&#x4E00;&#x626B;&#xFF0C;&#x6DFB;&#x52A0;&#x5929;&#x5E55;&#x5BF9;&#x63A5;&#x4EBA;&#x5458;&#x5FAE;&#x4FE1;](../../.gitbook/assets/wei-xin-tu-pian-20191009150820%20%281%29.jpg)
-
+![微信扫一扫，添加天幕对接人员微信](<../../.gitbook/assets/微信图片\_20191009150820 (3).jpg>)

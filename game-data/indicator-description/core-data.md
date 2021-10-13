@@ -5,11 +5,11 @@ description: 包含天幕所有的核心数据，帮助数据分析者了解产�
 # 核心数据
 
 {% hint style="info" %}
-核心数据提供了天幕大部分的核心指标，包含了用户属性、用户留存以及产品收入。  
+核心数据提供了天幕大部分的核心指标，包含了用户属性、用户留存以及产品收入。\
 此菜单还提供了分钟粒度的同时在线人数趋势图，可以帮助产品运营团队直观了解用户访问趋势，可用于排查异常情况等问题。
 {% endhint %}
 
-![](https://cdn.61week.com/tianmu/doc/index/image/game-data/indicator-description/核心数据/image.png)
+![](https://cdn.61week.com/tianmu/doc/index/image/game-data/indicator-description/%E6%A0%B8%E5%BF%83%E6%95%B0%E6%8D%AE/image.png)
 
 ### 规模数据
 
@@ -77,8 +77,8 @@ description: 包含天幕所有的核心数据，帮助数据分析者了解产�
 ### Banner
 
 * BN\_收入：来自banner广告的收入
-* BN\_arpu：平均每用户banner收入，计算公式为：banner当日收入/活跃用户数
-* BN\_eCPM：广告每千次曝光收益 BN曝光量 请参考官方说明
+* BN_arpu：平均每用户banner收入，计算公式为：banner当日收入/活跃用户数
+* BN_eCPM：广告每千次曝光收益 BN曝光量 请参考官方说明
 * BN点击量：请参考官方说明
 * BN点击率：请参考官方说明
 * BN点击单价
@@ -136,4 +136,3 @@ description: 包含天幕所有的核心数据，帮助数据分析者了解产�
 * 交叉有效点击：应用作为流量主游戏时，交叉推广广告在防作弊机制下统计到的被点击的次数
 * 交叉点击率：点击次数/曝光次数
 * 二次确认率：用户二次确认界面，点击二次确认的次数比率，（二次确认数/点击次数）\* 100%
-

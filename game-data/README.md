@@ -10,7 +10,7 @@ description: 游戏数据入门指引
 
 以用户为基础，针对用户行为、多维度的数据统计分析
 
-![&#x5929;&#x5E55;-&#x6E38;&#x620F;&#x6570;&#x636E;&#x5165;&#x53E3;](https://cdn.61week.com/tianmu/doc/index/image/game-data/image.png)
+![天幕-游戏数据入口](https://cdn.61week.com/tianmu/doc/index/image/game-data/image.png)
 
 ## 入门指引
 
@@ -18,21 +18,27 @@ description: 游戏数据入门指引
 
 建议阅读者：小游戏策划、运营
 
-{% page-ref page="main-features.md" %}
+{% content-ref url="main-features.md" %}
+[main-features.md](main-features.md)
+{% endcontent-ref %}
 
 ### 2、数据指标说明
 
 建议阅读者：小游戏策划、运营
 
-{% page-ref page="indicator-description/" %}
+{% content-ref url="indicator-description/" %}
+[indicator-description](indicator-description/)
+{% endcontent-ref %}
 
 ### 3、接入指南、API说明
 
-{% page-ref page="dev-guide/" %}
+{% content-ref url="dev-guide/" %}
+[dev-guide](dev-guide/)
+{% endcontent-ref %}
 
 ### 4、常见问题指引
 
-{% page-ref page="../questions/about-data.md" %}
-
-
+{% content-ref url="../questions/about-data.md" %}
+[about-data.md](../questions/about-data.md)
+{% endcontent-ref %}
 

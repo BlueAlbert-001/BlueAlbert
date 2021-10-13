@@ -8,7 +8,7 @@ description: 分析渠道用户质量，助力ROI提升
 渠道分析提供了渠道维度的用户数据，从用户访问、留存与付费的行为，到渠道的新用户在天幕交叉推广中的行为，为运营人员对渠道引新能力以及新用户质量提供充分的分析依据，结局微信小游戏生态渠道分析难的问题。
 {% endhint %}
 
-![](https://cdn.61week.com/tianmu/doc/index/image/game-data/indicator-description/渠道分析/image.png)
+![](https://cdn.61week.com/tianmu/doc/index/image/game-data/indicator-description/%E6%B8%A0%E9%81%93%E5%88%86%E6%9E%90/image.png)
 
 ### 渠道信息
 
@@ -86,4 +86,3 @@ description: 分析渠道用户质量，助力ROI提升
 * 90日C2：衡量新用户在天幕交叉推广实际访问广告的质量，计算公式为：渠道的新用户在自成为新用户起90天内天幕交叉推广中二次确认的次数/渠道新增数
 
 > 交叉推广类指标需接入天幕卖量助手功能，详情请参考[卖量助手](https://doc.skysriver.com/selling)帮助说明。
-

@@ -47,12 +47,11 @@ wx.tmSDK.init({
 
 请按实际情况，传入以下参数。
 
-| 字段 | 字段类型 | 说明 |
-| :--- | :--- | :--- |
-| hideRequestLog | boolean | 是否隐藏请求日志 |
-| appVersion | string | 当前应用提交微信审核的版本号 |
+| 字段             | 字段类型    | 说明             |
+| -------------- | ------- | -------------- |
+| hideRequestLog | boolean | 是否隐藏请求日志       |
+| appVersion     | string  | 当前应用提交微信审核的版本号 |
 
 {% hint style="info" %}
 hideRequestLog，默认置为false；这不会影响性能，且便于测试排查。
 {% endhint %}
-

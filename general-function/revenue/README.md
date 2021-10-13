@@ -15,7 +15,7 @@ description: 帮助产品矩阵运营人员了解产品收支，计算毛利
 1. 收支数据：游戏收支的汇总数据展示菜单，可以帮助运营人员从主体以及游戏两个维度来了解收支情况。
 2. 卖量收入管理、微信收入管理、买量成本管理：此三个页面为收支数据上传管理后台，可以帮助运营人员高效备份管理数据，并计算收支。
 
-![&#x6E38;&#x620F;&#x6536;&#x652F;](https://cdn.61week.com/tianmu/doc/index/image/general-function/revenue/1.jpg)
+![游戏收支](https://cdn.61week.com/tianmu/doc/index/image/general-function/revenue/1.jpg)
 
 ## 二、指标说明
 
@@ -76,31 +76,36 @@ description: 帮助产品矩阵运营人员了解产品收支，计算毛利
 
 请在“卖量收入管理”中上传，请参阅：
 
-{% page-ref page="flow-income-management.md" %}
+{% content-ref url="flow-income-management.md" %}
+[flow-income-management.md](flow-income-management.md)
+{% endcontent-ref %}
 
 ### 2、 微信收入
 
 请在“微信收入管理”中上传官方内购收入，请参阅：
 
-{% page-ref page="official-income-management.md" %}
+{% content-ref url="official-income-management.md" %}
+[official-income-management.md](official-income-management.md)
+{% endcontent-ref %}
 
 ### **3、 支出（买量成本）**
 
 请在“买量成本管理”中上传，请参阅：
 
-{% page-ref page="cost-management.md" %}
+{% content-ref url="cost-management.md" %}
+[cost-management.md](cost-management.md)
+{% endcontent-ref %}
 
 ## 四、功能作用与声明
 
-> 1. 您可以到卖量收入管理中上传卖量的收入，天幕将会通过您上传的收入通过算法为您自动优化广告效果，最高可提升30%卖量效率，[**强烈建议上传**](../../selling/creative-strategy.md#4-wei-shen-me-jian-yi-shang-chuan-shou-ru).
+> 1\. 您可以到卖量收入管理中上传卖量的收入，天幕将会通过您上传的收入通过算法为您自动优化广告效果，最高可提升30%卖量效率，[**强烈建议上传**](../../selling/creative-strategy.md#4-wei-shen-me-jian-yi-shang-chuan-shou-ru).
 >
-> 2. 您可以在微信收入管理后台中下载模板，复制微信后台中的收入上传至天幕中，天幕将会帮助您计算游戏的ARPU以及由天幕模拟计算的新用户LTV（可在数据后台的新增用户与渠道分析数据菜单查看），为您提供决策的数据参考。
+> 2\. 您可以在微信收入管理后台中下载模板，复制微信后台中的收入上传至天幕中，天幕将会帮助您计算游戏的ARPU以及由天幕模拟计算的新用户LTV（可在数据后台的新增用户与渠道分析数据菜单查看），为您提供决策的数据参考。
 >
-> 3. 您可以在买量成本管理后台中下载模板，将您在使用天幕过程中的支出成本上传至天幕中，天幕将会帮助您计算每天支出的金额以及用户单价，提升工作效率。
+> 3\. 您可以在买量成本管理后台中下载模板，将您在使用天幕过程中的支出成本上传至天幕中，天幕将会帮助您计算每天支出的金额以及用户单价，提升工作效率。
 >
-> 4. 当您使用了以上三个后台进行上传数据，便可在此后台中看到您的公司以及各产品的收支概况，帮助您一目了然的了解收支情况与毛利。
+> 4\. 当您使用了以上三个后台进行上传数据，便可在此后台中看到您的公司以及各产品的收支概况，帮助您一目了然的了解收支情况与毛利。
 >
-> 5. 天幕承诺将不会使用与泄露您上传的任何数据与使用您上传的任何数据用于未声明的场景，同时不上传任何数据亦不会影响天幕任何功能的使用。
+> 5\. 天幕承诺将不会使用与泄露您上传的任何数据与使用您上传的任何数据用于未声明的场景，同时不上传任何数据亦不会影响天幕任何功能的使用。
 
 相关链接：[内部结算](../internal-settlement.md)、[天幕创意下发策略](../../selling/creative-strategy.md)、[卖量助手](../../selling/)、[买量助手](../../channel/)
-

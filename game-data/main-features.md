@@ -24,15 +24,15 @@ description: 游戏数据功能说明及使用指引，建议阅读者：小游�
 
 **可接入的功能一览**
 
-| 功能 | 是否必选 | 对应接口或说明 |
-| :--- | :--- | :--- |
-| 接入天幕SDK | 是 | [接入SDK](../selling/dev-guide/add-sdk.md) |
-| 登录 | 是 | [登录功能](../selling/dev-guide/login/) |
-| 内购分析 | 否 | [内购数据回传](../general-function/midas.md) |
-| 游戏加载性能分析 | 否 | [性能分析](dev-guide/performance-analysis.md) |
-| 自定义事件 | 否 | [自定义事件](../game-set/dev-guide/diy-event.md) |
-| 分享转发素材分析 | 否 | [分享转发素材](../game-set/dev-guide/sharing/) |
-| 微信广告分析 | 否 | [广告分析](dev-guide/official-ad-analysis/) |
+| 功能       | 是否必选 | 对应接口或说明                                     |
+| -------- | ---- | ------------------------------------------- |
+| 接入天幕SDK  | 是    | [接入SDK](../selling/dev-guide/add-sdk.md)    |
+| 登录       | 是    | [登录功能](../selling/dev-guide/login/)         |
+| 内购分析     | 否    | [内购数据回传](../general-function/midas.md)      |
+| 游戏加载性能分析 | 否    | [性能分析](dev-guide/performance-analysis.md)   |
+| 自定义事件    | 否    | [自定义事件](../game-set/dev-guide/diy-event.md) |
+| 分享转发素材分析 | 否    | [分享转发素材](../game-set/dev-guide/sharing/)    |
+| 微信广告分析   | 否    | [广告分析](dev-guide/official-ad-analysis/)     |
 
 ## 二、自定义视图
 
@@ -92,9 +92,9 @@ description: 游戏数据功能说明及使用指引，建议阅读者：小游�
 
 帮助产品运营与策划了解新增、活跃用户两类留存，全面分析用户留存。
 
-![&#x65B0;&#x589E;&#x7559;&#x5B58;](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/6.png)
+![新增留存](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/6.png)
 
-![&#x6D3B;&#x8DC3;&#x7559;&#x5B58;](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/7.png)
+![活跃留存](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/7.png)
 
 ### 5、收入增长
 
@@ -156,11 +156,11 @@ banner分析帮助产品负责人了解广告从加载、展示到点击全流�
 
 指标说明：[渠道分析](indicator-description/channel-analysis.md)
 
-![&#x6240;&#x6709;&#x6E20;&#x9053;&#x603B;&#x89C8;](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/12.png)
+![所有渠道总览](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/12.png)
 
-![&#x5355;&#x4E2A;&#x6E20;&#x9053;&#x8BE6;&#x7EC6;&#x6570;&#x636E;](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/13.png)
+![单个渠道详细数据](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/13.png)
 
-![&#x5355;&#x4E2A;&#x6E20;&#x9053;&#x7528;&#x6237;&#x65F6;&#x957F;&#x5206;&#x5E03;](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/14.png)
+![单个渠道用户时长分布](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/14.png)
 
 ### 7、分享裂变
 
@@ -188,9 +188,9 @@ banner分析帮助产品负责人了解广告从加载、展示到点击全流�
 
 地域分析从省份、城市两个维度帮助产品负责人了解用户所在地，通过可视化图标直观的了解地域分布，为用户分析提供参考依据。
 
-![&#x7701;&#x4EFD;&#x5206;&#x5E03;](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/16.png)
+![省份分布](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/16.png)
 
-![&#x57CE;&#x5E02;&#x5206;&#x5E03;](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/17.png)
+![城市分布](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/17.png)
 
 #### 8.2、机型分析
 
@@ -198,9 +198,9 @@ banner分析帮助产品负责人了解广告从加载、展示到点击全流�
 
 机型分析从使用的设备品牌、机型两个维度帮助产品负责人了解用户使用的设备。 
 
-![&#x8BBE;&#x5907;&#x54C1;&#x724C;](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/18.png)
+![设备品牌](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/18.png)
 
-![&#x8BBE;&#x5907;&#x578B;&#x53F7;](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/19.png)
+![设备型号](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/19.png)
 
 #### **8.3、系统分析**
 
@@ -241,6 +241,4 @@ banner分析帮助产品负责人了解广告从加载、展示到点击全流�
 {% endhint %}
 
 ![](https://cdn.61week.com/tianmu/doc/index/image/game-data/main-features/23.png)
-
-
 

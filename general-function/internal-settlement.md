@@ -48,9 +48,9 @@ description: 天幕内部结算的实现方式
 
 #### 功能入口
 
-控制台-&gt;主体设置-&gt;内部结算配置（仅管理员可操作）
+控制台->主体设置->内部结算配置（仅管理员可操作）
 
-![&#x5929;&#x5E55;-&#x5185;&#x90E8;&#x7ED3;&#x7B97;&#x914D;&#x7F6E;](https://cdn.61week.com/tianmu/doc/index/image/general-function/internal-settlement/1.png)
+![天幕-内部结算配置](https://cdn.61week.com/tianmu/doc/index/image/general-function/internal-settlement/1.png)
 
 #### 默认配置
 
@@ -109,4 +109,3 @@ description: 天幕内部结算的实现方式
 * 广告主游戏在“[游戏收支——买量成本管理](revenue/#zhi-chu)”中，会多一笔同等数额的成本支出
 
 相关链接：[游戏收支](revenue/)
-

@@ -1,10 +1,10 @@
 # 兼容问题
 
-### 引擎支持问题 <a id="yin-qing-zhi-chi-wen-ti"></a>
+### 引擎支持问题 <a href="yin-qing-zhi-chi-wen-ti" id="yin-qing-zhi-chi-wen-ti"></a>
 
 天幕SDK支持现有主流的小游戏开发引擎：Cocos、Laya、Egret
 
-### 登录过程中的兼容问题 <a id="deng-lu-guo-cheng-zhong-de-jian-rong-wen-ti"></a>
+### 登录过程中的兼容问题 <a href="deng-lu-guo-cheng-zhong-de-jian-rong-wen-ti" id="deng-lu-guo-cheng-zhong-de-jian-rong-wen-ti"></a>
 
 需注意在登录流程中获取openID时处理如下兼容问题：
 
@@ -20,4 +20,3 @@
 {% endhint %}
 
 相关阅读：[天幕登录流程/获取用户信息](../selling/dev-guide/login/)
-

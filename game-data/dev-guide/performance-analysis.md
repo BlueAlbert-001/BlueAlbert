@@ -23,5 +23,3 @@ wx.tmSDK.sendLoadingLog('progressStart');
 wx.tmSDK.sendLoadingLog('progressEnd');
 ```
 
-
-

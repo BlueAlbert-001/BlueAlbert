@@ -26,155 +26,48 @@ description: 针对拥有内购付费游戏的数据回传统计
 
 #### header 参数
 
-| 参数 | 示例值 |
-| :--- | :--- |
+| 参数           | 示例值              |
+| ------------ | ---------------- |
 | Content-Type | application/json |
 
 #### 请求参数
 
-| 参数 | 类型 | 是否必填 | 描述 |
-| :--- | :--- | :--- | :--- |
-| userLog | Object | 是 | 支付数据对象 |
+| 参数      | 类型     | 是否必填 | 描述     |
+| ------- | ------ | ---- | ------ |
+| userLog | Object | 是    | 支付数据对象 |
 
 useLog的参数
 
-| 参数 | 类型 | 是否必填 | 描述 |
-| :--- | :--- | :--- | :--- |
-| v | String | 是 | 由开发者定义的回传数据版本号，建议从1.0.0开始 |
-| ext | Object | 是 | 支付数据对象详情对象，记录各种支付相关的数据字段 |
+| 参数  | 类型     | 是否必填 | 描述                        |
+| --- | ------ | ---- | ------------------------- |
+| v   | String | 是    | 由开发者定义的回传数据版本号，建议从1.0.0开始 |
+| ext | Object | 是    | 支付数据对象详情对象，记录各种支付相关的数据字段  |
 
 ext的参数
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">&#x53C2;&#x6570;</th>
-      <th style="text-align:left">&#x7C7B;&#x578B;</th>
-      <th style="text-align:left">&#x662F;&#x5426;&#x5FC5;&#x586B;</th>
-      <th style="text-align:left">&#x63CF;&#x8FF0;</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">app_id</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">&#x662F;</td>
-      <td style="text-align:left">&#x6E38;&#x620F;&#x7684;appid</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">type</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">&#x662F;</td>
-      <td style="text-align:left">&#x4E8B;&#x4EF6;&#x7C7B;&#x578B;&#xFF0C;&#x7C7B;&#x578B;&#x586B;&#x5199;&#x201C;pay&#x201D;&#xFF08;&#x652F;&#x4ED8;&#xFF09;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">pay_amount</td>
-      <td style="text-align:left">Number</td>
-      <td style="text-align:left">&#x662F;</td>
-      <td style="text-align:left">&#x652F;&#x4ED8;&#x91D1;&#x989D;&#xFF0C;&#x5355;&#x4F4D;&#x4E3A;&#x5206;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">is_first_pay</td>
-      <td style="text-align:left">Boolean</td>
-      <td style="text-align:left">&#x662F;</td>
-      <td style="text-align:left">&#x662F;&#x5426;&#x9996;&#x6B21;&#x652F;&#x4ED8;&#xFF0C;&#x7528;&#x4E8E;&#x5224;&#x65AD;&#x662F;&#x5426;&#x4E3A;&#x9996;&#x4ED8;&#x7528;&#x6237;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">uid</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">&#x662F;</td>
-      <td style="text-align:left">&#x767B;&#x5F55;&#x8FD4;&#x56DE;&#x7684;&#x7528;&#x6237;open_id</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">user_ip</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">&#x662F;</td>
-      <td style="text-align:left">&#x7528;&#x6237;&#x7684;IP&#x5730;&#x5740;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">order_code</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">&#x662F;</td>
-      <td style="text-align:left">&#x8BA2;&#x5355;&#x53F7;&#xFF08;&#x7531;&#x5F00;&#x53D1;&#x8005;&#x751F;&#x6210;&#x7684;&#x8BA2;&#x5355;&#x552F;&#x4E00;&#x6807;&#x8BC6;&#xFF09;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">pay_type</td>
-      <td style="text-align:left">Number</td>
-      <td style="text-align:left">&#x662F;</td>
-      <td style="text-align:left">
-        <p>&#x652F;&#x4ED8;&#x65B9;&#x5F0F;&#xFF1A; 2 &#x7C73;&#x5927;&#x5E08;&#x652F;&#x4ED8;&#xFF0C;3
-          &#x7B2C;&#x4E09;&#x65B9;&#x652F;&#x4ED8;&#x3002;</p>
-        <p>&#x56DE;&#x4F20;&#x540E;&#x7B2C;&#x4E09;&#x65B9;&#x652F;&#x4ED8;&#x6570;&#x636E;&#x540E;&#x53EF;&#x5728;
-          <a
-          href="../../general-function/revenue/">&#x6E38;&#x620F;&#x6536;&#x652F;</a>&#x529F;&#x80FD;&#x4E2D;&#x81EA;&#x52A8;&#x540C;&#x6B65;&#xFF0C;</p>
-        <p>&#x5E76;&#x8BA1;&#x7B97;&#x6536;&#x5165;&#xFF0C;&#x65E0;&#x9700;&#x4EBA;&#x5DE5;&#x4E0A;&#x4F20;&#x3002;</p>
-        <p>&#x5BF9;&#x4E8E;&#x5FAE;&#x4FE1;&#x548C;QQ&#x5E73;&#x53F0;&#x5C0F;&#x6E38;&#x620F;&#xFF0C;&#x5B98;&#x65B9;&#x652F;&#x4ED8;&#x7C7B;&#x578B;&#x4E3A;&#x7C73;&#x5927;&#x5E08;&#x652F;&#x4ED8;&#xFF0C;
-          <br
-          />&#x9664;&#x7C73;&#x5927;&#x5E08;&#x652F;&#x4ED8;&#x5916;&#x5747;&#x9009;&#x62E9;&#x7B2C;&#x4E09;&#x65B9;&#x652F;&#x4ED8;&#x3002;</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">device_type</td>
-      <td style="text-align:left">Number</td>
-      <td style="text-align:left">&#x662F;</td>
-      <td style="text-align:left">&#x624B;&#x673A;&#x7CFB;&#x7EDF;&#x7C7B;&#x578B;&#xFF0C;&#x5177;&#x4F53;&#x4E3A;1
-        other&#xFF0C;2 IOS&#xFF0C;3 android</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">device_brand</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">&#x5426;</td>
-      <td style="text-align:left">&#x624B;&#x673A;&#x54C1;&#x724C;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;vivo&#x3001;OPPO&#x3001;iPhone&#x3001;HUAWEI</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">device_model</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">&#x5426;</td>
-      <td style="text-align:left">&#x624B;&#x673A;&#x673A;&#x578B;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;iPhone
-        6s Plus&#x3001;OPPO A57&#x7B49;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">net_type</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">&#x5426;</td>
-      <td style="text-align:left">&#x7F51;&#x7EDC;&#x7C7B;&#x578B;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;wifi&#x3001;5G&#x3001;4G&#x3001;3G&#x7B49;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">scene</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">&#x5426;</td>
-      <td style="text-align:left">&#x5404;&#x5E73;&#x53F0;&#x573A;&#x666F;&#x503C;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;&#x5FAE;&#x4FE1;&#x4E2D;&#x7684;1001&#x3001;1037&#x3001;1089&#x7B49;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">zone</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">&#x5426;</td>
-      <td style="text-align:left">&#x6E38;&#x620F;&#x5185;&#x533A;&#x670D;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;&#x5317;&#x4EAC;&#x4E00;&#x670D;&#xFF0C;&#x534E;&#x4E1C;&#x4E00;&#x533A;&#x7B49;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">goods_name</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">&#x5426;</td>
-      <td style="text-align:left">&#x5546;&#x54C1;&#x540D;&#x79F0;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;10&#x94BB;&#x77F3;&#x3001;1000&#x91D1;&#x5E01;&#x3001;1&#x5F20;&#x6708;&#x5361;&#x7B49;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">game_uid</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">&#x5426;</td>
-      <td style="text-align:left">&#x73A9;&#x5BB6;&#x6E38;&#x620F;&#x5185;ID</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">game_nickname</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">&#x5426;</td>
-      <td style="text-align:left">&#x73A9;&#x5BB6;&#x6E38;&#x620F;&#x5185;&#x6635;&#x79F0;</td>
-    </tr>
-  </tbody>
-</table>
+| 参数            | 类型      | 是否必填 | 描述                                                                                                                                                                                   |
+| ------------- | ------- | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| app_id        | String  | 是    | 游戏的appid                                                                                                                                                                             |
+| type          | String  | 是    | 事件类型，类型填写“pay”（支付）                                                                                                                                                                   |
+| pay_amount    | Number  | 是    | 支付金额，单位为分                                                                                                                                                                            |
+| is_first_pay  | Boolean | 是    | 是否首次支付，用于判断是否为首付用户                                                                                                                                                                   |
+| uid           | String  | 是    | 登录返回的用户open_id                                                                                                                                                                       |
+| user_ip       | String  | 是    | 用户的IP地址                                                                                                                                                                              |
+| order_code    | String  | 是    | 订单号（由开发者生成的订单唯一标识）                                                                                                                                                                   |
+| pay_type      | Number  | 是    | <p>支付方式： 2 米大师支付，3 第三方支付。</p><p>回传后第三方支付数据后可在<a href="../../general-function/revenue/">游戏收支</a>功能中自动同步，</p><p>并计算收入，无需人工上传。</p><p>对于微信和QQ平台小游戏，官方支付类型为米大师支付，<br>除米大师支付外均选择第三方支付。</p> |
+| device_type   | Number  | 是    | 手机系统类型，具体为1 other，2 IOS，3 android                                                                                                                                                    |
+| device_brand  | String  | 否    | 手机品牌，例如：vivo、OPPO、iPhone、HUAWEI                                                                                                                                                      |
+| device_model  | String  | 否    | 手机机型，例如：iPhone 6s Plus、OPPO A57等                                                                                                                                                     |
+| net_type      | String  | 否    | 网络类型，例如：wifi、5G、4G、3G等                                                                                                                                                               |
+| scene         | String  | 否    | 各平台场景值，例如：微信中的1001、1037、1089等                                                                                                                                                        |
+| zone          | String  | 否    | 游戏内区服，例如：北京一服，华东一区等                                                                                                                                                                  |
+| goods_name    | String  | 否    | 商品名称，例如：10钻石、1000金币、1张月卡等                                                                                                                                                            |
+| game_uid      | String  | 否    | 玩家游戏内ID                                                                                                                                                                              |
+| game_nickname | String  | 否    | 玩家游戏内昵称                                                                                                                                                                              |
 
 ### 3、 请求示例
 
-```text
+```
 {
   "userLog": {
     "v": "1.0.0",
@@ -203,17 +96,16 @@ ext的参数
 
 ### 4、 公共响应参数
 
-| 参数 | 类型 | 描述 | 示例值 |
-| :--- | :--- | :--- | :--- |
-| code | Number | 状态码 | 0: 上报成功;10001:参数错误 |
-| data | Object | 返回数据 | {} |
+| 参数   | 类型     | 描述   | 示例值                |
+| ---- | ------ | ---- | ------------------ |
+| code | Number | 状态码  | 0: 上报成功;10001:参数错误 |
+| data | Object | 返回数据 | {}                 |
 
 #### 响应示例
 
-```text
+```
 {
     "code": 0,
     "data": {}
 }
 ```
-

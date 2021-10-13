@@ -38,9 +38,9 @@
 
 注意：一旦创建成功后，事件ID不可编辑，在设置时，请慎重。
 
-![&#x81EA;&#x5B9A;&#x4E49;&#x4E8B;&#x4EF6;&#x540E;&#x53F0;](https://cdn.61week.com/tianmu/doc/index/image/game-set/diy-event/1.png)
+![自定义事件后台](https://cdn.61week.com/tianmu/doc/index/image/game-set/diy-event/1.png)
 
-![&#x521B;&#x5EFA;&#x4E8B;&#x4EF6;](https://cdn.61week.com/tianmu/doc/index/image/game-set/diy-event/2.png)
+![创建事件](https://cdn.61week.com/tianmu/doc/index/image/game-set/diy-event/2.png)
 
 ### 2、通过excel批量导入事件
 
@@ -72,9 +72,9 @@ excel模板内容如下：
 
 ![](https://cdn.61week.com/tianmu/doc/index/image/game-set/diy-event/4.png)
 
-例如在后台中配置了一个“老用户对局死亡触发”的事件，事件ID为“BATTLE\_WINER”。
+例如在后台中配置了一个“老用户对局死亡触发”的事件，事件ID为“BATTLE_WINER”。
 
-![&#x914D;&#x7F6E;&#x7684;&#x4E8B;&#x4EF6;](https://cdn.61week.com/tianmu/doc/index/image/game-set/diy-event/5.png)
+![配置的事件](https://cdn.61week.com/tianmu/doc/index/image/game-set/diy-event/5.png)
 
 **参数配置**
 
@@ -82,7 +82,7 @@ excel模板内容如下：
 
 ![](https://cdn.61week.com/tianmu/doc/index/image/game-set/diy-event/6.png)
 
-例如配置了参数“新老用户等级”，参数ID为“user\_type”.
+例如配置了参数“新老用户等级”，参数ID为“user_type”.
 
 ![](https://cdn.61week.com/tianmu/doc/index/image/game-set/diy-event/7.png)
 
@@ -90,7 +90,7 @@ excel模板内容如下：
 
 点击操作栏最后一列的「复制代码」，复制开发需要的自定义事件埋点代码，在客户端中合适的位置加入此代码即可。
 
-![](../../.gitbook/assets/image%20%28319%29.png)
+![](<../../.gitbook/assets/image (321).png>)
 
 将此内容发送给技术人员，请根据业务具体的需求使用。
 
@@ -117,4 +117,3 @@ excel模板内容如下：
 点击参数值的详细，可以查看参数值在所选时间区间内的数据。
 
 ![](https://cdn.61week.com/tianmu/doc/index/image/game-set/diy-event/11.png)
-

@@ -63,4 +63,3 @@ description: 按照游戏版本返回TRUE/FALSE
 ![](https://cdn.61week.com/tianmu/doc/index/image/game-set/features-switch/2.png)
 
 开发说明请参阅：[版本控制-开发说明](../dev-guide/function-switch.md)
-

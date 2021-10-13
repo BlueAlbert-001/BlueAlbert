@@ -1,6 +1,9 @@
 # 更新日志
 
-{% page-ref page="skysriver-change-log.md" %}
+{% content-ref url="skysriver-change-log.md" %}
+[skysriver-change-log.md](skysriver-change-log.md)
+{% endcontent-ref %}
 
-{% page-ref page="sdk-change-log.md" %}
-
+{% content-ref url="sdk-change-log.md" %}
+[sdk-change-log.md](sdk-change-log.md)
+{% endcontent-ref %}

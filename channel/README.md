@@ -10,7 +10,7 @@ description: 买量助手入门指引
 
 功能：渠道管理，渠道质量监控，最大化买量ROI
 
-![&#x5929;&#x5E55;-&#x4E70;&#x91CF;&#x52A9;&#x624B;&#x5165;&#x53E3;](https://cdn.61week.com/tianmu/doc/index/image/channel/image.jpg)
+![天幕-买量助手入口](https://cdn.61week.com/tianmu/doc/index/image/channel/image.jpg)
 
 ## 入门指引
 
@@ -22,25 +22,31 @@ description: 买量助手入门指引
 
 建议阅读者：流量运营
 
-{% page-ref page="main-features/" %}
+{% content-ref url="main-features/" %}
+[main-features](main-features/)
+{% endcontent-ref %}
 
 ### 2、数据指标说明
 
 建议阅读者：流量运营
 
-{% page-ref page="data-indicator.md" %}
+{% content-ref url="data-indicator.md" %}
+[data-indicator.md](data-indicator.md)
+{% endcontent-ref %}
 
 ### 3、接入指南、API说明
 
 建议阅读者：技术人员
 
-{% page-ref page="dev-guide/" %}
+{% content-ref url="dev-guide/" %}
+[dev-guide](dev-guide/)
+{% endcontent-ref %}
 
 ### 4、常见问题指引
 
 建议阅读人员：技术人员与运营人员
 
-{% page-ref page="../questions/about-ad-master.md" %}
-
-
+{% content-ref url="../questions/about-ad-master.md" %}
+[about-ad-master.md](../questions/about-ad-master.md)
+{% endcontent-ref %}
 

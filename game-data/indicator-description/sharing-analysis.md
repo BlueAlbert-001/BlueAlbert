@@ -10,7 +10,7 @@ description: 聚焦每一个分享转发素材，这里提升分享裂变效率
 分享素材配置功能接入，详见：[分享素材配置](https://doc.skysriver.com/game-set/main-features/sharing-management)。
 {% endhint %}
 
-![](https://cdn.61week.com/tianmu/doc/index/image/game-data/indicator-description/分享裂变/image.png)
+![](https://cdn.61week.com/tianmu/doc/index/image/game-data/indicator-description/%E5%88%86%E4%BA%AB%E8%A3%82%E5%8F%98/image.png)
 
 ### 基础数据
 
@@ -46,6 +46,4 @@ description: 聚焦每一个分享转发素材，这里提升分享裂变效率
 * 新增付费金额：新增用户中付费的金额总和
 
 > 以上内购付费类数据可接入数据回传或天幕米大师支付功能进行统计，详情请参阅：[内购分析](../dev-guide/pay.md)。
-
-
 

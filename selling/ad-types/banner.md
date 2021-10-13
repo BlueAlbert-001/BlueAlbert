@@ -9,4 +9,3 @@
 天幕Banner广告暂时只支持API的方式接入，调用天幕提供的API接口，根据返回的数据自行渲染即可。
 
 具体的技术说明文档，请参考：[接入天幕banner广告](../dev-guide/api/get-ad-position-config.md#banner)
-

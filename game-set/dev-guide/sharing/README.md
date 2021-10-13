@@ -10,16 +10,16 @@
 
 天幕中，将这些位置/功能作为不同的分享位进行管理。
 
-![&#x4E0A;&#x56FE;&#x53EF;&#x62BD;&#x8C61;&#x4E3A;&#x4E09;&#x4E2A;&#x4E0D;&#x540C;&#x7684;&#x5206;&#x4EAB;&#x4F4D;&#x8FDB;&#x884C;&#x7BA1;&#x7406;](https://cdn.61week.com/tianmu/doc/index/image/game-set/sharing-management/1.png)
+![上图可抽象为三个不同的分享位进行管理](https://cdn.61week.com/tianmu/doc/index/image/game-set/sharing-management/1.png)
 
 一款小游戏中的分享场景举例：
 
-| 分享位 | 说明 | 分享位ID |
-| :--- | :--- | :--- |
-| 右上角分享 | 用户点击右上角...发起分享 | initiative |
-| 首页邀请 | 在首页邀请好友 | indexInvite |
-| 结束页邀请 | 死亡后邀请好友比拼 | gameoverInvite |
-| 战绩分享 | 获得历史最高分后炫耀战绩 | highscore |
+| 分享位   | 说明             | 分享位ID          |
+| ----- | -------------- | -------------- |
+| 右上角分享 | 用户点击右上角...发起分享 | initiative     |
+| 首页邀请  | 在首页邀请好友        | indexInvite    |
+| 结束页邀请 | 死亡后邀请好友比拼      | gameoverInvite |
+| 战绩分享  | 获得历史最高分后炫耀战绩   | highscore      |
 
 ## **分享引入逻辑**
 
@@ -43,13 +43,18 @@
 
 1.用户点击右上角菜单的转发按钮时调用
 
-{% page-ref page="onshareappmessage.md" %}
+{% content-ref url="onshareappmessage.md" %}
+[onshareappmessage.md](onshareappmessage.md)
+{% endcontent-ref %}
 
 2.小游戏主动分享时调用
 
-{% page-ref page="shareappmessage.md" %}
+{% content-ref url="shareappmessage.md" %}
+[shareappmessage.md](shareappmessage.md)
+{% endcontent-ref %}
 
 3.一次性接收所有分享位的分享素材相关数据（可选，非必接）
 
-{% page-ref page="getsharetemplates.md" %}
-
+{% content-ref url="getsharetemplates.md" %}
+[getsharetemplates.md](getsharetemplates.md)
+{% endcontent-ref %}

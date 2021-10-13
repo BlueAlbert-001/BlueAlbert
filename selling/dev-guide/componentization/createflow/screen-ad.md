@@ -12,10 +12,10 @@ description: 本篇介绍如何使用createFlow进行插屏广告的渲染。
 
 ## 支持的引擎
 
-| 引擎 | 版本号 |
-| :--- | :--- |
-| laya | v2.0.0beta5.1 |
-| cocos | v2.1.0 |
+| 引擎    | 版本号           |
+| ----- | ------------- |
+| laya  | v2.0.0beta5.1 |
+| cocos | v2.1.0        |
 
 ## **使用实例**
 
@@ -55,13 +55,13 @@ flowUI.offError(callBack);  // 取消某个监听事件
 ## **监听广告位跳转事件**
 
 1. 监听广告位是否触发点击跳转
-2. 回调参数中为返回的原始微信信息
+2.  回调参数中为返回的原始微信信息
 
-   ```javascript
-   flowUI.onNavigate(function(msg) {
-    console.error(msg);
-   })
-   ```
+    ```javascript
+    flowUI.onNavigate(function(msg) {
+     console.error(msg);
+    })
+    ```
 
 ## **取消监听广告位跳转事件**
 
@@ -71,4 +71,3 @@ let callBack = function(error){
 };
 flowUI.offNavigate(callBack);  // 取消某个监听事件
 ```
-

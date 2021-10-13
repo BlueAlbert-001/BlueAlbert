@@ -6,7 +6,7 @@
 
 功能：在线运营游戏内容，A/Btest、自定义事件、版本控制、分享素材配置、在线参数
 
-![&#x5929;&#x5E55;-&#x6E38;&#x620F;&#x914D;&#x7F6E;&#x5165;&#x53E3;](https://cdn.61week.com/tianmu/doc/index/image/game-set/image.png)
+![天幕-游戏配置入口](https://cdn.61week.com/tianmu/doc/index/image/game-set/image.png)
 
 ## 入门指引
 
@@ -14,19 +14,23 @@
 
 建议阅读者：流量运营
 
-{% page-ref page="main-features/" %}
+{% content-ref url="main-features/" %}
+[main-features](main-features/)
+{% endcontent-ref %}
 
 ### 2、接入指南、API说明
 
 建议阅读者：技术人员
 
-{% page-ref page="dev-guide/" %}
+{% content-ref url="dev-guide/" %}
+[dev-guide](dev-guide/)
+{% endcontent-ref %}
 
 ### 3、常见问题指引
 
 建议阅读者：技术人员与运营人员
 
-{% page-ref page="../questions/game-manage.md" %}
-
-
+{% content-ref url="../questions/game-manage.md" %}
+[game-manage.md](../questions/game-manage.md)
+{% endcontent-ref %}
 

@@ -14,9 +14,9 @@
 
 ### 使用示例
 
-使用前，请在【游戏配置-A/B test 】中创建相关的测试计划。传入需要接入的测试计划ID 即plan\_id。
+使用前，请在【游戏配置-A/B test 】中创建相关的测试计划。传入需要接入的测试计划ID 即plan_id。
 
-```text
+```
 let plan_id = 22;
 wx.tmSDK.abtest(plan_id).then(res => {
     console.log(res);
@@ -29,7 +29,7 @@ wx.tmSDK.abtest(plan_id).then(res => {
 
 返回值的格式如下：
 
-```text
+```
 {
    "planId": "22",
    "groupId": "100001"
@@ -38,4 +38,3 @@ wx.tmSDK.abtest(plan_id).then(res => {
 ```
 
  注意：若传入的`plan_id`不存在，会返回空值。
-

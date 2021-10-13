@@ -30,8 +30,8 @@ wx.tmSDK.flowNavigate({
 
 ## **传入值详解**
 
-| 字段 | 字段类型 | 字段说明 |
-| :--- | :--- | :--- |
+| 字段         | 字段类型   | 字段说明            |
+| ---------- | ------ | --------------- |
 | positionId | Number | 当前点击的positionId |
 | creativeId | Number | 当前点击的creativeId |
 
@@ -47,8 +47,8 @@ wx.tmSDK.flowNavigate({
 
 ### **特有返回值**
 
-| 字段 | 字段类型 | 字段说明 |
-| :--- | :--- | :--- |
+| 字段              | 字段类型   | 字段说明         |
+| --------------- | ------ | ------------ |
 | navigateMessage | Object | 触发跳转后微信的原始消息 |
 
 TIPS：用户**取消跳转**时，该值为：`errMsg:"navigateToMiniProgram:fail cancel"`
@@ -56,4 +56,3 @@ TIPS：用户**取消跳转**时，该值为：`errMsg:"navigateToMiniProgram:fa
 {% hint style="info" %}
 可使用此值判断用户是否取消了跳转。
 {% endhint %}
-

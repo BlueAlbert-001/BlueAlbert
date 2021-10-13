@@ -11,13 +11,13 @@ description: 组件化接入说明，建议详细阅读
 1. 组件化的方式接入（仅支持cocos、laya引擎）
 2. api的方式接入
 
-| 广告位类型 | **组件化接入** | API接入 |
-| :--- | :--- | :--- |
-| 多Icon广告位 | 支持 | 支持 |
-| 浮动窗广告位 | 支持 | 支持 |
-| 插屏广告位 | 支持 | 不支持 |
-| 伪视频广告位 | 支持 | 不支持 |
-| Banner广告位 | 不支持 | 支持 |
+| 广告位类型     | **组件化接入** | API接入 |
+| --------- | --------- | ----- |
+| 多Icon广告位  | 支持        | 支持    |
+| 浮动窗广告位    | 支持        | 支持    |
+| 插屏广告位     | 支持        | 不支持   |
+| 伪视频广告位    | 支持        | 不支持   |
+| Banner广告位 | 不支持       | 支持    |
 
 {% hint style="warning" %}
 我们建议优先使用组件化的方式接入广告位：
@@ -38,13 +38,15 @@ SDK组件无法满足，则可通过[API的方式接入](../api/)。
 
 天幕的所有广告位支持后台控制其开/关，具体可参阅
 
-{% page-ref page="../ad-position-status.md" %}
+{% content-ref url="../ad-position-status.md" %}
+[ad-position-status.md](../ad-position-status.md)
+{% endcontent-ref %}
 
 ## 组件化接入——creatFlow组件
 
 确定广告位开启后，调用creatFlow组件完成渲染，具体可参阅
 
-{% page-ref page="createflow/" %}
-
-
+{% content-ref url="createflow/" %}
+[createflow](createflow/)
+{% endcontent-ref %}
 

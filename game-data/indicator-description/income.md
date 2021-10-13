@@ -10,7 +10,7 @@ description: 分析微信收入，全面了解产品营收能力
 注：官方内购数据需人工在游戏收支后台中上传，详情请参考[游戏收支](https://doc.skysriver.com/general-function/revenue)。
 {% endhint %}
 
-![](https://cdn.61week.com/tianmu/doc/index/image/game-data/indicator-description/收入概况/image.png)
+![](https://cdn.61week.com/tianmu/doc/index/image/game-data/indicator-description/%E6%94%B6%E5%85%A5%E6%A6%82%E5%86%B5/image.png)
 
 * 活跃用户：进入小程序或者小游戏的用户数，同一用户同周期多次访问不重复记录（需要接入天幕SDK登录功能，所以与官方略有出入）
 * 新增用户：首次登录小程序或者小游戏的用户数，同一用户多次访问不重复记录
@@ -23,4 +23,3 @@ description: 分析微信收入，全面了解产品营收能力
 * 内购收入：来自内购的收入，可在游戏收支-微信收入管理后台中上传
 * 第三方内购：通过非微信的米大师支付方式进行内购产生的收入，需接入天幕第三方支付功能
 * 格子收入：来自微信格子广告的收入
-

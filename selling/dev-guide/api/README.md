@@ -11,13 +11,13 @@ description: API接入说明，建议详细阅读
 1. 组件化的方式接入（仅支持cocos、laya引擎）
 2. api的方式接入
 
-| 广告位类型 | 组件化接入 | **API接入** |
-| :--- | :--- | :--- |
-| 多Icon广告位 | 支持 | 支持 |
-| 浮动窗广告位 | 支持 | 支持 |
-| 插屏广告位 | 支持 | 不支持 |
-| 伪视频广告位 | 支持 | 不支持 |
-| Banner广告位 | 不支持 | 支持 |
+| 广告位类型     | 组件化接入 | **API接入** |
+| --------- | ----- | --------- |
+| 多Icon广告位  | 支持    | 支持        |
+| 浮动窗广告位    | 支持    | 支持        |
+| 插屏广告位     | 支持    | 不支持       |
+| 伪视频广告位    | 支持    | 不支持       |
+| Banner广告位 | 不支持   | 支持        |
 
 {% hint style="warning" %}
 我们建议优先使用[组件化的方式](../componentization/)接入广告位：
@@ -43,7 +43,7 @@ SDK组件无法满足，则可通过API的方式接入。
 ## **【重要】接口调用策略**
 
 {% hint style="danger" %}
-为保证数据**统计准确性、游戏性能及分发效率**，使用api方式接入广告位，请 **严格按照** 下列说明调用相关接口；否则造成的**相关线上问题带来的后果请自负**！
+为保证数据**统计准确性、游戏性能及分发效率**，使用api方式接入广告位，请 **严格按照 **下列说明调用相关接口；否则造成的**相关线上问题带来的后果请自负**！
 {% endhint %}
 
 ### 1、接口调用步骤
@@ -83,14 +83,14 @@ SDK组件无法满足，则可通过API的方式接入。
 
 ## 浮动窗广告位接入
 
-### **1、type=1** 
+### **1、type=1 **
 
-若[`getFlowConfig`](get-ad-position-config.md)返回值中type为1时，`positionId`对应的广告位类型是浮动窗类型中的静态图，图片尺寸为：190\*270  
- ![](https://uploader.shimo.im/f/nQvWLNArkEMNVUDJ.png!thumbnail)  
-如果创意列表creatives的show\_config中，只有image，则只需渲染该静态图。  
+若[`getFlowConfig`](get-ad-position-config.md)返回值中type为1时，`positionId`对应的广告位类型是浮动窗类型中的静态图，图片尺寸为：190\*270\
+ ![](https://uploader.shimo.im/f/nQvWLNArkEMNVUDJ.png!thumbnail)\
+如果创意列表creatives的show_config中，只有image，则只需渲染该静态图。\
 
 
-![&#x6D6E;&#x52A8;&#x7A97;&#x5E7F;&#x544A;&#x6548;&#x679C;](../../../.gitbook/assets/image%20%2893%29.png)
+![浮动窗广告效果](<../../../.gitbook/assets/image (40).png>)
 
 ### **2、若返回值中存在fps**
 
@@ -126,7 +126,7 @@ SDK组件无法满足，则可通过API的方式接入。
 因影响广告位的展示效率，接入时建议与游戏策划人员进行沟通，相关链接：[天幕创意下发策略](../../creative-strategy.md)
 {% endhint %}
 
-![&#x591A;Icon&#x5E7F;&#x544A;&#x6548;&#x679C;](../../../.gitbook/assets/image%20%28221%29.png)
+![多Icon广告效果](<../../../.gitbook/assets/image (41).png>)
 
 ### **2、若返回值中存在fps**
 
@@ -211,4 +211,3 @@ SDK组件无法满足，则可通过API的方式接入。
 [`flowNavigate`](landing.md)接口是用于在用户点击了广告位上的创意后，实现跳转到该创意指定的落地页功能。
 
 > 例如，用户在a游戏某广告位上点击了推广b产品的创意，那么在用户点击后，可以跳转至b产品，这个跳转需要通过[`flowNavigate`](landing.md)接口来实现。
-

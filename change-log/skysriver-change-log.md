@@ -6,19 +6,22 @@ description: 天幕后台更新记录
 
 ## v3.3.2.4 - 2021-05-11
 
-1. **内购ltv增加120、150、180日** 可在数据概览、核心数据、内购分析、渠道分析、买量助手-渠道监控中查询
-2. **游戏数据增加内购行为分析菜单** 可查询累计内购金额-人数分布数据
+1. **内购ltv增加120、150、180日**\
+   ****可在数据概览、核心数据、内购分析、渠道分析、买量助手-渠道监控中查询
+2. **游戏数据增加内购行为分析菜单**\
+   可查询累计内购金额-人数分布数据
 3. **游戏数据终端分析中三个数据菜单新增付费用户数指标**
 
 ## v3.3.2.2 - 2021-03-30
 
-1. **卖量助手新增根据广告位设置跳转游戏名单功能**
+1.  **卖量助手新增根据广告位设置跳转游戏名单功能**
 
-   操作入口：卖量助手-投放管理顶部-广告位游戏设置
+    操作入口：卖量助手-投放管理顶部-广告位游戏设置
 
-   功能说明：可设置每个广告位上的游戏跳转名单，运营人员可以更有针对性的利用高效的广告位推广特定游戏
-
-2. **OPPO版SDK更新-解决生命周期监听报错**  OPPO版SDK更新后，若开发者需要使用生命周期监听方法，请务必使用天幕提供的生命周期方法，在保证功能稳定的基础上可避免生命周期的错误提示。  接入文档：[https://oppo.skysriver.com/dev-guide/basic/life-cycle](https://oppo.skysriver.com/dev-guide/basic/life-cycle)
+    功能说明：可设置每个广告位上的游戏跳转名单，运营人员可以更有针对性的利用高效的广告位推广特定游戏
+2. **OPPO版SDK更新-解决生命周期监听报错** \
+   OPPO版SDK更新后，若开发者需要使用生命周期监听方法，请务必使用天幕提供的生命周期方法，在保证功能稳定的基础上可避免生命周期的错误提示。 \
+   接入文档：[https://oppo.skysriver.com/dev-guide/basic/life-cycle](https://oppo.skysriver.com/dev-guide/basic/life-cycle)
 
 ## v3.3.2.1 - 2021-03-09
 
@@ -38,13 +41,13 @@ description: 天幕后台更新记录
 * 买量助手-配置投放的渠道与参数，统计不同渠道来源用户数据
 * 卖量助手-将自己的游戏作为流量主游戏卖量进行创意配置投放管理，统计卖量曝光点击及收入数据
 
-帮助与接入文档：[https://huawei.skysriver.com/](https://huawei.skysriver.com/)
+帮助与接入文档：[https://huawei.skysriver.com/](https://huawei.skysriver.com)
 
 华为版使用过程中有任何问题欢迎反馈给我们。
 
-**2、接入天幕SDK的产品，可通过天幕接口获取access\_token**
+**2、接入天幕SDK的产品，可通过天幕接口获取access_token**
 
-接入天幕SDK后如果开发者需要使用access\_token，现在可通过天幕接口获取，避免各自获取造成冲突。
+接入天幕SDK后如果开发者需要使用access_token，现在可通过天幕接口获取，避免各自获取造成冲突。
 
 * 微信：[https://doc.skysriver.com/general-function/accesstoken](https://doc.skysriver.com/general-function/accesstoken)
 * QQ：[https://qq.skysriver.com/general-functions/accesstoken](https://qq.skysriver.com/general-functions/accesstoken)
@@ -59,43 +62,43 @@ description: 天幕后台更新记录
 
 本次更新增加支持OPPO版功能： 
 
-1. 功能配置-支持版本控制、在线参数、自定义事件与ABtest 
+1\. 功能配置-支持版本控制、在线参数、自定义事件与ABtest 
 
-2. 游戏数据-支持留存、时长、渠道等数据统计 
+2\. 游戏数据-支持留存、时长、渠道等数据统计 
 
-3. 买量助手-配置投放的渠道与参数，统计不同渠道来源用户数据 
+3\. 买量助手-配置投放的渠道与参数，统计不同渠道来源用户数据 
 
-4. 卖量助手-将自己的游戏作为流量主游戏卖量，统计卖量曝光点击及收入数据 
+4\. 卖量助手-将自己的游戏作为流量主游戏卖量，统计卖量曝光点击及收入数据 
 
-帮助与接入文档：[https://oppo.skysriver.com/](https://oppo.skysriver.com/)
+帮助与接入文档：[https://oppo.skysriver.com/](https://oppo.skysriver.com)
 
 ## v3.2.4 - 2020-11-24
 
 近期更新增加以下功能： 
 
-1. 功能配置-ABtest支持修改计划信息 
+1\. 功能配置-ABtest支持修改计划信息 
 
 * （1）每个计划可延长一次生效时间，最长至操作日起30天内； 
 * （2）可修改计划用户组中的概率，次日生效。 
 
-2. 数据菜单-自定义事件数据菜单优化，提升导出文件效率 
+2\. 数据菜单-自定义事件数据菜单优化，提升导出文件效率 
 
-3. 数据统计-内购分析数据统计接口增加商品名称等字段，提升订单记录的内容实用性 
+3\. 数据统计-内购分析数据统计接口增加商品名称等字段，提升订单记录的内容实用性 
 
-4. 数据统计-微信版广告分析-激励视频新增视频观看人数与观看新用户数指标，帮助策划分析激励视频观看情况为收入调优提供支持
+4\. 数据统计-微信版广告分析-激励视频新增视频观看人数与观看新用户数指标，帮助策划分析激励视频观看情况为收入调优提供支持
 
 ## v3.2.1 - 2020-11-04
 
 本次更新增加以下功能： 
 
-1. 全平台游戏数据渠道分析与买量助手渠道监控菜单操作中增加注册监控查询，便捷实时监控渠道买入新增用户 
+1\. 全平台游戏数据渠道分析与买量助手渠道监控菜单操作中增加注册监控查询，便捷实时监控渠道买入新增用户 
 
-2. 增加指标 
+2\. 增加指标 
 
 * （1）微信版主体广告分析-激励视频中，增加播完人数以及新用户播完人数，可了解完整观看激励视频的人数 
 * （2）全平台时长分布数据增加老活跃用户（活跃-新增），便于分析活跃用户中非新用户时长表现 
 
-3. 控制台UI修改，支持拖动修改展示顺序
+3\. 控制台UI修改，支持拖动修改展示顺序
 
 ## v3.2.0 - 2020-10-27
 
@@ -117,10 +120,10 @@ description: 天幕后台更新记录
 
 【卖量助手】-支持设置广告主游戏在特定时间上架展示
 
-操作位置：卖量助手-投放管理-点击流量主游戏-点击生效时间进行配置  
+操作位置：卖量助手-投放管理-点击流量主游戏-点击生效时间进行配置\
 
 
-![](../.gitbook/assets/image%20%28327%29.png)
+![](<../.gitbook/assets/image (327).png>)
 
 【数据与收支】-增加微信原生模板广告类型相关收入与广告数据指标
 
@@ -145,8 +148,8 @@ description: 天幕后台更新记录
 
 【无登录功能兼容版天幕SDK接入说明 】
 
-* 微信版：[https://doc.skysriver.com/selling/dev-guide/add-sdk\#2-wu-deng-lu-ban-sdk-shi-yong-shuo-ming](https://doc.skysriver.com/selling/dev-guide/add-sdk#2-wu-deng-lu-ban-sdk-shi-yong-shuo-ming) 
-* QQ版：[https://qq.skysriver.com/dev-guide/basic/add-sdk\#2-wu-deng-lu-ban-sdk-shi-yong-shuo-ming](https://qq.skysriver.com/dev-guide/basic/add-sdk#2-wu-deng-lu-ban-sdk-shi-yong-shuo-ming)
+* 微信版：[https://doc.skysriver.com/selling/dev-guide/add-sdk#2-wu-deng-lu-ban-sdk-shi-yong-shuo-ming](https://doc.skysriver.com/selling/dev-guide/add-sdk#2-wu-deng-lu-ban-sdk-shi-yong-shuo-ming) 
+* QQ版：[https://qq.skysriver.com/dev-guide/basic/add-sdk#2-wu-deng-lu-ban-sdk-shi-yong-shuo-ming](https://qq.skysriver.com/dev-guide/basic/add-sdk#2-wu-deng-lu-ban-sdk-shi-yong-shuo-ming)
 
 【天幕字节跳动小游戏使用说明】： 
 
@@ -174,7 +177,9 @@ description: 天幕后台更新记录
 
 QQ小游戏使用说明： 
 
-* QQ小游戏接入需先创建QQ版主体，而后将QQ版小游戏添加至该主体中。  QQ版主体创建入口：控制台-上方个人“设置”-新建主体-平台类型选择QQ.  创建QQ版主体后方可添加QQ小游戏。
+* QQ小游戏接入需先创建QQ版主体，而后将QQ版小游戏添加至该主体中。 \
+  QQ版主体创建入口：控制台-上方个人“设置”-新建主体-平台类型选择QQ. \
+  创建QQ版主体后方可添加QQ小游戏。
 
 QQ版小游戏接入天幕技术指南：[https://qq.skysriver.com/dev-guide](https://qq.skysriver.com/dev-guide)
 
@@ -186,13 +191,13 @@ QQ版小游戏接入天幕技术指南：[https://qq.skysriver.com/dev-guide](ht
 
 支持接入QQ版小游戏，需要创建QQ版主体后方可添加QQ小游戏。
 
-![](../.gitbook/assets/image%20%28321%29.png)
+![](<../.gitbook/assets/image (322).png>)
 
- 1. 支持下载QQ版SDK并接入游戏 
+ 1\. 支持下载QQ版SDK并接入游戏 
 
-2. 支持使用游戏配置功能 
+2\. 支持使用游戏配置功能 
 
-3. 支持买量助手功能
+3\. 支持买量助手功能
 
 ## v2.8.5.1-2020-08-04
 
@@ -359,7 +364,7 @@ QQ版小游戏接入天幕技术指南：[https://qq.skysriver.com/dev-guide](ht
 
 【卖量助手】 
 
-![&#x5FAE;&#x4FE1;&#x8DF3;&#x8F6C;&#x63A5;&#x53E3;&#x89C4;&#x5219;&#x4FEE;&#x6539;&#x8BF4;&#x660E;](../.gitbook/assets/image%20%2840%29.png)
+![微信跳转接口规则修改说明](<../.gitbook/assets/image (270).png>)
 
 1、因微信不再对小游戏跳转加以限制（上图），故： 
 
@@ -441,7 +446,7 @@ QQ版小游戏接入天幕技术指南：[https://qq.skysriver.com/dev-guide](ht
 
 添加新的指标：有效新增用户数，用于更客观的评价渠道质量。
 
-首次进入游戏并活跃\[X\]秒以上的新用户，定义为“有效新增用户”，其中\[X\]的数值，可由管理员自行设定，支持游戏粒度的设定。[查看说明](../general-function/valid-user.md)
+首次进入游戏并活跃\[X]秒以上的新用户，定义为“有效新增用户”，其中\[X]的数值，可由管理员自行设定，支持游戏粒度的设定。[查看说明](../general-function/valid-user.md)
 
 2、买量助手，添加微信广告类型媒体
 
@@ -461,7 +466,7 @@ QQ版小游戏接入天幕技术指南：[https://qq.skysriver.com/dev-guide](ht
 
 ## v2.4.8 - 2020-01-19
 
-1、提供服务端接口，用于在接入米大师支付时直接获取token、session\_key 
+1、提供服务端接口，用于在接入米大师支付时直接获取token、session_key 
 
 2、单个广告主游戏的创意上限临时上调至50个 
 
@@ -505,13 +510,13 @@ QQ版小游戏接入天幕技术指南：[https://qq.skysriver.com/dev-guide](ht
 
 #### 2、单渠道用户时长分布
 
-\[买量助手-渠道监控\]、\[游戏数据-渠道分析\]两个页面中，现支持显示单条渠道的用户活跃时长分布 
+\[买量助手-渠道监控]、\[游戏数据-渠道分析]两个页面中，现支持显示单条渠道的用户活跃时长分布 
 
 帮助运营人员更准确的甄别渠道质量 
 
 不支持查看当天的实时数据，最早可查看昨天的时长分布
 
-![&#x5355;&#x6E20;&#x9053;&#x65F6;&#x957F;&#x5206;&#x5E03;&#x793A;&#x610F;&#x56FE;](../.gitbook/assets/wei-xin-tu-pian-20191217163230.png)
+![单渠道时长分布示意图](../.gitbook/assets/微信图片\_20191217163230.png)
 
 #### 3、其他 
 
@@ -557,7 +562,7 @@ QQ版小游戏接入天幕技术指南：[https://qq.skysriver.com/dev-guide](ht
 
 #### 新功能——用户时长数据分析 
 
-游戏数据后台，新增用户时长菜单（路径：游戏数据后台-&gt;单款游戏报表-&gt;用户分析-&gt;用户时长） 
+游戏数据后台，新增用户时长菜单（路径：游戏数据后台->单款游戏报表->用户分析->用户时长） 
 
 可查看当前游戏整体/单个渠道：活跃/新增用户时长的分布
 
@@ -813,9 +818,9 @@ QQ版小游戏接入天幕技术指南：[https://qq.skysriver.com/dev-guide](ht
 * 【广告主&流量主】新增Banner类型广告，目前仅支持api方式接入，请参考API接入技术文档：[API接入](../selling/dev-guide/api/)
 * 【广告主】渠道分析页面优化，新增用户画像展示，同时查看单条渠道的详细数据会更便捷；
 
-![](../.gitbook/assets/image%20%2870%29.png)
+![](<../.gitbook/assets/image (72).png>)
 
-![](../.gitbook/assets/image%20%28123%29.png)
+![](<../.gitbook/assets/image (73).png>)
 
 * 【流量主】可在天幕后台为广告位配置红点以及角标；
 * 【流量主】工具箱新增「加速曝光」工具，可设置广告位上需要优先曝光的推广产品；
@@ -831,15 +836,15 @@ QQ版小游戏接入天幕技术指南：[https://qq.skysriver.com/dev-guide](ht
 
 * 【广告主】渠道分析页面重构，展示更多与渠道相关的数据；
 
-![&#x6E20;&#x9053;&#x5206;&#x6790;](../.gitbook/assets/image%20%28129%29.png)
+![渠道分析](<../.gitbook/assets/image (54).png>)
 
 * 【广告主】新增插屏广告，类似微信小程序新增的插屏广告；
 
-![&#x63D2;&#x5C4F;&#x5E7F;&#x544A;](../.gitbook/assets/cha-ping-guang-gao-2%20%282%29.png)
+![插屏广告](<../.gitbook/assets/插屏广告(2) (1).png>)
 
 * 【流量主】【用户留存】单游戏后台，核心数据-用户分析中的用户留存页面新增「活跃用户留存指标」
 
-![&#x6D3B;&#x8DC3;&#x7528;&#x6237;&#x7559;&#x5B58;](../.gitbook/assets/image%20%28213%29.png)
+![活跃用户留存](<../.gitbook/assets/image (55).png>)
 
 * 【流量主】整体数据页面新增「活跃用户数」指标；
 * 【联系我们】新增联系我们入口，可扫描二维码添加客服微信；
@@ -920,8 +925,6 @@ QQ版小游戏接入天幕技术指南：[https://qq.skysriver.com/dev-guide](ht
 * 【广告主】通投规则优化，会根据广告主设置的广告计划预算，限制接单的流量主游戏数量；
 * 【广告主】广告计划的每日预算新增限制，最低为50元；
 * 【广告主&流量主】广告计划添加时限，超过此时限，流量主不可接单；
-
-
 
 
 

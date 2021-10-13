@@ -49,11 +49,10 @@ wx.tmSDK.getShareTemplates().then((res) => {
 
 ## **返回值详解**
 
-| 字段 | 字段类型 | 字段说明 |
-| :--- | :--- | :--- |
-| channel\_code | String | 分享渠道码 |
-| title | String | 分享标题 |
-| image | String | 分享图片地址 |
-| path | String | 跳转小程序路径 |
-| scene | String | 分享位ID |
-
+| 字段           | 字段类型   | 字段说明    |
+| ------------ | ------ | ------- |
+| channel_code | String | 分享渠道码   |
+| title        | String | 分享标题    |
+| image        | String | 分享图片地址  |
+| path         | String | 跳转小程序路径 |
+| scene        | String | 分享位ID   |

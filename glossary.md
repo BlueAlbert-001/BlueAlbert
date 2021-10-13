@@ -50,7 +50,7 @@ description: 天幕上常用名词的解析，建议首次使用前快速浏览
 
 创意尺寸：200\*200；支持组件和API接入。
 
-![&#x591A;icon&#x5E7F;&#x544A;&#x4F4D;&#x793A;&#x610F;](https://cdn.61week.com/tianmu/doc/index/image/glossary-1.jpg)
+![多icon广告位示意](https://cdn.61week.com/tianmu/doc/index/image/glossary-1.jpg)
 
 #### 类型2、浮动窗
 
@@ -60,7 +60,7 @@ description: 天幕上常用名词的解析，建议首次使用前快速浏览
 
 创意尺寸：190\*270；支持组件和API接入。
 
-![&#x6D6E;&#x52A8;&#x7A97;&#x5E7F;&#x544A;&#x4F4D;&#x793A;&#x610F;](https://cdn.61week.com/tianmu/doc/index/image/glossary-2.jpg)
+![浮动窗广告位示意](https://cdn.61week.com/tianmu/doc/index/image/glossary-2.jpg)
 
 #### 类型3、伪视频
 
@@ -68,7 +68,7 @@ description: 天幕上常用名词的解析，建议首次使用前快速浏览
 
 创意尺寸：960\*540；仅支持组件接入。
 
-![&#x4F2A;&#x89C6;&#x9891;&#x793A;&#x610F;](https://cdn.61week.com/tianmu/doc/index/image/glossary-3.jpg)
+![伪视频示意](https://cdn.61week.com/tianmu/doc/index/image/glossary-3.jpg)
 
 #### 类型4、插屏广告
 
@@ -76,7 +76,7 @@ description: 天幕上常用名词的解析，建议首次使用前快速浏览
 
 创意尺寸：780\*960；仅支持组件接入。
 
-![&#x63D2;&#x5C4F;&#x5E7F;&#x544A;&#x793A;&#x610F;](https://cdn.61week.com/tianmu/doc/index/image/glossary-4.jpg)
+![插屏广告示意](https://cdn.61week.com/tianmu/doc/index/image/glossary-4.jpg)
 
 #### 类型5、天幕banner广告
 
@@ -84,7 +84,7 @@ description: 天幕上常用名词的解析，建议首次使用前快速浏览
 
 创意尺寸：960\*334；仅支持API接入。
 
-![&#x5929;&#x5E55;Banner&#x5E7F;&#x544A;&#x793A;&#x610F;](https://cdn.61week.com/tianmu/doc/index/image/glossary-5.jpg)
+![天幕Banner广告示意](https://cdn.61week.com/tianmu/doc/index/image/glossary-5.jpg)
 
 ### 2.5、曝光次数
 
@@ -192,7 +192,7 @@ UV：访问人数，因微信本身机制限定，UV的去重只能精确到单�
 
 访问次数：用户访问小程序或小游戏的**次数**
 
-访问次数&gt;活跃用户数&gt;新增用户数
+访问次数>活跃用户数>新增用户数
 
 相关阅读推荐：[活跃、新增、访问用户的区别](questions/about-data.md#3-qu-dao-wei-du-de-huo-yue-yong-hu-he-fang-wen-yong-hu-you-shen-me-qu-bie)
 
@@ -251,6 +251,4 @@ UV：访问人数，因微信本身机制限定，UV的去重只能精确到单�
 ### 6.4、 有效新增用户
 
 新用户的使用时长在某个数值以上才认为该新增用户为有一个有效新增用户，该功能配置详见[有效新增用户](general-function/valid-user.md)说明。
-
-
 

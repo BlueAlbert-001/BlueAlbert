@@ -8,7 +8,7 @@ description: 分析产品新增用户来源构成
 新增用户数据菜单主要提供了产品的新用户来源构成情况，帮助分析人员了解新增用户的结构，为产品买量提供参考
 {% endhint %}
 
-![](https://cdn.61week.com/tianmu/doc/index/image/game-data/indicator-description/新增用户/image.png)
+![](https://cdn.61week.com/tianmu/doc/index/image/game-data/indicator-description/%E6%96%B0%E5%A2%9E%E7%94%A8%E6%88%B7/image.png)
 
 ### 新增组成
 
@@ -44,4 +44,3 @@ description: 分析产品新增用户来源构成
 {% hint style="warning" %}
 新用户LTV指标计算需要上传微信收入方可计算，详情请参考[游戏收支](https://doc.skysriver.com/general-function/revenue)。
 {% endhint %}
-

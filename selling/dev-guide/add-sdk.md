@@ -27,9 +27,9 @@
 
 1. 如果游戏原本**无获取openID的逻辑**，则使用**有登录版本SDK**。
 2. 如果接入天幕SDK的游戏本身有获取openID的逻辑，请选用**无登录版本SDK**
-3. 如果曾接入过其他系统的SDK，且其他系统中有获取openID的逻辑，请选用**无登录版本SDK**
+3.  如果曾接入过其他系统的SDK，且其他系统中有获取openID的逻辑，请选用**无登录版本SDK**
 
-   （阿拉丁的SDK无此逻辑，无需做处理，即使用**有登录版本SDK**即可）
+    （阿拉丁的SDK无此逻辑，无需做处理，即使用**有登录版本SDK**即可）
 
 {% hint style="info" %}
 **登录功能版SDK**由天幕集成封装微信登录功能，可供开发者调用，并在接入后方可使用天幕的所有功能
@@ -45,7 +45,7 @@
 
 选择你需要的SDK版本：
 
-![](../../.gitbook/assets/image%20%28325%29.png)
+![](<../../.gitbook/assets/image (326).png>)
 
 {% hint style="danger" %}
 1. 请勿多个游戏使用同一个SDK，每个游戏会对应一个单独的SDK；
@@ -77,12 +77,14 @@
 * 在cocos引擎中，如果打包之前没有game.js文件，则只需将SDK文件放在cocos引擎主包中一起打包，这样就可以直接调用了，无需引入SDK文件（还可以在wx.d.ts中定义tmSDK变量）
 {% endhint %}
 
-![](../../.gitbook/assets/image%20%28340%29.png)
+![](<../../.gitbook/assets/image (340).png>)
+
+![](<../../.gitbook/assets/image (341).png>)
 
 #### 植入方式（注意根据所下载SDK版本文件名植入，以下以天幕包含登录的全功能sdk为例）
 
-* TypeScript或ES6 JavaScript语法植入方式：import 'tm\_sdk.min.js';
-* ES5 JavaScript使用commonJs规范的植入方式：require\('tm\_sdk.min.js'\);
+* TypeScript或ES6 JavaScript语法植入方式：import 'tm_sdk.min.js';
+* ES5 JavaScript使用commonJs规范的植入方式：require('tm_sdk.min.js');
 
 #### 校验SDK
 
@@ -96,7 +98,7 @@
 
 以下流程**仅使用了无登录版SDK**的开发者需要阅读。
 
-![](../../.gitbook/assets/image%20%28323%29.png)
+![](<../../.gitbook/assets/image (323).png>)
 
 1. 下载无登录版本的SDK
 2. [SDK初始化](initialization.md)
@@ -112,7 +114,7 @@ wx.tmSDK.sendUserInfo({ openId: '开发者传入的openId', gender: 1 });
 {% endhint %}
 
 {% hint style="danger" %}
-**【注意事项】** 
+**【注意事项】 **
 
 1、无登录版本SDK，以下接口或功能无法使用
 
@@ -121,6 +123,4 @@ wx.tmSDK.sendUserInfo({ openId: '开发者传入的openId', gender: 1 });
 
 2、因为无openid无法使用数据统计功能、买卖量助手功能，请接入SDK后及时发送openid避免数据统计、买卖量助手等功能无法使用或功能异常。
 {% endhint %}
-
-
 

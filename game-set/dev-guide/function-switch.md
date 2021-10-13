@@ -41,12 +41,11 @@ wx.tmSDK.getJudgeConfig().then(res=>{
 
 ## 返回值详解
 
-| 字段 | 字段类型 | 字段说明 |
-| :--- | :--- | :--- |
-| id | number | 当前配置项唯一的id |
-| key | string | 当前配置项的名称 |
-| description | string | 当前配置项的说明 |
-| status | number | 当前配置项的状态， 1 - TRUE， 0 - FALSE |
+| 字段          | 字段类型   | 字段说明                          |
+| ----------- | ------ | ----------------------------- |
+| id          | number | 当前配置项唯一的id                    |
+| key         | string | 当前配置项的名称                      |
+| description | string | 当前配置项的说明                      |
+| status      | number | 当前配置项的状态， 1 - TRUE， 0 - FALSE |
 
 相关链接：[如何获取用户信息](../../questions/game-manage.md#ru-he-huo-qu-dang-qian-yong-hu-de-ji-ben-xin-xi)
-

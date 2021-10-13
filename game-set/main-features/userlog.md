@@ -26,7 +26,9 @@
 当您在接入天幕SDK的功能后，需要验证接入的功能中用户行为上报是否正常，可访问用户日志后台。
 
 * 2.1 首先您需要拿到测试用户的openid
-* 2.2 然后您可以开始在游戏中操作，通过右上角的刷新按钮更新查询展示的用户行为 若功能正常接入，则会在列表中看到一条记录，展示了相应的操作行为。 若未在列表中看到记录，则接入存在问题，需要开发者检查问题。
+* 2.2 然后您可以开始在游戏中操作，通过右上角的刷新按钮更新查询展示的用户行为\
+  若功能正常接入，则会在列表中看到一条记录，展示了相应的操作行为。\
+  若未在列表中看到记录，则接入存在问题，需要开发者检查问题。
 
 ![](https://cdn.61week.com/tianmu/doc/index/image/game-set/userlog/2.png)
 
@@ -38,9 +40,9 @@
 * bannerLoadError：微信banner加载错误
 * bannerShow：微信banner展示
 * bannerShowError：微信banner展示错误
-* custom\_event：自定义事件
-* login\_in：访问
-* login\_out：退出
+* custom_event：自定义事件
+* login_in：访问
+* login_out：退出
 * share：分享转发
 * videoClose：微信激励视频关闭
 * videoError：微信激励视频展示错误
@@ -56,11 +58,11 @@
 
 其他重要字段如下：
 
-* out\_ccode：本次访问行为的来源渠道ID 渠道ID信息可参阅【[买量助手使用说明](../../channel/main-features/channel-management.md)】
+* out_ccode：本次访问行为的来源渠道ID\
+  渠道ID信息可参阅【[买量助手使用说明](../../channel/main-features/channel-management.md)】
 * device：用户的设备信息对象，具体可见官方说明【[api:获取系统信息](https://developers.weixin.qq.com/minigame/dev/api/base/system/system-info/wx.getSystemInfo.html)】
 
 ### 5、其他说明
 
 * 目前用户日志功能性能还有优化中，显示的日志列表存在时间延迟，我们将持续优化尽可能减小延迟。
 * 查询某个openid的日志列表时，右侧显示的用户详细信息每天更新一次，非实时更新。
-

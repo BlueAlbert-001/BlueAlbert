@@ -2,17 +2,27 @@
 
 以下为游戏配置内主要功能的详细说明，请参阅：
 
-{% page-ref page="ab-test.md" %}
+{% content-ref url="ab-test.md" %}
+[ab-test.md](ab-test.md)
+{% endcontent-ref %}
 
-{% page-ref page="diy-event.md" %}
+{% content-ref url="diy-event.md" %}
+[diy-event.md](diy-event.md)
+{% endcontent-ref %}
 
-{% page-ref page="features-switch.md" %}
+{% content-ref url="features-switch.md" %}
+[features-switch.md](features-switch.md)
+{% endcontent-ref %}
 
-{% page-ref page="sharing-management.md" %}
+{% content-ref url="sharing-management.md" %}
+[sharing-management.md](sharing-management.md)
+{% endcontent-ref %}
 
-{% page-ref page="json.md" %}
+{% content-ref url="json.md" %}
+[json.md](json.md)
+{% endcontent-ref %}
 
-{% page-ref page="userlog.md" %}
-
-
+{% content-ref url="userlog.md" %}
+[userlog.md](userlog.md)
+{% endcontent-ref %}
 
