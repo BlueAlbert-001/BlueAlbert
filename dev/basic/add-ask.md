@@ -101,7 +101,7 @@
 ![](<../../.gitbook/assets/image (323).png>)
 
 1. 下载无登录版本的SDK
-2. [SDK初始化](../../selling/dev-guide/initialization.md)
+2. [SDK初始化](initialization.md)
 3. 完成初始化后，开发者将自行获取到的openid，通过如下的SDK接口，发送openid到天幕。（**若不发送openid将导致天幕功能无法使用**）
 
 ```javascript
@@ -118,8 +118,8 @@ wx.tmSDK.sendUserInfo({ openId: '开发者传入的openId', gender: 1 });
 
 1、无登录版本SDK，以下接口或功能无法使用
 
-* &#x20;[.updateUserInfo ](../../selling/dev-guide/login/update-userinfo.md)（天幕-更新用户信息）
-* &#x20;[.login](../../selling/dev-guide/login/get-user-info.md)（天幕-登录/获取用户信息）
+* &#x20;[.updateUserProfile](login/updateUserProfile.md) （天幕-更新用户信息）
+* &#x20;[.login](login/login.md)（天幕-登录/获取用户信息）
 
 2、因为无openid无法使用数据统计功能、买卖量助手功能，请接入SDK后及时发送openid避免数据统计、买卖量助手等功能无法使用或功能异常。
 {% endhint %}

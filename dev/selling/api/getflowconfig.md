@@ -5,7 +5,7 @@
 注意：请先完成阅读：[API方式接入广告位](../../../selling/dev-guide/api/)
 
 {% hint style="warning" %}
-使用该接口前，请先进行[SDK初始化](../../../selling/dev-guide/initialization.md)
+使用该接口前，请先进行[SDK初始化](../../basic/initialization.md)
 {% endhint %}
 
 `getFlowConfig`接口用于获取广告位id对应配置详情，调用该接口后，请根据接口的返回值，采用对应的方式处理。
@@ -17,7 +17,7 @@
 ## **调用方法**
 
 {% hint style="danger" %}
-请 **严格按照 【**[接口调用策略](../../../selling/dev-guide/api/#zhong-yao-jie-kou-tiao-yong-ce-lve)**】 **调用此接口，否则造成的一切后果请自负！
+请 **严格按照 【**[接口调用策略](./#zhong-yao-jie-kou-tiao-yong-ce-lve)**】 **调用此接口，否则造成的一切后果请自负！
 {% endhint %}
 
 ```java
@@ -169,7 +169,7 @@ positionId将对应的不同类型返回值，使用前请确认当前使用的p
 * 示例：**fps=5，意味着每秒播放5张图片，即0.2秒切换一张（并不是每5s切换一张图片！！）**
 * 通过上述方式，在游戏中实现类似gif动图的效果
 * 同时接口返回中仍会有image（单张图片）返回（此为避免部分老游戏游戏SDK直接更新&&未做此部分处理，可能导致游戏异常而做的保险机制），**可忽略**。（SDK2.6.9-2020-04-22更新）
-* 关于点击后的跳转：即使是多张图片轮播，仍旧是归属于同一个创意（creativeID），也就是说，跳转的时候，只会跳转到同一个游戏。参考跳转接口：.[flowNavigate](../../../selling/dev-guide/api/landing.md)
+* 关于点击后的跳转：即使是多张图片轮播，仍旧是归属于同一个创意（creativeID），也就是说，跳转的时候，只会跳转到同一个游戏。参考跳转接口：[.flowNavigate](flowNavigate.md)
 
 ```javascript
 {

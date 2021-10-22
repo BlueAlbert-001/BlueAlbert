@@ -3,12 +3,12 @@
 ## 概述
 
 {% hint style="warning" %}
-使用该接口前，请先进行[SDK初始化](../../../selling/dev-guide/initialization.md)
+使用该接口前，请先进行[SDK初始化](../../basic/initialization.md)
 {% endhint %}
 
 `flowNavigate`接口用于实现点击创意后跳转到对应游戏的落地页的功能
 
-此功能的使用前提：调用了获取广告推广配置[`getFlowConfig`](../../../selling/dev-guide/api/get-ad-position-config.md)
+此功能的使用前提：调用了获取广告推广配置[`getFlowConfig`](../../../selling/dev-guide/api/get-ad-position-config.md)``
 
 {% hint style="info" %}
 此接口调用只适用于版本库 2.2.0 以上，所有开发者在调用时注意要把开发工具的版本库调到2.2.0以上的版本，否则会报错。
@@ -42,7 +42,7 @@ wx.tmSDK.flowNavigate({
 基本返回值和[`getFlowConfig`](../../../selling/dev-guide/api/get-ad-position-config.md)结构基本一致, 请参考[`getFlowConfig`](../../../selling/dev-guide/api/get-ad-position-config.md)文档
 
 {% hint style="info" %}
-使用该返回值重新刷新创意的展示，可实现点击刷新的效果，[点击查看详情](../../../selling/dev-guide/api/#2-dian-ji-shua-xin)
+使用该返回值重新刷新创意的展示，可实现点击刷新的效果，[点击查看详情](./#2-dian-ji-shua-xin)
 {% endhint %}
 
 ### **特有返回值**

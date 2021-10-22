@@ -10,10 +10,10 @@
 
 #### 卖量助手——广告位接入：
 
-* [createFlow](../../selling/dev-guide/componentization/createflow/)
+* [createFlow](../selling/componentization/createflow/)
 * [checkFlowIsOpen](../../selling/dev-guide/ad-position-status.md)
-* [getFlowConfig](../../selling/dev-guide/api/get-ad-position-config.md)
-* [flowNavigate](../../selling/dev-guide/api/landing.md)
+* [getFlowConfig](../selling/api/getflowconfig.md)
+* [flowNavigate](../selling/api/flowNavigate.md)
 
 **游戏配置——分享功能：**
 
