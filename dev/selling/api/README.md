@@ -33,7 +33,7 @@ SDK组件无法满足，则可通过API的方式接入。
 涉及到的接口：
 
 * 获取广告位开关：[checkFlowIsOpen](../../../selling/dev-guide/ad-position-status.md)
-* 创意配置获取：[getFlowConfig](../../../selling/dev-guide/api/get-ad-position-config.md)
+* 创意配置获取：[getFlowConfig](getflowconfig.md)
 * 点击跳转：[flowNavigate](../../../selling/dev-guide/api/landing.md)
 
 ## **【重要】接口调用策略**
@@ -48,7 +48,7 @@ SDK组件无法满足，则可通过API的方式接入。
 
 1. 首先通过调用[`checkFlowIsOpen`](../../../selling/dev-guide/ad-position-status.md)，传入广告位ID，获取广告位开关状态：开启/关闭。
 2. 如果广告位为开启状态，调用[`getFlowConfig`](../../../selling/dev-guide/api/get-ad-position-config.md)，传入广告位ID，获取配置。
-3. 用户点击跳转时，请使用[`flowNavigate`](https://doc.skysriver.com/dev-guide/create-ad-position/landing)实现，请勿使用微信原生接口实现，否则会导致数据统计异常。
+3. 用户点击跳转时，请使用[`flowNavigate`](flowNavigate.md)实现，请勿使用微信原生接口实现，否则会导致数据统计异常。
 
 ### 2、特殊说明
 
@@ -82,7 +82,6 @@ SDK组件无法满足，则可通过API的方式接入。
 ### **1、type=1 **
 
 若[`getFlowConfig`](../../../selling/dev-guide/api/get-ad-position-config.md)返回值中type为1时，`positionId`对应的广告位类型是浮动窗类型中的静态图，图片尺寸为：190\*270\
-&#x20;![](https://uploader.shimo.im/f/nQvWLNArkEMNVUDJ.png!thumbnail)\
 如果创意列表creatives的show\_config中，只有image，则只需渲染该静态图。\
 
 
@@ -100,9 +99,9 @@ SDK组件无法满足，则可通过API的方式接入。
 
 请按照如下说明完成接入：
 
-数据刷新规则请参照：[数据刷新规则](../../../selling/dev-guide/api/#shu-ju-shua-xin-gui-ze)
+数据刷新规则请参照：[数据刷新规则](./#shu-ju-shua-xin-gui-ze)
 
-点击后跳转请参照：[点击后跳转](../../../selling/dev-guide/api/#dian-ji-hou-tiao-zhuan)
+点击后跳转请参照：[点击后跳转](./#dian-ji-hou-tiao-zhuan)
 
 ## **多Icon**广告位接入
 
@@ -136,9 +135,9 @@ SDK组件无法满足，则可通过API的方式接入。
 
 请按照如下说明完成接入：
 
-数据刷新规则请参照：[数据刷新规则](../../../selling/dev-guide/api/#shu-ju-shua-xin-gui-ze)
+数据刷新规则请参照：[数据刷新规则](./#shu-ju-shua-xin-gui-ze)
 
-点击后跳转请参照：[点击后跳转](../../../selling/dev-guide/api/#dian-ji-hou-tiao-zhuan)
+点击后跳转请参照：[点击后跳转](./#dian-ji-hou-tiao-zhuan)
 
 ## Banner广告位接入
 
@@ -148,7 +147,7 @@ SDK组件无法满足，则可通过API的方式接入。
 
 ### **2、数据刷新规则及点击跳转**
 
-点击后跳转请参照：[点击后跳转](../../../selling/dev-guide/api/#dian-ji-hou-tiao-zhuan)
+点击后跳转请参照：[点击后跳转](./#dian-ji-hou-tiao-zhuan)
 
 ## **数据刷新规则**
 
@@ -162,7 +161,7 @@ SDK组件无法满足，则可通过API的方式接入。
 
 根据`auto_change`的值，自动刷新广告内容。
 
-该“自动刷新”策略，仅适用于[type=1浮动窗广告位](../../../selling/dev-guide/api/#fu-dong-chuang-guang-gao-wei-jie-ru)
+该“自动刷新”策略，仅适用于[type=1浮动窗广告位](./#fu-dong-chuang-guang-gao-wei-jie-ru)
 
 #### **实现方法**
 
@@ -178,11 +177,11 @@ SDK组件无法满足，则可通过API的方式接入。
 
 ### **2、点击刷新**
 
-该“点击刷新”策略，仅适用于[type=1浮动窗广告位](../../../selling/dev-guide/api/#fu-dong-chuang-guang-gao-wei-jie-ru)、[type=7多Icon广告位](../../../selling/dev-guide/api/#duo-icon-guang-gao-wei-jie-ru)。
+该“点击刷新”策略，仅适用于[type=1浮动窗广告位](./#fu-dong-chuang-guang-gao-wei-jie-ru)、[type=7多Icon广告位](./#duo-icon-guang-gao-wei-jie-ru)。
 
 **实现方法**
 
-1. 点击后调用[`flowNavigate`](../../../selling/dev-guide/api/landing.md)，利用该接口返回的创意配置刷新显示的创意。
+1. 点击后调用[`flowNavigate`](flowNavigate.md)，利用该接口返回的创意配置刷新显示的创意。
 
 #### **自测方法**
 
@@ -190,7 +189,7 @@ SDK组件无法满足，则可通过API的方式接入。
 
 ## **点击后跳转**
 
-点击后跳转的功能由SDK实现，开发者只需调用SDK中的[`flowNavigate`](../../../selling/dev-guide/api/landing.md)接口，传入对应的广告位ID和创意ID即可。
+点击后跳转的功能由SDK实现，开发者只需调用SDK中的[`flowNavigate`](flowNavigate.md)接口，传入对应的广告位ID和创意ID即可。
 
 ### 1、创意ID的获取
 
@@ -201,9 +200,9 @@ SDK组件无法满足，则可通过API的方式接入。
 ### **2、.flowNavigate**
 
 {% hint style="info" %}
-此功能的使用前提：调用了获取广告推广配置的[`getFlowConfig`](../../../selling/dev-guide/api/get-ad-position-config.md)；
+此功能的使用前提：调用了获取广告推广配置的[`getFlowConfig`](getflowconfig.md)；
 {% endhint %}
 
-[`flowNavigate`](../../../selling/dev-guide/api/landing.md)接口是用于在用户点击了广告位上的创意后，实现跳转到该创意指定的落地页功能。
+``[`flowNavigate`](flowNavigate.md)接口是用于在用户点击了广告位上的创意后，实现跳转到该创意指定的落地页功能。
 
-> 例如，用户在a游戏某广告位上点击了推广b产品的创意，那么在用户点击后，可以跳转至b产品，这个跳转需要通过[`flowNavigate`](../../../selling/dev-guide/api/landing.md)接口来实现。
+> 例如，用户在a游戏某广告位上点击了推广b产品的创意，那么在用户点击后，可以跳转至b产品，这个跳转需要通过[`flowNavigate`](flowNavigate.md)接口来实现。
