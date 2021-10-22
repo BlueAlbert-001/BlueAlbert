@@ -2,10 +2,10 @@
 
 ## 概述
 
-请先完成阅读：[组件化方式接入广告位](../../../../selling/dev-guide/componentization/)
+请先完成阅读：[组件化方式接入广告位](../)
 
 {% hint style="warning" %}
-使用该接口前，请先进行[SDK初始化](../../../../selling/dev-guide/initialization.md)
+使用该接口前，请先进行[SDK初始化](../../../basic/initialization.md)
 {% endhint %}
 
 `createFlow`组件是用来实现广告位自动渲染：
@@ -23,8 +23,8 @@
 [icon.md](../../../../selling/dev-guide/componentization/createflow/icon.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../../selling/dev-guide/componentization/createflow/screen-ad.md" %}
-[screen-ad.md](../../../../selling/dev-guide/componentization/createflow/screen-ad.md)
+{% content-ref url="screen-ad.md" %}
+[screen-ad.md](screen-ad.md)
 {% endcontent-ref %}
 
 {% content-ref url="../../../../selling/dev-guide/componentization/createflow/like-video.md" %}

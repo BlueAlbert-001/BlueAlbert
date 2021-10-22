@@ -19,9 +19,9 @@
 我们建议优先使用组件化的方式接入广告位：
 
 1. 若你的游戏引擎非cocos，laya
-2. 或是组件的样式不满足需求（此情况常见于[多Icon广告位](../../../selling/dev-guide/componentization/createflow/more-icon.md#zu-jian-yang-shi)）
+2. 或是组件的样式不满足需求（此情况常见于[多Icon广告位](createflow/more-icon.md)）
 
-SDK组件无法满足，则可通过[API的方式接入](../../../selling/dev-guide/api/)。
+SDK组件无法满足，则可通过[API的方式接入](../api/)。
 {% endhint %}
 
 通过组件化的形式接入，请继续阅读下方的内容。
@@ -34,15 +34,15 @@ SDK组件无法满足，则可通过[API的方式接入](../../../selling/dev-gu
 
 天幕的所有广告位支持后台控制其开/关，具体可参阅
 
-{% content-ref url="../../../selling/dev-guide/ad-position-status.md" %}
-[ad-position-status.md](../../../selling/dev-guide/ad-position-status.md)
+{% content-ref url="../checkFlowIsOpen.md" %}
+[checkFlowIsOpen.md](../checkFlowIsOpen.md)
 {% endcontent-ref %}
 
 ## 组件化接入——creatFlow组件
 
 确定广告位开启后，调用creatFlow组件完成渲染，具体可参阅
 
-{% content-ref url="../../../selling/dev-guide/componentization/createflow/" %}
-[createflow](../../../selling/dev-guide/componentization/createflow/)
+{% content-ref url="createflow/" %}
+[createflow](createflow/)
 {% endcontent-ref %}
 
