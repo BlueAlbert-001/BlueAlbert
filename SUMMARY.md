@@ -141,6 +141,7 @@
     * [分享素材配置](dev/config/sharing/README.md)
       * [.onShareAppMessage](dev/config/sharing/onshareappmessage.md)
       * [.shareAppMessage](dev/config/sharing/shareappmessage.md)
+      * [.getShareTemplates](dev/config/sharing/getsharetemplates.md)
 * [常见问题](questions/README.md)
   * [热门问题](questions/others.md)
   * [游戏提审发版](questions/you-xi-ti-shen-fa-ban.md)
