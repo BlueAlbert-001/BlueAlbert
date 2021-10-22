@@ -1,2 +1,45 @@
 # 获取广告位开关状态 （.checkFlowIsOpen）
 
+## 概述
+
+{% hint style="warning" %}
+使用该接口前，请先进行[SDK初始化](../../selling/dev-guide/initialization.md)
+{% endhint %}
+
+`checkFlowIsOpen`接口用于获取天幕后台配置的广告位是否正常开启，调用该接口时，只要传入对应广告位ID即可。
+
+{% hint style="info" %}
+当前流量主游戏**没有**配置任何可展示创意时，广告位**默认为关闭状态**，此时请通知运营在“卖量助手-投放管理”中上架广告主游戏及创意。
+{% endhint %}
+
+## **调用方法**
+
+```java
+wx.tmSDK.checkFlowIsOpen({
+     positionId: positionId
+}).then(({ isOpen }) => {
+    console.log('该广告位是否开启:', isOpen);
+});
+```
+
+## **传入参数**
+
+| 字段         | 字段类型   | 说明    |
+| ---------- | ------ | ----- |
+| positionId | string | 广告位id |
+
+## **返回值样例**
+
+```java
+{
+    isOpen: true,
+    type: 1,
+}
+```
+
+## **返回参数** <a href="fan-hui-can-shu" id="fan-hui-can-shu"></a>
+
+| 字段     | 字段类型    | 说明                        |
+| ------ | ------- | ------------------------- |
+| isOpen | boolean | 广告位是否开启                   |
+| type   | string  | 广告位类型, 仅当isOpen为true时，才有值 |
