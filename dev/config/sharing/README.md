@@ -55,6 +55,6 @@
 
 3.一次性接收所有分享位的分享素材相关数据（可选，非必接）
 
-{% content-ref url="../../../game-set/dev-guide/sharing/getsharetemplates.md" %}
-[getsharetemplates.md](../../../game-set/dev-guide/sharing/getsharetemplates.md)
+{% content-ref url="getsharetemplates.md" %}
+[getsharetemplates.md](getsharetemplates.md)
 {% endcontent-ref %}
