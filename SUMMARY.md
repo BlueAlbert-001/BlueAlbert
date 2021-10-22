@@ -115,6 +115,7 @@
       * [.getFlowConfig](dev/selling/api/getflowconfig.md)
       * [.flowNavigate](dev/selling/api/flowNavigate.md)
     * [获取广告位开关状态 （.checkFlowIsOpen）](dev/selling/checkFlowIsOpen.md)
+  * [游戏数据类功能](dev/data.md)
 * [通用功能说明](general-function/README.md)
   * [自定义视图](general-function/customized-view.md)
   * [内部结算](general-function/internal-settlement.md)
