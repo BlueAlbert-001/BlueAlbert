@@ -4,7 +4,7 @@
 
 微信小游戏发行、代运营；专业团队，深耕小游戏运营
 
-如有洽谈意向，请联系：**albert@starsriver.cn**
+如有洽谈意向，请联系：**liminjian@starsriver.cn**
 
 ## 产品使用、技术支持
 
