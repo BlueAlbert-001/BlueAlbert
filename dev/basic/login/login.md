@@ -9,6 +9,20 @@
 2. 若使用了无登录版天幕SDK，无法使用该接口获取用户信息。
 {% endhint %}
 
+{% hint style="info" %}
+<mark style="color:red;">**多端游戏的账号互通：**</mark>
+
+<mark style="color:red;">**字段说明：**</mark>
+
+<mark style="color:red;">**open\_id    单个游戏中用户的唯一标识**</mark>
+
+<mark style="color:red;">**union\_id   多端游戏中同一用户的唯一标识，与微信账号体系中union\_id一致**</mark>
+
+<mark style="color:red;">**互通策略：**</mark>
+
+<mark style="color:red;">**需要游戏CP的玩家信息中同时关联open\_id和union\_id，如果.login()返回了union\_id且不为空，则游戏CP需优先关联union\_id，与之关联玩家进行登录**</mark>_<mark style="color:red;">**。**</mark>_
+{% endhint %}
+
 ## **调用方法**
 
 ```java
