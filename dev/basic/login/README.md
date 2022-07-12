@@ -1,15 +1,15 @@
 # 登录与获取用户信息
 
 {% hint style="danger" %}
-使用无登录版本SDK的，无需接入此部分内容
+、使用无登录版本SDK的，无需接入此部分内容
 {% endhint %}
 
 ## 概述
 
 业内按照业务流程，将小游戏的登录分为两种：
 
-1. [静默登录](../../../selling/dev-guide/login/#jing-mo-deng-lu)：获取openid
-2. [授权登录](../../../selling/dev-guide/login/#shou-quan-deng-lu)：获取openid，用户昵称、头像
+1. [静默登录](../../../selling/dev-guide/login/#jing-mo-deng-lu)：获取open\_id、union\_id
+2. [授权登录](../../../selling/dev-guide/login/#shou-quan-deng-lu)：获取open\_id、union\_id、用户昵称、头像
 
 {% hint style="info" %}
 小游戏若没有展示用户头像昵称的需求，则可以只使用静默登录，来减少用户进入小游戏的交互，提高转化率
