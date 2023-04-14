@@ -16,11 +16,11 @@
 
 <mark style="color:red;">**open\_id    单个游戏中用户的唯一标识**</mark>
 
-<mark style="color:red;">**union\_id   多端游戏中同一用户的唯一标识，与微信账号体系中union\_id一致**</mark>
+<mark style="color:red;">**xh\_uid   多端账号互通**</mark>
 
 <mark style="color:red;">**互通策略：**</mark>
 
-<mark style="color:red;">**需要游戏CP的玩家信息中同时关联open\_id和union\_id，如果.login()返回了union\_id且不为空，则游戏CP需优先关联union\_id，与之关联玩家进行登录**</mark>_<mark style="color:red;">**。**</mark>_
+<mark style="color:red;">**需要游戏CP的玩家信息中同时关联open\_id和xh\_uid，如果.login()返回了xh\_uid且不为空，则游戏CP需优先关联xh\_uid，与之关联玩家进行登录**</mark>_<mark style="color:red;">**。**</mark>_
 {% endhint %}
 
 ## **调用方法**
@@ -61,7 +61,9 @@ wx.tmSDK.login().then(res=>{
     "jwt": "",
     "login_province": "广东省",
     "login_city": "广州市",
-    "login_district": "海珠区"
+    "login_district": "海珠区",
+    "lst":"xh_a4ff9b7fa6de6e89a993fb53ce6c5333",
+    "xh_uid": "oZ4B96SuSjhET6CS7v3jTcY_be6Q"
 }
 ```
 
@@ -72,6 +74,7 @@ wx.tmSDK.login().then(res=>{
 | pid               | string | 用户在天幕的统一索引，但可能变化，已废弃                                                                                                                                                         |
 | app\_id           | string | 应用的appid                                                                                                                                                                     |
 | open\_id          | string | 用户在该应用下的openid                                                                                                                                                               |
+| xh\_uid           | string | 星汉互通账号id，供多端用户实现账号互通                                                                                                                                                         |
 | union\_id         | string | 用户的unionid，默认为空字符串。[union\_id获取方法](https://developers.weixin.qq.com/minigame/dev/guide/open-ability/union-id.html)                                                           |
 | nick\_name        | string | 用户的微信昵称，为空时需要调用 [`updateUserinfo`](../../../selling/dev-guide/login/update-userinfo.md) 获取                                                                                   |
 | avatar\_url       | string | 用户的微信头像，为空时需要调用 [`updateUserinfo`](../../../selling/dev-guide/login/update-userinfo.md) 获取                                                                                   |
@@ -93,4 +96,5 @@ wx.tmSDK.login().then(res=>{
 | login\_province   | string | 根据用户ip判断用户所在的省份（注意：返回的省份名称与[行政划分](https://baike.baidu.com/item/%E8%A1%8C%E6%94%BF%E5%8C%BA%E5%88%92/4655526?fr=aladdin#3\_3)的名称一致，如西藏，返回的是西藏自治区。若要实现地区屏蔽功能，建议根据返回值前两位进行地区匹配） |
 | login\_city       | string | 根据用户ip判断用户所在的城市                                                                                                                                                              |
 | login\_district   | string | 根据用户ip判断用户所在的区县                                                                                                                                                              |
+| lst               | string | 登录凭证，供CP服务端校验登录有效性                                                                                                                                                           |
 
