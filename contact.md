@@ -16,4 +16,8 @@
 
 请扫描下方二维码添加对接人员微信
 
-![天幕对接人员微信](<.gitbook/assets/微信图片\_20191009150820 (2).jpg>)
+<div align="center">
+
+<img src=".gitbook/assets/微信图片_20191009150820 (2).jpg" alt="天幕对接人员微信">
+
+</div>

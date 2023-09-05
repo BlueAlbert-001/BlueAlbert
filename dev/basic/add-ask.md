@@ -114,7 +114,7 @@ wx.tmSDK.sendUserInfo({ openId: '开发者传入的openId', gender: 1 });
 {% endhint %}
 
 {% hint style="danger" %}
-**【注意事项】 **
+**【注意事项】**&#x20;
 
 1、无登录版本SDK，以下接口或功能无法使用
 

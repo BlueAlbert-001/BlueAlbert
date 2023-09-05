@@ -12,7 +12,7 @@ description: 云存储Json参数，用于在线控制游戏内容
 
 ## 实现原理
 
-在天幕后台创建JSON格式的配置参数，游戏端口通过SDK接口来获取该配置。 
+在天幕后台创建JSON格式的配置参数，游戏端口通过SDK接口来获取该配置。&#x20;
 
 相比功能开关，此功能更加灵活，但对应地维护难度较高；所以单纯的开关功能(true/false)，仍建议使用[版本控制](features-switch.md)实现。
 
@@ -24,9 +24,9 @@ description: 云存储Json参数，用于在线控制游戏内容
 
 ![编辑页面](https://cdn.61week.com/tianmu/doc/index/image/game-set/json/1.png)
 
-###  Tips
+### &#x20;Tips
 
-Json字符串的格式，可提前在[https://www.json.cn/](https://www.json.cn) 中进行验证。
+Json字符串的格式，可提前在[https://www.json.cn/](https://www.json.cn/) 中进行验证。
 
 ## 接入
 

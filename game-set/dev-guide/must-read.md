@@ -15,7 +15,7 @@ description: 请按照如下步骤完成“游戏配置”的接入，建议阅�
 * [ ] 分享素材（可选）
 * [ ] 在线参数（可选）
 
-## Step1 <a href="step1" id="step1"></a>
+## Step1 <a href="#step1" id="step1"></a>
 
 要完整使用天幕的游戏配置，需要进行SDK的接入，请参阅：
 
@@ -23,7 +23,7 @@ description: 请按照如下步骤完成“游戏配置”的接入，建议阅�
 [add-sdk.md](../../selling/dev-guide/add-sdk.md)
 {% endcontent-ref %}
 
-## Step2 <a href="step2" id="step2"></a>
+## Step2 <a href="#step2" id="step2"></a>
 
 SDK接入完成后，在使用某些接口时，需要进行SDK的初始化，以及用户登录处理，请参阅：
 
@@ -85,4 +85,8 @@ SDK接入完成后，在使用某些接口时，需要进行SDK的初始化，�
 
 接入过程中有任何问题，欢迎微信扫描下方二维码，咨询天幕对接人员
 
-![微信扫一扫，添加天幕对接人员微信](<../../.gitbook/assets/微信图片\_20191009150820 (3).jpg>)
+<div align="left">
+
+<img src="../../.gitbook/assets/微信图片_20191009150820 (3).jpg" alt="微信扫一扫，添加天幕对接人员微信">
+
+</div>

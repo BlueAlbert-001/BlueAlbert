@@ -17,7 +17,7 @@
 ## **调用方法**
 
 {% hint style="danger" %}
-请 **严格按照 【**[接口调用策略](./#zhong-yao-jie-kou-tiao-yong-ce-lve)**】 **调用此接口，否则造成的一切后果请自负！
+请 **严格按照 【**[接口调用策略](./#zhong-yao-jie-kou-tiao-yong-ce-lve)**】** 调用此接口，否则造成的一切后果请自负！
 {% endhint %}
 
 ```java

@@ -43,7 +43,7 @@ SDK组件无法满足，则可通过API的方式接入。
 ## **【重要】接口调用策略**
 
 {% hint style="danger" %}
-为保证数据**统计准确性、游戏性能及分发效率**，使用api方式接入广告位，请 **严格按照 **下列说明调用相关接口；否则造成的**相关线上问题带来的后果请自负**！
+为保证数据**统计准确性、游戏性能及分发效率**，使用api方式接入广告位，请 **严格按照** 下列说明调用相关接口；否则造成的**相关线上问题带来的后果请自负**！
 {% endhint %}
 
 ### 1、接口调用步骤
@@ -83,11 +83,11 @@ SDK组件无法满足，则可通过API的方式接入。
 
 ## 浮动窗广告位接入
 
-### **1、type=1 **
+### **1、type=1**&#x20;
 
 若[`getFlowConfig`](get-ad-position-config.md)返回值中type为1时，`positionId`对应的广告位类型是浮动窗类型中的静态图，图片尺寸为：190\*270\
- ![](https://uploader.shimo.im/f/nQvWLNArkEMNVUDJ.png!thumbnail)\
-如果创意列表creatives的show_config中，只有image，则只需渲染该静态图。\
+&#x20;![](https://uploader.shimo.im/f/nQvWLNArkEMNVUDJ.png!thumbnail)\
+如果创意列表creatives的show\_config中，只有image，则只需渲染该静态图。\
 
 
 ![浮动窗广告效果](<../../../.gitbook/assets/image (40).png>)

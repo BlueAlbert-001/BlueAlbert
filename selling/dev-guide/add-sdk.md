@@ -83,8 +83,8 @@
 
 #### 植入方式（注意根据所下载SDK版本文件名植入，以下以天幕包含登录的全功能sdk为例）
 
-* TypeScript或ES6 JavaScript语法植入方式：import 'tm_sdk.min.js';
-* ES5 JavaScript使用commonJs规范的植入方式：require('tm_sdk.min.js');
+* TypeScript或ES6 JavaScript语法植入方式：import 'tm\_sdk.min.js';
+* ES5 JavaScript使用commonJs规范的植入方式：require('tm\_sdk.min.js');
 
 #### 校验SDK
 
@@ -114,12 +114,12 @@ wx.tmSDK.sendUserInfo({ openId: '开发者传入的openId', gender: 1 });
 {% endhint %}
 
 {% hint style="danger" %}
-**【注意事项】 **
+**【注意事项】**&#x20;
 
 1、无登录版本SDK，以下接口或功能无法使用
 
-*  [.updateUserInfo ](login/update-userinfo.md)（天幕-更新用户信息）
-*  [.login](login/get-user-info.md)（天幕-登录/获取用户信息）
+* &#x20;[.updateUserInfo ](login/update-userinfo.md)（天幕-更新用户信息）
+* &#x20;[.login](login/get-user-info.md)（天幕-登录/获取用户信息）
 
 2、因为无openid无法使用数据统计功能、买卖量助手功能，请接入SDK后及时发送openid避免数据统计、买卖量助手等功能无法使用或功能异常。
 {% endhint %}

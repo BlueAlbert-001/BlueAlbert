@@ -3,7 +3,7 @@
 ## D**emo使用方式**
 
 * 下载demo到本地
-* 下载最新sdk后替换demo项目tm_sdk文件夹（build-templates\wechatgame\tm_sdk）中的tm_sdk.min.js文件（laya替换目录为release\wxgame\tm_sdk）
+* 下载最新sdk后替换demo项目tm\_sdk文件夹（build-templates\wechatgame\tm\_sdk）中的tm\_sdk.min.js文件（laya替换目录为release\wxgame\tm\_sdk）
 * sdk替换完成后，laya引擎版本demo可直接使用微信开发者工具打开（打开之前先将release\wxgame\project.config.json文件中的appid改为SDK文件对应的appid，随后导入项目时选择release\wxgame文件夹即可），cocos引擎版本首先使用引擎编辑器编译。
 
 ## **Demo下载**
@@ -20,5 +20,5 @@
 下载小游戏demo（laya引擎）
 {% endfile %}
 
-## ****
+##
 
