@@ -138,6 +138,7 @@
     * [在线参数 （.getAppJSONConfig）](dev/config/getAppJSONConfig.md)
     * [自定义事件 （.sendEvent）](dev/config/sendEvent.md)
     * [A/B test（.abtest）](dev/config/abtest.md)
+    * [悬浮窗](dev/config/abtest-1.md)
     * [分享素材配置](dev/config/sharing/README.md)
       * [.onShareAppMessage](dev/config/sharing/onshareappmessage.md)
       * [.shareAppMessage](dev/config/sharing/shareappmessage.md)
