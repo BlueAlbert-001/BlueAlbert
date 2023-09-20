@@ -114,6 +114,7 @@
     * [SDK接入](dev/basic/add-ask.md)
     * [SDK初始化](dev/basic/initialization.md)
     * [文本/音频内容安全识别](dev/basic/check\_content.md)
+    * [同步玩家游戏信息(.syncPlayerInfo)](dev/basic/sync\_player\_info.md)
     * [登录与获取用户信息](dev/basic/login/README.md)
       * [.login](dev/basic/login/login.md)
       * [.updateUserProfile](dev/basic/login/updateUserProfile.md)
