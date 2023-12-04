@@ -75,6 +75,7 @@
 请注意：
 
 * 在cocos引擎中，如果打包之前没有game.js文件，则只需将SDK文件放在cocos引擎主包中一起打包，这样就可以直接调用了，无需引入SDK文件（还可以在wx.d.ts中定义tmSDK变量）
+* <mark style="color:red;">**新版本cocos引擎可能无法使用该方法正常引入，造成功能，统计无法正常使用，可以使用第一种方式**</mark>**（game.js 中第一行引入sdk文件）**
 {% endhint %}
 
 ![](<../../.gitbook/assets/image (340).png>)
